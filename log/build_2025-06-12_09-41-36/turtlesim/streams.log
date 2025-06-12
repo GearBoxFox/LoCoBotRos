@@ -1,0 +1,24 @@
+[0.008s] Invoking command in '/home/rowanfoxx/Documents/GitHub/LoCoBotRos/build/turtlesim': DEBUGINFOD_URLS=https://debuginfod.fedoraproject.org/ _=/usr/bin/env /usr/bin/cmake --build /home/rowanfoxx/Documents/GitHub/LoCoBotRos/build/turtlesim -- -j16 -l16
+[0.026s] -- Found ament_cmake: 2.5.4 (/usr/lib64/ros2-jazzy/share/ament_cmake/cmake)
+[0.032s] -- Configuring incomplete, errors occurred!
+[0.032s] [31mCMake Error at /usr/lib64/ros2-jazzy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:5 (find_package):
+[0.032s]   By not providing "Findament_cmake_libraries.cmake" in CMAKE_MODULE_PATH
+[0.032s]   this project has asked CMake to find a package configuration file provided
+[0.032s]   by "ament_cmake_libraries", but CMake did not find one.
+[0.032s] 
+[0.032s]   Could not find a package configuration file provided by
+[0.032s]   "ament_cmake_libraries" with any of the following names:
+[0.032s] 
+[0.032s]     ament_cmake_librariesConfig.cmake
+[0.032s]     ament_cmake_libraries-config.cmake
+[0.032s] 
+[0.032s]   Add the installation prefix of "ament_cmake_libraries" to CMAKE_PREFIX_PATH
+[0.032s]   or set "ament_cmake_libraries_DIR" to a directory containing one of the
+[0.032s]   above files.  If "ament_cmake_libraries" provides a separate development
+[0.032s]   package or SDK, be sure it has been installed.
+[0.032s] Call Stack (most recent call first):
+[0.032s]   /usr/lib64/ros2-jazzy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.032s]   CMakeLists.txt:13 (find_package)
+[0.033s] 
+[0.033s] [0m
+[0.033s] gmake: *** [Makefile:2950: cmake_check_build_system] Error 1

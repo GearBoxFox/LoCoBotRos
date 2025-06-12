@@ -1,0 +1,2 @@
+Invoking command in '/home/rowanfoxx/Documents/GitHub/LoCoBotRos/build/turtlesim': DEBUGINFOD_URLS=https://debuginfod.fedoraproject.org/ _=/usr/bin/env /usr/bin/cmake --build /home/rowanfoxx/Documents/GitHub/LoCoBotRos/build/turtlesim -- -j16 -l16
+Invoked command in '/home/rowanfoxx/Documents/GitHub/LoCoBotRos/build/turtlesim' returned '2': DEBUGINFOD_URLS=https://debuginfod.fedoraproject.org/ _=/usr/bin/env /usr/bin/cmake --build /home/rowanfoxx/Documents/GitHub/LoCoBotRos/build/turtlesim -- -j16 -l16

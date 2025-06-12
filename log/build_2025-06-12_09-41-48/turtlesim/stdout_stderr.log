@@ -1,0 +1,23 @@
+-- Found ament_cmake: 2.5.4 (/usr/lib64/ros2-jazzy/share/ament_cmake/cmake)
+[31mCMake Error at /usr/lib64/ros2-jazzy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:5 (find_package):
+  By not providing "Findament_cmake_libraries.cmake" in CMAKE_MODULE_PATH
+  this project has asked CMake to find a package configuration file provided
+  by "ament_cmake_libraries", but CMake did not find one.
+
+  Could not find a package configuration file provided by
+  "ament_cmake_libraries" with any of the following names:
+
+    ament_cmake_librariesConfig.cmake
+    ament_cmake_libraries-config.cmake
+
+  Add the installation prefix of "ament_cmake_libraries" to CMAKE_PREFIX_PATH
+  or set "ament_cmake_libraries_DIR" to a directory containing one of the
+  above files.  If "ament_cmake_libraries" provides a separate development
+  package or SDK, be sure it has been installed.
+Call Stack (most recent call first):
+  /usr/lib64/ros2-jazzy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+  CMakeLists.txt:13 (find_package)
+
+[0m
+-- Configuring incomplete, errors occurred!
+gmake: *** [Makefile:2950: cmake_check_build_system] Error 1

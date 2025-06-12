@@ -1,0 +1,32 @@
+[0.975s] Invoking command in '/home/rowanfoxx/Documents/GitHub/LoCoBotRos/src/py_publisher': DEBUGINFOD_URLS=https://debuginfod.fedoraproject.org/ PYTHONPATH=/home/rowanfoxx/Documents/GitHub/LoCoBotRos/build/py_publisher/prefix_override:/usr/lib/python3.13/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/rowanfoxx/Documents/GitHub/LoCoBotRos/install/py_publisher/lib/python3.13/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_publisher build --build-base /home/rowanfoxx/Documents/GitHub/LoCoBotRos/build/py_publisher/build install --record /home/rowanfoxx/Documents/GitHub/LoCoBotRos/build/py_publisher/install.log --single-version-externally-managed install_data
+[1.326s] running egg_info
+[1.326s] creating ../../build/py_publisher/py_publisher.egg-info
+[1.345s] writing ../../build/py_publisher/py_publisher.egg-info/PKG-INFO
+[1.345s] writing dependency_links to ../../build/py_publisher/py_publisher.egg-info/dependency_links.txt
+[1.345s] writing entry points to ../../build/py_publisher/py_publisher.egg-info/entry_points.txt
+[1.345s] writing requirements to ../../build/py_publisher/py_publisher.egg-info/requires.txt
+[1.345s] writing top-level names to ../../build/py_publisher/py_publisher.egg-info/top_level.txt
+[1.345s] writing manifest file '../../build/py_publisher/py_publisher.egg-info/SOURCES.txt'
+[1.388s] reading manifest file '../../build/py_publisher/py_publisher.egg-info/SOURCES.txt'
+[1.388s] adding license file 'LICENSE'
+[1.389s] writing manifest file '../../build/py_publisher/py_publisher.egg-info/SOURCES.txt'
+[1.389s] running build
+[1.389s] running build_py
+[1.389s] creating /home/rowanfoxx/Documents/GitHub/LoCoBotRos/build/py_publisher/build
+[1.389s] creating /home/rowanfoxx/Documents/GitHub/LoCoBotRos/build/py_publisher/build/lib
+[1.389s] creating /home/rowanfoxx/Documents/GitHub/LoCoBotRos/build/py_publisher/build/lib/my_package
+[1.389s] copying my_package/__init__.py -> /home/rowanfoxx/Documents/GitHub/LoCoBotRos/build/py_publisher/build/lib/my_package
+[1.389s] copying my_package/my_node.py -> /home/rowanfoxx/Documents/GitHub/LoCoBotRos/build/py_publisher/build/lib/my_package
+[1.389s] running install
+[1.394s] running install_lib
+[1.414s] creating /home/rowanfoxx/Documents/GitHub/LoCoBotRos/install/py_publisher/lib/python3.13/site-packages/my_package
+[1.415s] copying /home/rowanfoxx/Documents/GitHub/LoCoBotRos/build/py_publisher/build/lib/my_package/__init__.py -> /home/rowanfoxx/Documents/GitHub/LoCoBotRos/install/py_publisher/lib/python3.13/site-packages/my_package
+[1.415s] copying /home/rowanfoxx/Documents/GitHub/LoCoBotRos/build/py_publisher/build/lib/my_package/my_node.py -> /home/rowanfoxx/Documents/GitHub/LoCoBotRos/install/py_publisher/lib/python3.13/site-packages/my_package
+[1.416s] byte-compiling /home/rowanfoxx/Documents/GitHub/LoCoBotRos/install/py_publisher/lib/python3.13/site-packages/my_package/__init__.py to __init__.cpython-313.pyc
+[1.416s] byte-compiling /home/rowanfoxx/Documents/GitHub/LoCoBotRos/install/py_publisher/lib/python3.13/site-packages/my_package/my_node.py to my_node.cpython-313.pyc
+[1.416s] running install_data
+[1.417s] creating /home/rowanfoxx/Documents/GitHub/LoCoBotRos/install/py_publisher/share/ament_index
+[1.417s] creating /home/rowanfoxx/Documents/GitHub/LoCoBotRos/install/py_publisher/share/ament_index/resource_index
+[1.417s] creating /home/rowanfoxx/Documents/GitHub/LoCoBotRos/install/py_publisher/share/ament_index/resource_index/packages
+[1.417s] error: can't copy 'resource/py_publisher': doesn't exist or not a regular file
+[1.436s] Invoked command in '/home/rowanfoxx/Documents/GitHub/LoCoBotRos/src/py_publisher' returned '1': DEBUGINFOD_URLS=https://debuginfod.fedoraproject.org/ PYTHONPATH=/home/rowanfoxx/Documents/GitHub/LoCoBotRos/build/py_publisher/prefix_override:/usr/lib/python3.13/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/rowanfoxx/Documents/GitHub/LoCoBotRos/install/py_publisher/lib/python3.13/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_publisher build --build-base /home/rowanfoxx/Documents/GitHub/LoCoBotRos/build/py_publisher/build install --record /home/rowanfoxx/Documents/GitHub/LoCoBotRos/build/py_publisher/install.log --single-version-externally-managed install_data

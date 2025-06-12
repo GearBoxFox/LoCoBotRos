@@ -1,0 +1,30 @@
+running egg_info
+creating ../../build/py_publisher/py_publisher.egg-info
+writing ../../build/py_publisher/py_publisher.egg-info/PKG-INFO
+writing dependency_links to ../../build/py_publisher/py_publisher.egg-info/dependency_links.txt
+writing entry points to ../../build/py_publisher/py_publisher.egg-info/entry_points.txt
+writing requirements to ../../build/py_publisher/py_publisher.egg-info/requires.txt
+writing top-level names to ../../build/py_publisher/py_publisher.egg-info/top_level.txt
+writing manifest file '../../build/py_publisher/py_publisher.egg-info/SOURCES.txt'
+reading manifest file '../../build/py_publisher/py_publisher.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/py_publisher/py_publisher.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/rowanfoxx/Documents/GitHub/LoCoBotRos/build/py_publisher/build
+creating /home/rowanfoxx/Documents/GitHub/LoCoBotRos/build/py_publisher/build/lib
+creating /home/rowanfoxx/Documents/GitHub/LoCoBotRos/build/py_publisher/build/lib/my_package
+copying my_package/__init__.py -> /home/rowanfoxx/Documents/GitHub/LoCoBotRos/build/py_publisher/build/lib/my_package
+copying my_package/my_node.py -> /home/rowanfoxx/Documents/GitHub/LoCoBotRos/build/py_publisher/build/lib/my_package
+running install
+running install_lib
+creating /home/rowanfoxx/Documents/GitHub/LoCoBotRos/install/py_publisher/lib/python3.13/site-packages/my_package
+copying /home/rowanfoxx/Documents/GitHub/LoCoBotRos/build/py_publisher/build/lib/my_package/__init__.py -> /home/rowanfoxx/Documents/GitHub/LoCoBotRos/install/py_publisher/lib/python3.13/site-packages/my_package
+copying /home/rowanfoxx/Documents/GitHub/LoCoBotRos/build/py_publisher/build/lib/my_package/my_node.py -> /home/rowanfoxx/Documents/GitHub/LoCoBotRos/install/py_publisher/lib/python3.13/site-packages/my_package
+byte-compiling /home/rowanfoxx/Documents/GitHub/LoCoBotRos/install/py_publisher/lib/python3.13/site-packages/my_package/__init__.py to __init__.cpython-313.pyc
+byte-compiling /home/rowanfoxx/Documents/GitHub/LoCoBotRos/install/py_publisher/lib/python3.13/site-packages/my_package/my_node.py to my_node.cpython-313.pyc
+running install_data
+creating /home/rowanfoxx/Documents/GitHub/LoCoBotRos/install/py_publisher/share/ament_index
+creating /home/rowanfoxx/Documents/GitHub/LoCoBotRos/install/py_publisher/share/ament_index/resource_index
+creating /home/rowanfoxx/Documents/GitHub/LoCoBotRos/install/py_publisher/share/ament_index/resource_index/packages
+error: can't copy 'resource/py_publisher': doesn't exist or not a regular file

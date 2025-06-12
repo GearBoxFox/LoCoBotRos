@@ -1,0 +1,20 @@
+[0.028s] Invoking command in '/home/rowanfoxx/Documents/GitHub/LoCoBotRos/build/urdf_tutorial': DEBUGINFOD_URLS=https://debuginfod.fedoraproject.org/ _=/usr/bin/env /usr/bin/cmake /home/rowanfoxx/Documents/GitHub/LoCoBotRos/src/urdf_tutorial -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/rowanfoxx/Documents/GitHub/LoCoBotRos/install/urdf_tutorial
+[0.047s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[0.047s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.047s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.047s]   CMake did not find one.
+[0.047s] 
+[0.047s]   Could not find a package configuration file provided by "catkin" with any
+[0.047s]   of the following names:
+[0.047s] 
+[0.047s]     catkinConfig.cmake
+[0.047s]     catkin-config.cmake
+[0.047s] 
+[0.047s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.047s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.047s]   provides a separate development package or SDK, be sure it has been
+[0.047s]   installed.
+[0.047s] 
+[0.048s] [0m
+[0.048s] -- Configuring incomplete, errors occurred!
+[0.048s] Invoked command in '/home/rowanfoxx/Documents/GitHub/LoCoBotRos/build/urdf_tutorial' returned '1': DEBUGINFOD_URLS=https://debuginfod.fedoraproject.org/ _=/usr/bin/env /usr/bin/cmake /home/rowanfoxx/Documents/GitHub/LoCoBotRos/src/urdf_tutorial -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/rowanfoxx/Documents/GitHub/LoCoBotRos/install/urdf_tutorial

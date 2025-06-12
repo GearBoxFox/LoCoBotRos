@@ -1,0 +1,15 @@
+[0.044s] Invoking command in '/home/rowanfoxx/Documents/GitHub/LoCoBotRos/build/interbotix_xslocobot_descriptions': DEBUGINFOD_URLS=https://debuginfod.fedoraproject.org/ _=/usr/bin/env /usr/bin/cmake /home/rowanfoxx/Documents/GitHub/LoCoBotRos/src/interbotix_xslocobot_descriptions -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/rowanfoxx/Documents/GitHub/LoCoBotRos/install/interbotix_xslocobot_descriptions
+[0.353s] -- Configuring done (0.0s)
+[0.354s] -- Generating done (0.0s)
+[0.354s] -- Build files have been written to: /home/rowanfoxx/Documents/GitHub/LoCoBotRos/build/interbotix_xslocobot_descriptions
+[0.354s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.354s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[0.354s]   CMake.
+[0.354s] 
+[0.354s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.354s]   CMake that the project does not need compatibility with older versions.
+[0.354s] 
+[0.354s] [0m
+[0.357s] Invoked command in '/home/rowanfoxx/Documents/GitHub/LoCoBotRos/build/interbotix_xslocobot_descriptions' returned '0': DEBUGINFOD_URLS=https://debuginfod.fedoraproject.org/ _=/usr/bin/env /usr/bin/cmake /home/rowanfoxx/Documents/GitHub/LoCoBotRos/src/interbotix_xslocobot_descriptions -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/rowanfoxx/Documents/GitHub/LoCoBotRos/install/interbotix_xslocobot_descriptions
+[0.357s] Invoking command in '/home/rowanfoxx/Documents/GitHub/LoCoBotRos/build/interbotix_xslocobot_descriptions': DEBUGINFOD_URLS=https://debuginfod.fedoraproject.org/ _=/usr/bin/env /usr/bin/cmake --build /home/rowanfoxx/Documents/GitHub/LoCoBotRos/build/interbotix_xslocobot_descriptions -- -j16 -l16
+[0.399s] Invoked command in '/home/rowanfoxx/Documents/GitHub/LoCoBotRos/build/interbotix_xslocobot_descriptions' returned '0': DEBUGINFOD_URLS=https://debuginfod.fedoraproject.org/ _=/usr/bin/env /usr/bin/cmake --build /home/rowanfoxx/Documents/GitHub/LoCoBotRos/build/interbotix_xslocobot_descriptions -- -j16 -l16
