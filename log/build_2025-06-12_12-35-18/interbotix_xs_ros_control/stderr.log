@@ -1,0 +1,17 @@
+[31mCMake Error at CMakeLists.txt:75 (find_package):
+  By not providing "Findros2_control_test_assets.cmake" in CMAKE_MODULE_PATH
+  this project has asked CMake to find a package configuration file provided
+  by "ros2_control_test_assets", but CMake did not find one.
+
+  Could not find a package configuration file provided by
+  "ros2_control_test_assets" with any of the following names:
+
+    ros2_control_test_assetsConfig.cmake
+    ros2_control_test_assets-config.cmake
+
+  Add the installation prefix of "ros2_control_test_assets" to
+  CMAKE_PREFIX_PATH or set "ros2_control_test_assets_DIR" to a directory
+  containing one of the above files.  If "ros2_control_test_assets" provides
+  a separate development package or SDK, be sure it has been installed.
+
+[0m

@@ -1,0 +1,29 @@
+[100%] Built target interbotix_xs_driver
+-- Install configuration: ""
+-- Installing: /home/rowanfoxx/Documents/GitHub/LoCoBotRos/install/interbotix_xs_driver/lib/libinterbotix_xs_driver.so
+-- Set non-toolchain portion of runtime path of "/home/rowanfoxx/Documents/GitHub/LoCoBotRos/install/interbotix_xs_driver/lib/libinterbotix_xs_driver.so" to ""
+-- Installing: /home/rowanfoxx/Documents/GitHub/LoCoBotRos/install/interbotix_xs_driver/include/interbotix_xs_driver/version.hpp
+-- Up-to-date: /home/rowanfoxx/Documents/GitHub/LoCoBotRos/install/interbotix_xs_driver/include/interbotix_xs_driver
+-- Installing: /home/rowanfoxx/Documents/GitHub/LoCoBotRos/install/interbotix_xs_driver/include/interbotix_xs_driver/xs_common.hpp
+-- Installing: /home/rowanfoxx/Documents/GitHub/LoCoBotRos/install/interbotix_xs_driver/include/interbotix_xs_driver/xs_driver.hpp
+-- Installing: /home/rowanfoxx/Documents/GitHub/LoCoBotRos/install/interbotix_xs_driver/include/interbotix_xs_driver/xs_logging.hpp
+-- Installing: /home/rowanfoxx/Documents/GitHub/LoCoBotRos/install/interbotix_xs_driver/share/interbotix_xs_driver/package.xml
+-- Installing: /home/rowanfoxx/Documents/GitHub/LoCoBotRos/install/interbotix_xs_driver/share/ament_index/resource_index/package_run_dependencies/interbotix_xs_driver
+-- Installing: /home/rowanfoxx/Documents/GitHub/LoCoBotRos/install/interbotix_xs_driver/share/ament_index/resource_index/parent_prefix_path/interbotix_xs_driver
+-- Installing: /home/rowanfoxx/Documents/GitHub/LoCoBotRos/install/interbotix_xs_driver/share/interbotix_xs_driver/environment/ament_prefix_path.sh
+-- Installing: /home/rowanfoxx/Documents/GitHub/LoCoBotRos/install/interbotix_xs_driver/share/interbotix_xs_driver/environment/ament_prefix_path.dsv
+-- Installing: /home/rowanfoxx/Documents/GitHub/LoCoBotRos/install/interbotix_xs_driver/share/interbotix_xs_driver/environment/path.sh
+-- Installing: /home/rowanfoxx/Documents/GitHub/LoCoBotRos/install/interbotix_xs_driver/share/interbotix_xs_driver/environment/path.dsv
+-- Installing: /home/rowanfoxx/Documents/GitHub/LoCoBotRos/install/interbotix_xs_driver/share/interbotix_xs_driver/local_setup.bash
+-- Installing: /home/rowanfoxx/Documents/GitHub/LoCoBotRos/install/interbotix_xs_driver/share/interbotix_xs_driver/local_setup.sh
+-- Installing: /home/rowanfoxx/Documents/GitHub/LoCoBotRos/install/interbotix_xs_driver/share/interbotix_xs_driver/local_setup.zsh
+-- Installing: /home/rowanfoxx/Documents/GitHub/LoCoBotRos/install/interbotix_xs_driver/share/interbotix_xs_driver/local_setup.dsv
+-- Installing: /home/rowanfoxx/Documents/GitHub/LoCoBotRos/install/interbotix_xs_driver/share/interbotix_xs_driver/package.dsv
+-- Installing: /home/rowanfoxx/Documents/GitHub/LoCoBotRos/install/interbotix_xs_driver/share/ament_index/resource_index/packages/interbotix_xs_driver
+-- Installing: /home/rowanfoxx/Documents/GitHub/LoCoBotRos/install/interbotix_xs_driver/share/interbotix_xs_driver/cmake/export_interbotix_xs_driverExport.cmake
+-- Installing: /home/rowanfoxx/Documents/GitHub/LoCoBotRos/install/interbotix_xs_driver/share/interbotix_xs_driver/cmake/export_interbotix_xs_driverExport-noconfig.cmake
+-- Installing: /home/rowanfoxx/Documents/GitHub/LoCoBotRos/install/interbotix_xs_driver/share/interbotix_xs_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/rowanfoxx/Documents/GitHub/LoCoBotRos/install/interbotix_xs_driver/share/interbotix_xs_driver/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/rowanfoxx/Documents/GitHub/LoCoBotRos/install/interbotix_xs_driver/share/interbotix_xs_driver/cmake/interbotix_xs_driverConfig.cmake
+-- Installing: /home/rowanfoxx/Documents/GitHub/LoCoBotRos/install/interbotix_xs_driver/share/interbotix_xs_driver/cmake/interbotix_xs_driverConfig-version.cmake
+-- Up-to-date: /home/rowanfoxx/Documents/GitHub/LoCoBotRos/install/interbotix_xs_driver/share/interbotix_xs_driver/package.xml

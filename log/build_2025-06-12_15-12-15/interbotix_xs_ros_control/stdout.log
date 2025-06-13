@@ -1,0 +1,4 @@
+[ 11%] [32mBuilding CXX object CMakeFiles/interbotix_xs_ros_control.dir/src/xs_hardware_interface.cpp.o[0m
+[ 33%] Built target gmock_main
+[ 66%] Built target gmock
+[ 88%] Built target test_load_xs_hardware_interface

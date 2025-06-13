@@ -1,0 +1,27 @@
+[1.165s] Invoking command in '/home/rowanfoxx/Documents/GitHub/LoCoBotRos/src/py_pubsub': DEBUGINFOD_URLS=https://debuginfod.fedoraproject.org/ PYTHONPATH=/home/rowanfoxx/Documents/GitHub/LoCoBotRos/build/py_pubsub/prefix_override:/usr/lib/python3.13/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/rowanfoxx/Documents/GitHub/LoCoBotRos/install/py_pubsub/lib/python3.13/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/rowanfoxx/Documents/GitHub/LoCoBotRos/build/py_pubsub/build install --record /home/rowanfoxx/Documents/GitHub/LoCoBotRos/build/py_pubsub/install.log --single-version-externally-managed install_data
+[1.542s] running egg_info
+[1.563s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[1.564s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[1.564s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[1.564s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[1.564s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[1.610s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[1.610s] adding license file 'LICENSE'
+[1.611s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[1.611s] running build
+[1.611s] running build_py
+[1.611s] copying py_pubsub/__init__.py -> /home/rowanfoxx/Documents/GitHub/LoCoBotRos/build/py_pubsub/build/lib/py_pubsub
+[1.611s] copying py_pubsub/publisher_member_function.py -> /home/rowanfoxx/Documents/GitHub/LoCoBotRos/build/py_pubsub/build/lib/py_pubsub
+[1.611s] copying py_pubsub/subscriber_member_function.py -> /home/rowanfoxx/Documents/GitHub/LoCoBotRos/build/py_pubsub/build/lib/py_pubsub
+[1.611s] running install
+[1.617s] running install_lib
+[1.640s] running install_data
+[1.640s] copying resource/py_pubsub -> /home/rowanfoxx/Documents/GitHub/LoCoBotRos/install/py_pubsub/share/ament_index/resource_index/packages
+[1.640s] copying package.xml -> /home/rowanfoxx/Documents/GitHub/LoCoBotRos/install/py_pubsub/share/py_pubsub
+[1.640s] running install_egg_info
+[1.667s] removing '/home/rowanfoxx/Documents/GitHub/LoCoBotRos/install/py_pubsub/lib/python3.13/site-packages/py_pubsub-0.0.0-py3.13.egg-info' (and everything under it)
+[1.667s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/rowanfoxx/Documents/GitHub/LoCoBotRos/install/py_pubsub/lib/python3.13/site-packages/py_pubsub-0.0.0-py3.13.egg-info
+[1.667s] running install_scripts
+[1.809s] Installing listener script to /home/rowanfoxx/Documents/GitHub/LoCoBotRos/install/py_pubsub/lib/py_pubsub
+[1.810s] Installing talker script to /home/rowanfoxx/Documents/GitHub/LoCoBotRos/install/py_pubsub/lib/py_pubsub
+[1.810s] writing list of installed files to '/home/rowanfoxx/Documents/GitHub/LoCoBotRos/build/py_pubsub/install.log'

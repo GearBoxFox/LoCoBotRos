@@ -1,0 +1,18 @@
+[1.550s] Invoking command in '/home/rowanfoxx/Documents/GitHub/LoCoBotRos/src/interbotix_xs_modules': DEBUGINFOD_URLS=https://debuginfod.fedoraproject.org/ PYTHONPATH=/home/rowanfoxx/Documents/GitHub/LoCoBotRos/build/interbotix_xs_modules/prefix_override:/usr/lib/python3.13/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/rowanfoxx/Documents/GitHub/LoCoBotRos/install/interbotix_xs_modules/lib/python3.13/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/interbotix_xs_modules build --build-base /home/rowanfoxx/Documents/GitHub/LoCoBotRos/build/interbotix_xs_modules/build install --record /home/rowanfoxx/Documents/GitHub/LoCoBotRos/build/interbotix_xs_modules/install.log --single-version-externally-managed install_data
+[1.915s] running egg_info
+[1.936s] writing ../../build/interbotix_xs_modules/interbotix_xs_modules.egg-info/PKG-INFO
+[1.936s] writing dependency_links to ../../build/interbotix_xs_modules/interbotix_xs_modules.egg-info/dependency_links.txt
+[1.936s] writing requirements to ../../build/interbotix_xs_modules/interbotix_xs_modules.egg-info/requires.txt
+[1.936s] writing top-level names to ../../build/interbotix_xs_modules/interbotix_xs_modules.egg-info/top_level.txt
+[1.982s] reading manifest file '../../build/interbotix_xs_modules/interbotix_xs_modules.egg-info/SOURCES.txt'
+[1.983s] writing manifest file '../../build/interbotix_xs_modules/interbotix_xs_modules.egg-info/SOURCES.txt'
+[1.983s] running build
+[1.983s] running build_py
+[1.983s] running install
+[1.989s] running install_lib
+[2.012s] running install_data
+[2.013s] running install_egg_info
+[2.039s] removing '/home/rowanfoxx/Documents/GitHub/LoCoBotRos/install/interbotix_xs_modules/lib/python3.13/site-packages/interbotix_xs_modules-0.0.0-py3.13.egg-info' (and everything under it)
+[2.039s] Copying ../../build/interbotix_xs_modules/interbotix_xs_modules.egg-info to /home/rowanfoxx/Documents/GitHub/LoCoBotRos/install/interbotix_xs_modules/lib/python3.13/site-packages/interbotix_xs_modules-0.0.0-py3.13.egg-info
+[2.040s] running install_scripts
+[2.181s] writing list of installed files to '/home/rowanfoxx/Documents/GitHub/LoCoBotRos/build/interbotix_xs_modules/install.log'

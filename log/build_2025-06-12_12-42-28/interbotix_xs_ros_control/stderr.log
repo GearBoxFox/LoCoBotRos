@@ -1,0 +1,15 @@
+In file included from [01m[K/home/rowanfoxx/Documents/GitHub/LoCoBotRos/src/interbotix_xs_ros_control/src/xs_hardware_interface.cpp:29[m[K:
+[01m[K/home/rowanfoxx/Documents/GitHub/LoCoBotRos/src/interbotix_xs_ros_control/include/interbotix_xs_ros_control/xs_hardware_interface.hpp:43:10:[m[K [01;31m[Kfatal error: [m[Khardware_interface/visibility_control.h: No such file or directory
+   43 | #include [01;31m[K"hardware_interface/visibility_control.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/interbotix_xs_ros_control.dir/build.make:76: CMakeFiles/interbotix_xs_ros_control.dir/src/xs_hardware_interface.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:176: CMakeFiles/interbotix_xs_ros_control.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[01m[K/home/rowanfoxx/Documents/GitHub/LoCoBotRos/src/interbotix_xs_ros_control/test/test_load_xs_hardware_interface.cpp:37:10:[m[K [01;31m[Kfatal error: [m[Kros2_control_test_assets/descriptions.hpp: No such file or directory
+   37 | #include [01;31m[K"ros2_control_test_assets/descriptions.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/test_load_xs_hardware_interface.dir/build.make:76: CMakeFiles/test_load_xs_hardware_interface.dir/test/test_load_xs_hardware_interface.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:203: CMakeFiles/test_load_xs_hardware_interface.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,17 @@
+[ 11%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/home/rowanfoxx/ros2_jazzy/install/gtest_vendor/src/gtest_vendor/src/gtest-all.cc.o[0m
+[ 22%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[ 33%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/interbotix_xs_ros_control.dir/src/xs_hardware_interface.cpp.o[0m
+In file included from [01m[K/home/rowanfoxx/Documents/GitHub/LoCoBotRos/src/interbotix_xs_ros_control/src/xs_hardware_interface.cpp:29[m[K:
+[01m[K/home/rowanfoxx/Documents/GitHub/LoCoBotRos/src/interbotix_xs_ros_control/include/interbotix_xs_ros_control/xs_hardware_interface.hpp:43:10:[m[K [01;31m[Kfatal error: [m[Khardware_interface/visibility_control.h: No such file or directory
+   43 | #include [01;31m[K"hardware_interface/visibility_control.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/interbotix_xs_ros_control.dir/build.make:76: CMakeFiles/interbotix_xs_ros_control.dir/src/xs_hardware_interface.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:176: CMakeFiles/interbotix_xs_ros_control.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 55%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[ 55%] Built target gmock_main
+[ 66%] [32m[1mLinking CXX static library libgmock.a[0m
+[ 66%] Built target gmock
+gmake: *** [Makefile:146: all] Error 2

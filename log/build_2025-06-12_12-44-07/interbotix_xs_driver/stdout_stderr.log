@@ -1,0 +1,4 @@
+[ 66%] [32mBuilding CXX object CMakeFiles/interbotix_xs_driver.dir/src/xs_logging.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/interbotix_xs_driver.dir/src/xs_driver.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libinterbotix_xs_driver.so[0m
+[100%] Built target interbotix_xs_driver

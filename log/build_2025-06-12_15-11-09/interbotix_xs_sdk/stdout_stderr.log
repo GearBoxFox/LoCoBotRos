@@ -1,0 +1,32 @@
+-- Found ament_cmake: 2.5.4 (/home/rowanfoxx/ros2_jazzy/install/ament_cmake/share/ament_cmake/cmake)
+-- Found ament_index_cpp: 1.8.1 (/home/rowanfoxx/ros2_jazzy/install/ament_index_cpp/share/ament_index_cpp/cmake)
+-- Found rclcpp: 28.1.9 (/home/rowanfoxx/ros2_jazzy/install/rclcpp/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.5 (/home/rowanfoxx/ros2_jazzy/install/rosidl_generator_c/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.5 (/home/rowanfoxx/ros2_jazzy/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/home/rowanfoxx/ros2_jazzy/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.2 (/home/rowanfoxx/ros2_jazzy/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclpy: 7.1.4 (/home/rowanfoxx/ros2_jazzy/install/rclpy/share/rclpy/cmake)
+-- Found sensor_msgs: 5.3.6 (/home/rowanfoxx/ros2_jazzy/install/sensor_msgs/share/sensor_msgs/cmake)
+-- Found urdf: 2.10.0 (/home/rowanfoxx/ros2_jazzy/install/urdf/share/urdf/cmake)
+-- Found interbotix_xs_msgs: 0.0.0 (/home/rowanfoxx/Documents/GitHub/LoCoBotRos/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake)
+-- Found interbotix_xs_driver: 0.3.7 (/home/rowanfoxx/Documents/GitHub/LoCoBotRos/install/interbotix_xs_driver/share/interbotix_xs_driver/cmake)
+-- Found ament_lint_auto: 0.17.2 (/home/rowanfoxx/ros2_jazzy/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/rowanfoxx/Documents/GitHub/LoCoBotRos/src/interbotix_xs_sdk/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (1.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/rowanfoxx/Documents/GitHub/LoCoBotRos/build/interbotix_xs_sdk

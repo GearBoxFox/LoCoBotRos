@@ -1,0 +1,51 @@
+[0.384s] Invoking command in '/home/rowanfoxx/Documents/GitHub/LoCoBotRos/build/interbotix_xs_rviz': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rowanfoxx/Documents/GitHub/LoCoBotRos/install/py_pubsub:/home/rowanfoxx/ros2_jazzy/install/rqt_bag_plugins:/home/rowanfoxx/ros2_jazzy/install/rqt_bag:/home/rowanfoxx/ros2_jazzy/install/rosbag2_examples_py:/home/rowanfoxx/ros2_jazzy/install/launch_testing_examples:/home/rowanfoxx/ros2_jazzy/install/ros2bag:/home/rowanfoxx/ros2_jazzy/install/tracetools_test:/home/rowanfoxx/ros2_jazzy/install/tracetools_launch:/home/rowanfoxx/ros2_jazzy/install/topic_monitor:/home/rowanfoxx/ros2_jazzy/install/tf2_tools:/home/rowanfoxx/ros2_jazzy/install/examples_tf2_py:/home/rowanfoxx/ros2_jazzy/install/tf2_ros_py:/home/rowanfoxx/ros2_jazzy/install/examples_rclpy_pointcloud_publisher:/home/rowanfoxx/ros2_jazzy/install/sensor_msgs_py:/home/rowanfoxx/ros2_jazzy/install/quality_of_service_demo_py:/home/rowanfoxx/ros2_jazzy/install/camera_info_manager_py:/home/rowanfoxx/ros2_jazzy/install/rqt_plot:/home/rowanfoxx/ros2_jazzy/install/ros2doctor:/home/rowanfoxx/ros2_jazzy/install/lifecycle_py:/home/rowanfoxx/ros2_jazzy/install/examples_rclpy_minimal_subscriber:/home/rowanfoxx/ros2_jazzy/install/examples_rclpy_minimal_service:/home/rowanfoxx/ros2_jazzy/install/examples_rclpy_minimal_publisher:/home/rowanfoxx/ros2_jazzy/install/examples_rclpy_minimal_client:/home/rowanfoxx/ros2_jazzy/install/examples_rclpy_executors:/home/rowanfoxx/ros2_jazzy/install/demo_nodes_py:/home/rowanfoxx/ros2_jazzy/install/rqt:/home/rowanfoxx/ros2_jazzy/install/ros2component:/home/rowanfoxx/ros2_jazzy/install/sros2:/home/rowanfoxx/ros2_jazzy/install/rqt_topic:/home/rowanfoxx/ros2_jazzy/install/rqt_srv:/home/rowanfoxx/ros2_jazzy/install/rqt_shell:/home/rowanfoxx/ros2_jazzy/install/rqt_service_caller:/home/rowanfoxx/ros2_jazzy/install/rqt_reconfigure:/home/rowanfoxx/ros2_jazzy/install/rqt_py_console:/home/rowanfoxx/ros2_jazzy/install/rqt_publisher:/home/rowanfoxx/ros2_jazzy/install/rqt_action:/home/rowanfoxx/ros2_jazzy/install/rqt_msg:/home/rowanfoxx/ros2_jazzy/install/rqt_console:/home/rowanfoxx/ros2_jazzy/install/rqt_graph:/home/rowanfoxx/ros2_jazzy/install/rqt_gui_py:/home/rowanfoxx/ros2_jazzy/install/rqt_gui:/home/rowanfoxx/ros2_jazzy/install/ros2trace:/home/rowanfoxx/ros2_jazzy/install/ros2param:/home/rowanfoxx/ros2_jazzy/install/ros2lifecycle:/home/rowanfoxx/ros2_jazzy/install/ros2service:/home/rowanfoxx/ros2_jazzy/install/ros2topic:/home/rowanfoxx/ros2_jazzy/install/ros2test:/home/rowanfoxx/ros2_jazzy/install/ros2run:/home/rowanfoxx/ros2_jazzy/install/ros2launch:/home/rowanfoxx/ros2_jazzy/install/ros2pkg:/home/rowanfoxx/ros2_jazzy/install/ros2node:/home/rowanfoxx/ros2_jazzy/install/ros2multicast:/home/rowanfoxx/ros2_jazzy/install/ros2interface:/home/rowanfoxx/ros2_jazzy/install/ros2action:/home/rowanfoxx/ros2_jazzy/install/ros2cli:/home/rowanfoxx/ros2_jazzy/install/launch_testing_ros:/home/rowanfoxx/ros2_jazzy/install/launch_ros:/home/rowanfoxx/ros2_jazzy/install/examples_rclpy_minimal_action_server:/home/rowanfoxx/ros2_jazzy/install/examples_rclpy_minimal_action_client:/home/rowanfoxx/ros2_jazzy/install/examples_rclpy_guard_conditions:/home/rowanfoxx/ros2_jazzy/install/action_tutorials_py:/home/rowanfoxx/ros2_jazzy/install/ament_uncrustify:/home/rowanfoxx/ros2_jazzy/install/tracetools_trace:/home/rowanfoxx/ros2_jazzy/install/tracetools_read:/home/rowanfoxx/ros2_jazzy/install/test_tracetools_launch:/home/rowanfoxx/ros2_jazzy/install/test_ros2trace:/home/rowanfoxx/ros2_jazzy/install/test_launch_ros:/home/rowanfoxx/ros2_jazzy/install/rpyutils:/home/rowanfoxx/ros2_jazzy/install/rosidl_runtime_py:/home/rowanfoxx/ros2_jazzy/install/rosidl_pycommon:/home/rowanfoxx/ros2_jazzy/install/rosidl_cli:/home/rowanfoxx/ros2_jazzy/install/launch_pytest:/home/rowanfoxx/ros2_jazzy/install/launch_testing:/home/rowanfoxx/ros2_jazzy/install/launch_yaml:/home/rowanfoxx/ros2_jazzy/install/launch_xml:/home/rowanfoxx/ros2_jazzy/install/launch:/home/rowanfoxx/ros2_jazzy/install/osrf_pycommon:/home/rowanfoxx/ros2_jazzy/install/domain_coordinator:/home/rowanfoxx/ros2_jazzy/install/ament_xmllint:/home/rowanfoxx/ros2_jazzy/install/ament_pyflakes:/home/rowanfoxx/ros2_jazzy/install/ament_pycodestyle:/home/rowanfoxx/ros2_jazzy/install/ament_pep257:/home/rowanfoxx/ros2_jazzy/install/ament_pclint:/home/rowanfoxx/ros2_jazzy/install/ament_package:/home/rowanfoxx/ros2_jazzy/install/ament_mypy:/home/rowanfoxx/ros2_jazzy/install/ament_lint_cmake:/home/rowanfoxx/ros2_jazzy/install/ament_flake8:/home/rowanfoxx/ros2_jazzy/install/ament_copyright:/home/rowanfoxx/ros2_jazzy/install/ament_lint:/home/rowanfoxx/ros2_jazzy/install/ament_index_python:/home/rowanfoxx/ros2_jazzy/install/ament_cpplint:/home/rowanfoxx/ros2_jazzy/install/ament_cppcheck:/home/rowanfoxx/ros2_jazzy/install/ament_clang_tidy:/home/rowanfoxx/ros2_jazzy/install/ament_clang_format DEBUGINFOD_URLS=https://debuginfod.fedoraproject.org/ _=/usr/bin/env /usr/bin/cmake /home/rowanfoxx/Documents/GitHub/LoCoBotRos/src/interbotix_xs_rviz -DCMAKE_INSTALL_PREFIX=/home/rowanfoxx/Documents/GitHub/LoCoBotRos/install/interbotix_xs_rviz
+[0.710s] -- Found ament_cmake: 2.5.4 (/home/rowanfoxx/ros2_jazzy/install/ament_cmake/share/ament_cmake/cmake)
+[0.744s] -- Found pluginlib: 5.4.2 (/home/rowanfoxx/ros2_jazzy/install/pluginlib/share/pluginlib/cmake)
+[0.761s] -- Found TinyXML2 via Config file: /usr/lib64/cmake/tinyxml2
+[0.774s] -- Found rclcpp: 28.1.9 (/home/rowanfoxx/ros2_jazzy/install/rclcpp/share/rclcpp/cmake)
+[0.784s] -- Found rosidl_generator_c: 4.6.5 (/home/rowanfoxx/ros2_jazzy/install/rosidl_generator_c/share/rosidl_generator_c/cmake)
+[0.791s] -- Found rosidl_generator_cpp: 4.6.5 (/home/rowanfoxx/ros2_jazzy/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake)
+[0.822s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+[0.865s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+[0.933s] -- Found rmw_implementation_cmake: 7.3.2 (/home/rowanfoxx/ros2_jazzy/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+[0.960s] -- Found rmw_fastrtps_cpp: 8.4.2 (/home/rowanfoxx/ros2_jazzy/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/cmake)
+[0.977s] -- Found TinyXML2 via Config file: /usr/lib64/cmake/tinyxml2
+[1.014s] -- Found TinyXML2 via Config file: /usr/lib64/cmake/tinyxml2
+[1.056s] -- Found TinyXML2 via Config file: /usr/lib64/cmake/tinyxml2
+[1.075s] -- Found TinyXML2 via Config file: /usr/lib64/cmake/tinyxml2
+[1.123s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.179s] -- Found rviz_common: 14.1.11 (/home/rowanfoxx/ros2_jazzy/install/rviz_common/share/rviz_common/cmake)
+[1.209s] -- Setting OGRE_DIR to: '/home/rowanfoxx/ros2_jazzy/install/rviz_ogre_vendor/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[1.210s] -- Found OGRE
+[1.210s] --   static     : OFF
+[1.210s] --   components : MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[1.210s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[1.210s] --   media      : /home/rowanfoxx/ros2_jazzy/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/share/OGRE/Media
+[1.210s] -- OGRE_LIBRARIES: OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[1.211s] -- OGRE_LIBRARY_DIRS: /home/rowanfoxx/ros2_jazzy/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib
+[1.211s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[1.211s] -- OGRE_PLUGIN_DIR: /home/rowanfoxx/ros2_jazzy/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib/OGRE
+[1.211s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /home/rowanfoxx/ros2_jazzy/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[1.211s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /home/rowanfoxx/ros2_jazzy/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[1.211s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /home/rowanfoxx/ros2_jazzy/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[1.211s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /home/rowanfoxx/ros2_jazzy/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[1.214s] -- Could not find freeimage library
+[1.456s] -- Setting yaml-cpp_DIR to: '/home/rowanfoxx/ros2_jazzy/install/yaml_cpp_vendor/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+[1.481s] [31mCMake Error at CMakeLists.txt:21 (find_package):
+[1.481s]   By not providing "Findinterbotix_xs_msgs.cmake" in CMAKE_MODULE_PATH this
+[1.481s]   project has asked CMake to find a package configuration file provided by
+[1.481s]   "interbotix_xs_msgs", but CMake did not find one.
+[1.481s] 
+[1.481s]   Could not find a package configuration file provided by
+[1.481s]   "interbotix_xs_msgs" with any of the following names:
+[1.481s] 
+[1.481s]     interbotix_xs_msgsConfig.cmake
+[1.481s]     interbotix_xs_msgs-config.cmake
+[1.481s] 
+[1.481s]   Add the installation prefix of "interbotix_xs_msgs" to CMAKE_PREFIX_PATH or
+[1.481s]   set "interbotix_xs_msgs_DIR" to a directory containing one of the above
+[1.481s]   files.  If "interbotix_xs_msgs" provides a separate development package or
+[1.481s]   SDK, be sure it has been installed.
+[1.481s] 
+[1.481s] [0m
+[1.481s] -- Configuring incomplete, errors occurred!
