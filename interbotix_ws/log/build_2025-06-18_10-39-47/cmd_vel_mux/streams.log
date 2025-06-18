@@ -1,0 +1,96 @@
+[0.027s] Invoking command in '/home/locobot/LoCoBotRos/interbotix_ws/build/cmd_vel_mux': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_modules:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_common_modules:/home/locobot/interbotix_ws/install/kobuki_description:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_common_sim:/home/locobot/interbotix_ws/install/interbotix_common_modules:/home/locobot/interbotix_ws/install/ecl_utilities:/home/locobot/interbotix_ws/install/ecl_math:/home/locobot/interbotix_ws/install/ecl_formatters:/home/locobot/interbotix_ws/install/ecl_converters:/home/locobot/interbotix_ws/install/ecl_concepts:/home/locobot/interbotix_ws/install/ecl_type_traits:/home/locobot/interbotix_ws/install/ecl_time_lite:/home/locobot/interbotix_ws/install/ecl_mpl:/home/locobot/interbotix_ws/install/ecl_exceptions:/home/locobot/interbotix_ws/install/ecl_errors:/home/locobot/interbotix_ws/install/ecl_eigen:/home/locobot/interbotix_ws/install/ecl_config:/home/locobot/interbotix_ws/install/ecl_command_line:/home/locobot/interbotix_ws/install/dynamixel_workbench_toolbox:/opt/ros/humble /usr/bin/cmake /home/locobot/LoCoBotRos/interbotix_ws/src/cmd_vel_mux -DCMAKE_INSTALL_PREFIX=/home/locobot/LoCoBotRos/interbotix_ws/install/cmd_vel_mux
+[0.116s] -- The C compiler identification is GNU 11.4.0
+[0.178s] -- The CXX compiler identification is GNU 11.4.0
+[0.189s] -- Detecting C compiler ABI info
+[0.287s] -- Detecting C compiler ABI info - done
+[0.296s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.296s] -- Detecting C compile features
+[0.296s] -- Detecting C compile features - done
+[0.300s] -- Detecting CXX compiler ABI info
+[0.405s] -- Detecting CXX compiler ABI info - done
+[0.413s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.414s] -- Detecting CXX compile features
+[0.414s] -- Detecting CXX compile features - done
+[0.425s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.638s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.847s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.966s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.993s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.025s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.066s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.106s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.169s] -- Found rcl_interfaces: 1.2.1 (/opt/ros/humble/share/rcl_interfaces/cmake)
+[1.188s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[1.277s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.293s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.485s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.526s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.583s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.612s] -- Looking for pthread.h
+[1.719s] -- Looking for pthread.h - found
+[1.719s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.846s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.851s] -- Found Threads: TRUE  
+[1.917s] -- Found rclcpp_components: 16.0.12 (/opt/ros/humble/share/rclcpp_components/cmake)
+[2.035s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.201s] -- Found launch_testing_ament_cmake: 1.0.9 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+[2.210s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.239s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.250s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.250s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.250s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.250s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.272s] -- Found PythonExtra: .so  
+[2.283s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.283s] -- Configured cppcheck include dirs: /home/locobot/LoCoBotRos/interbotix_ws/src/cmd_vel_mux/include
+[2.283s] -- Configured cppcheck exclude dirs and/or files: 
+[2.287s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.287s] -- Configured cpplint exclude dirs and/or files: 
+[2.289s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.291s] -- Added test 'lint_cmake' to check CMake code style
+[2.293s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.296s] -- Added test 'uncrustify' to check C / C++ code style
+[2.296s] -- Configured uncrustify additional arguments: 
+[2.299s] -- Added test 'xmllint' to check XML markup files
+[2.305s] -- Configuring done
+[2.318s] -- Generating done
+[2.324s] -- Build files have been written to: /home/locobot/LoCoBotRos/interbotix_ws/build/cmd_vel_mux
+[2.334s] Invoked command in '/home/locobot/LoCoBotRos/interbotix_ws/build/cmd_vel_mux' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_modules:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_common_modules:/home/locobot/interbotix_ws/install/kobuki_description:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_common_sim:/home/locobot/interbotix_ws/install/interbotix_common_modules:/home/locobot/interbotix_ws/install/ecl_utilities:/home/locobot/interbotix_ws/install/ecl_math:/home/locobot/interbotix_ws/install/ecl_formatters:/home/locobot/interbotix_ws/install/ecl_converters:/home/locobot/interbotix_ws/install/ecl_concepts:/home/locobot/interbotix_ws/install/ecl_type_traits:/home/locobot/interbotix_ws/install/ecl_time_lite:/home/locobot/interbotix_ws/install/ecl_mpl:/home/locobot/interbotix_ws/install/ecl_exceptions:/home/locobot/interbotix_ws/install/ecl_errors:/home/locobot/interbotix_ws/install/ecl_eigen:/home/locobot/interbotix_ws/install/ecl_config:/home/locobot/interbotix_ws/install/ecl_command_line:/home/locobot/interbotix_ws/install/dynamixel_workbench_toolbox:/opt/ros/humble /usr/bin/cmake /home/locobot/LoCoBotRos/interbotix_ws/src/cmd_vel_mux -DCMAKE_INSTALL_PREFIX=/home/locobot/LoCoBotRos/interbotix_ws/install/cmd_vel_mux
+[2.337s] Invoking command in '/home/locobot/LoCoBotRos/interbotix_ws/build/cmd_vel_mux': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_modules:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_common_modules:/home/locobot/interbotix_ws/install/kobuki_description:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_common_sim:/home/locobot/interbotix_ws/install/interbotix_common_modules:/home/locobot/interbotix_ws/install/ecl_utilities:/home/locobot/interbotix_ws/install/ecl_math:/home/locobot/interbotix_ws/install/ecl_formatters:/home/locobot/interbotix_ws/install/ecl_converters:/home/locobot/interbotix_ws/install/ecl_concepts:/home/locobot/interbotix_ws/install/ecl_type_traits:/home/locobot/interbotix_ws/install/ecl_time_lite:/home/locobot/interbotix_ws/install/ecl_mpl:/home/locobot/interbotix_ws/install/ecl_exceptions:/home/locobot/interbotix_ws/install/ecl_errors:/home/locobot/interbotix_ws/install/ecl_eigen:/home/locobot/interbotix_ws/install/ecl_config:/home/locobot/interbotix_ws/install/ecl_command_line:/home/locobot/interbotix_ws/install/dynamixel_workbench_toolbox:/opt/ros/humble /usr/bin/cmake --build /home/locobot/LoCoBotRos/interbotix_ws/build/cmd_vel_mux -- -j16 -l16
+[2.421s] [ 25%] [32mBuilding CXX object CMakeFiles/cmd_vel_mux_node.dir/rclcpp_components/node_main_cmd_vel_mux_node.cpp.o[0m
+[2.422s] [ 50%] [32mBuilding CXX object CMakeFiles/cmd_vel_mux.dir/src/cmd_vel_mux.cpp.o[0m
+[6.444s] [ 75%] [32m[1mLinking CXX executable cmd_vel_mux_node[0m
+[6.629s] [ 75%] Built target cmd_vel_mux_node
+[13.682s] [100%] [32m[1mLinking CXX shared library libcmd_vel_mux.so[0m
+[14.397s] [100%] Built target cmd_vel_mux
+[14.429s] Invoked command in '/home/locobot/LoCoBotRos/interbotix_ws/build/cmd_vel_mux' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_modules:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_common_modules:/home/locobot/interbotix_ws/install/kobuki_description:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_common_sim:/home/locobot/interbotix_ws/install/interbotix_common_modules:/home/locobot/interbotix_ws/install/ecl_utilities:/home/locobot/interbotix_ws/install/ecl_math:/home/locobot/interbotix_ws/install/ecl_formatters:/home/locobot/interbotix_ws/install/ecl_converters:/home/locobot/interbotix_ws/install/ecl_concepts:/home/locobot/interbotix_ws/install/ecl_type_traits:/home/locobot/interbotix_ws/install/ecl_time_lite:/home/locobot/interbotix_ws/install/ecl_mpl:/home/locobot/interbotix_ws/install/ecl_exceptions:/home/locobot/interbotix_ws/install/ecl_errors:/home/locobot/interbotix_ws/install/ecl_eigen:/home/locobot/interbotix_ws/install/ecl_config:/home/locobot/interbotix_ws/install/ecl_command_line:/home/locobot/interbotix_ws/install/dynamixel_workbench_toolbox:/opt/ros/humble /usr/bin/cmake --build /home/locobot/LoCoBotRos/interbotix_ws/build/cmd_vel_mux -- -j16 -l16
+[14.431s] Invoking command in '/home/locobot/LoCoBotRos/interbotix_ws/build/cmd_vel_mux': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_modules:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_common_modules:/home/locobot/interbotix_ws/install/kobuki_description:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_common_sim:/home/locobot/interbotix_ws/install/interbotix_common_modules:/home/locobot/interbotix_ws/install/ecl_utilities:/home/locobot/interbotix_ws/install/ecl_math:/home/locobot/interbotix_ws/install/ecl_formatters:/home/locobot/interbotix_ws/install/ecl_converters:/home/locobot/interbotix_ws/install/ecl_concepts:/home/locobot/interbotix_ws/install/ecl_type_traits:/home/locobot/interbotix_ws/install/ecl_time_lite:/home/locobot/interbotix_ws/install/ecl_mpl:/home/locobot/interbotix_ws/install/ecl_exceptions:/home/locobot/interbotix_ws/install/ecl_errors:/home/locobot/interbotix_ws/install/ecl_eigen:/home/locobot/interbotix_ws/install/ecl_config:/home/locobot/interbotix_ws/install/ecl_command_line:/home/locobot/interbotix_ws/install/dynamixel_workbench_toolbox:/opt/ros/humble /usr/bin/cmake --install /home/locobot/LoCoBotRos/interbotix_ws/build/cmd_vel_mux
+[14.445s] -- Install configuration: ""
+[14.446s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/cmd_vel_mux/lib/cmd_vel_mux/cmd_vel_mux_node
+[14.446s] -- Set runtime path of "/home/locobot/LoCoBotRos/interbotix_ws/install/cmd_vel_mux/lib/cmd_vel_mux/cmd_vel_mux_node" to ""
+[14.446s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/cmd_vel_mux/lib/libcmd_vel_mux.so
+[14.452s] -- Set runtime path of "/home/locobot/LoCoBotRos/interbotix_ws/install/cmd_vel_mux/lib/libcmd_vel_mux.so" to ""
+[14.452s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/cmd_vel_mux/include/cmd_vel_mux
+[14.452s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/cmd_vel_mux/include/cmd_vel_mux/cmd_vel_mux.hpp
+[14.452s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/cmd_vel_mux/share/cmd_vel_mux/config
+[14.452s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/cmd_vel_mux/share/cmd_vel_mux/config/cmd_vel_mux_params.yaml
+[14.453s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/cmd_vel_mux/share/cmd_vel_mux/launch
+[14.453s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/cmd_vel_mux/share/cmd_vel_mux/launch/cmd_vel_mux-composed-launch.py
+[14.453s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/cmd_vel_mux/share/cmd_vel_mux/launch/cmd_vel_mux-launch.py
+[14.453s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/cmd_vel_mux/share/ament_index/resource_index/package_run_dependencies/cmd_vel_mux
+[14.454s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/cmd_vel_mux/share/ament_index/resource_index/parent_prefix_path/cmd_vel_mux
+[14.454s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/cmd_vel_mux/share/cmd_vel_mux/environment/ament_prefix_path.sh
+[14.454s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/cmd_vel_mux/share/cmd_vel_mux/environment/ament_prefix_path.dsv
+[14.454s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/cmd_vel_mux/share/cmd_vel_mux/environment/path.sh
+[14.454s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/cmd_vel_mux/share/cmd_vel_mux/environment/path.dsv
+[14.454s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/cmd_vel_mux/share/cmd_vel_mux/local_setup.bash
+[14.455s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/cmd_vel_mux/share/cmd_vel_mux/local_setup.sh
+[14.455s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/cmd_vel_mux/share/cmd_vel_mux/local_setup.zsh
+[14.455s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/cmd_vel_mux/share/cmd_vel_mux/local_setup.dsv
+[14.455s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/cmd_vel_mux/share/cmd_vel_mux/package.dsv
+[14.455s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/cmd_vel_mux/share/ament_index/resource_index/packages/cmd_vel_mux
+[14.455s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/cmd_vel_mux/share/ament_index/resource_index/rclcpp_components/cmd_vel_mux
+[14.456s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/cmd_vel_mux/share/cmd_vel_mux/cmake/cmd_vel_muxConfig.cmake
+[14.456s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/cmd_vel_mux/share/cmd_vel_mux/cmake/cmd_vel_muxConfig-version.cmake
+[14.456s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/cmd_vel_mux/share/cmd_vel_mux/package.xml
+[14.459s] Invoked command in '/home/locobot/LoCoBotRos/interbotix_ws/build/cmd_vel_mux' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_modules:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_common_modules:/home/locobot/interbotix_ws/install/kobuki_description:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_common_sim:/home/locobot/interbotix_ws/install/interbotix_common_modules:/home/locobot/interbotix_ws/install/ecl_utilities:/home/locobot/interbotix_ws/install/ecl_math:/home/locobot/interbotix_ws/install/ecl_formatters:/home/locobot/interbotix_ws/install/ecl_converters:/home/locobot/interbotix_ws/install/ecl_concepts:/home/locobot/interbotix_ws/install/ecl_type_traits:/home/locobot/interbotix_ws/install/ecl_time_lite:/home/locobot/interbotix_ws/install/ecl_mpl:/home/locobot/interbotix_ws/install/ecl_exceptions:/home/locobot/interbotix_ws/install/ecl_errors:/home/locobot/interbotix_ws/install/ecl_eigen:/home/locobot/interbotix_ws/install/ecl_config:/home/locobot/interbotix_ws/install/ecl_command_line:/home/locobot/interbotix_ws/install/dynamixel_workbench_toolbox:/opt/ros/humble /usr/bin/cmake --install /home/locobot/LoCoBotRos/interbotix_ws/build/cmd_vel_mux

@@ -1,0 +1,81 @@
+[0.029s] Invoking command in '/home/locobot/LoCoBotRos/interbotix_ws/build/sophus': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_modules:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_common_modules:/home/locobot/interbotix_ws/install/kobuki_description:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_common_sim:/home/locobot/interbotix_ws/install/interbotix_common_modules:/home/locobot/interbotix_ws/install/ecl_utilities:/home/locobot/interbotix_ws/install/ecl_math:/home/locobot/interbotix_ws/install/ecl_formatters:/home/locobot/interbotix_ws/install/ecl_converters:/home/locobot/interbotix_ws/install/ecl_concepts:/home/locobot/interbotix_ws/install/ecl_type_traits:/home/locobot/interbotix_ws/install/ecl_time_lite:/home/locobot/interbotix_ws/install/ecl_mpl:/home/locobot/interbotix_ws/install/ecl_exceptions:/home/locobot/interbotix_ws/install/ecl_errors:/home/locobot/interbotix_ws/install/ecl_eigen:/home/locobot/interbotix_ws/install/ecl_config:/home/locobot/interbotix_ws/install/ecl_command_line:/home/locobot/interbotix_ws/install/dynamixel_workbench_toolbox:/opt/ros/humble /usr/bin/cmake /home/locobot/LoCoBotRos/interbotix_ws/src/sophus -DCMAKE_INSTALL_PREFIX=/home/locobot/LoCoBotRos/interbotix_ws/install/sophus
+[0.106s] -- The C compiler identification is GNU 11.4.0
+[0.172s] -- The CXX compiler identification is GNU 11.4.0
+[0.181s] -- Detecting C compiler ABI info
+[0.271s] -- Detecting C compiler ABI info - done
+[0.277s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.277s] -- Detecting C compile features
+[0.277s] -- Detecting C compile features - done
+[0.279s] -- Detecting CXX compiler ABI info
+[0.370s] -- Detecting CXX compiler ABI info - done
+[0.375s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.375s] -- Detecting CXX compile features
+[0.376s] -- Detecting CXX compile features - done
+[0.382s] -- Found Eigen3: /usr/include/eigen3 (Required is at least version "3.3.0") 
+[0.427s] -- Configuring done
+[0.446s] -- Generating done
+[0.450s] -- Build files have been written to: /home/locobot/LoCoBotRos/interbotix_ws/build/sophus
+[0.453s] Invoked command in '/home/locobot/LoCoBotRos/interbotix_ws/build/sophus' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_modules:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_common_modules:/home/locobot/interbotix_ws/install/kobuki_description:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_common_sim:/home/locobot/interbotix_ws/install/interbotix_common_modules:/home/locobot/interbotix_ws/install/ecl_utilities:/home/locobot/interbotix_ws/install/ecl_math:/home/locobot/interbotix_ws/install/ecl_formatters:/home/locobot/interbotix_ws/install/ecl_converters:/home/locobot/interbotix_ws/install/ecl_concepts:/home/locobot/interbotix_ws/install/ecl_type_traits:/home/locobot/interbotix_ws/install/ecl_time_lite:/home/locobot/interbotix_ws/install/ecl_mpl:/home/locobot/interbotix_ws/install/ecl_exceptions:/home/locobot/interbotix_ws/install/ecl_errors:/home/locobot/interbotix_ws/install/ecl_eigen:/home/locobot/interbotix_ws/install/ecl_config:/home/locobot/interbotix_ws/install/ecl_command_line:/home/locobot/interbotix_ws/install/dynamixel_workbench_toolbox:/opt/ros/humble /usr/bin/cmake /home/locobot/LoCoBotRos/interbotix_ws/src/sophus -DCMAKE_INSTALL_PREFIX=/home/locobot/LoCoBotRos/interbotix_ws/install/sophus
+[0.455s] Invoking command in '/home/locobot/LoCoBotRos/interbotix_ws/build/sophus': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_modules:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_common_modules:/home/locobot/interbotix_ws/install/kobuki_description:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_common_sim:/home/locobot/interbotix_ws/install/interbotix_common_modules:/home/locobot/interbotix_ws/install/ecl_utilities:/home/locobot/interbotix_ws/install/ecl_math:/home/locobot/interbotix_ws/install/ecl_formatters:/home/locobot/interbotix_ws/install/ecl_converters:/home/locobot/interbotix_ws/install/ecl_concepts:/home/locobot/interbotix_ws/install/ecl_type_traits:/home/locobot/interbotix_ws/install/ecl_time_lite:/home/locobot/interbotix_ws/install/ecl_mpl:/home/locobot/interbotix_ws/install/ecl_exceptions:/home/locobot/interbotix_ws/install/ecl_errors:/home/locobot/interbotix_ws/install/ecl_eigen:/home/locobot/interbotix_ws/install/ecl_config:/home/locobot/interbotix_ws/install/ecl_command_line:/home/locobot/interbotix_ws/install/dynamixel_workbench_toolbox:/opt/ros/humble /usr/bin/cmake --build /home/locobot/LoCoBotRos/interbotix_ws/build/sophus -- -j16 -l16
+[0.537s] [  4%] [32mBuilding CXX object test/core/CMakeFiles/test_so3.dir/test_so3.cpp.o[0m
+[0.537s] [  8%] [32mBuilding CXX object test/core/CMakeFiles/test_se3.dir/test_se3.cpp.o[0m
+[0.537s] [ 12%] [32mBuilding CXX object test/core/CMakeFiles/test_sim2.dir/test_sim2.cpp.o[0m
+[0.537s] [ 16%] [32mBuilding CXX object test/core/CMakeFiles/test_rxso2.dir/test_rxso2.cpp.o[0m
+[0.537s] [ 20%] [32mBuilding CXX object test/core/CMakeFiles/test_velocities.dir/test_velocities.cpp.o[0m
+[0.537s] [ 25%] [32mBuilding CXX object test/core/CMakeFiles/test_rxso3.dir/test_rxso3.cpp.o[0m
+[0.537s] [ 29%] [32mBuilding CXX object test/core/CMakeFiles/test_geometry.dir/test_geometry.cpp.o[0m
+[0.537s] [ 37%] [32mBuilding CXX object test/core/CMakeFiles/test_sim3.dir/test_sim3.cpp.o[0m
+[0.537s] [ 37%] [32mBuilding CXX object test/core/CMakeFiles/test_common.dir/test_common.cpp.o[0m
+[0.543s] [ 41%] [32mBuilding CXX object test/core/CMakeFiles/test_se2.dir/test_se2.cpp.o[0m
+[0.543s] [ 45%] [32mBuilding CXX object test/core/CMakeFiles/test_so2.dir/test_so2.cpp.o[0m
+[0.543s] [ 50%] [32mBuilding CXX object examples/CMakeFiles/HelloSO3.dir/HelloSO3.cpp.o[0m
+[3.959s] [ 54%] [32m[1mLinking CXX executable HelloSO3[0m
+[4.223s] [ 54%] Built target HelloSO3
+[4.364s] [ 58%] [32m[1mLinking CXX executable test_common[0m
+[4.574s] [ 58%] Built target test_common
+[9.289s] [ 62%] [32m[1mLinking CXX executable test_velocities[0m
+[9.492s] [ 62%] Built target test_velocities
+[15.982s] [ 66%] [32m[1mLinking CXX executable test_geometry[0m
+[16.233s] [ 66%] Built target test_geometry
+[32.092s] [ 70%] [32m[1mLinking CXX executable test_so2[0m
+[32.457s] [ 70%] Built target test_so2
+[35.607s] [ 75%] [32m[1mLinking CXX executable test_rxso2[0m
+[36.022s] [ 75%] Built target test_rxso2
+[42.405s] [ 79%] [32m[1mLinking CXX executable test_sim2[0m
+[42.696s] [ 79%] Built target test_sim2
+[46.871s] [ 83%] [32m[1mLinking CXX executable test_se2[0m
+[47.064s] [ 83%] Built target test_se2
+[51.419s] [ 87%] [32m[1mLinking CXX executable test_sim3[0m
+[51.643s] [ 87%] Built target test_sim3
+[68.147s] [ 91%] [32m[1mLinking CXX executable test_se3[0m
+[68.280s] [ 91%] Built target test_se3
+[98.351s] [ 95%] [32m[1mLinking CXX executable test_rxso3[0m
+[98.567s] [ 95%] Built target test_rxso3
+[106.516s] [100%] [32m[1mLinking CXX executable test_so3[0m
+[106.686s] [100%] Built target test_so3
+[106.753s] Invoked command in '/home/locobot/LoCoBotRos/interbotix_ws/build/sophus' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_modules:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_common_modules:/home/locobot/interbotix_ws/install/kobuki_description:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_common_sim:/home/locobot/interbotix_ws/install/interbotix_common_modules:/home/locobot/interbotix_ws/install/ecl_utilities:/home/locobot/interbotix_ws/install/ecl_math:/home/locobot/interbotix_ws/install/ecl_formatters:/home/locobot/interbotix_ws/install/ecl_converters:/home/locobot/interbotix_ws/install/ecl_concepts:/home/locobot/interbotix_ws/install/ecl_type_traits:/home/locobot/interbotix_ws/install/ecl_time_lite:/home/locobot/interbotix_ws/install/ecl_mpl:/home/locobot/interbotix_ws/install/ecl_exceptions:/home/locobot/interbotix_ws/install/ecl_errors:/home/locobot/interbotix_ws/install/ecl_eigen:/home/locobot/interbotix_ws/install/ecl_config:/home/locobot/interbotix_ws/install/ecl_command_line:/home/locobot/interbotix_ws/install/dynamixel_workbench_toolbox:/opt/ros/humble /usr/bin/cmake --build /home/locobot/LoCoBotRos/interbotix_ws/build/sophus -- -j16 -l16
+[106.756s] Invoking command in '/home/locobot/LoCoBotRos/interbotix_ws/build/sophus': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_modules:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_common_modules:/home/locobot/interbotix_ws/install/kobuki_description:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_common_sim:/home/locobot/interbotix_ws/install/interbotix_common_modules:/home/locobot/interbotix_ws/install/ecl_utilities:/home/locobot/interbotix_ws/install/ecl_math:/home/locobot/interbotix_ws/install/ecl_formatters:/home/locobot/interbotix_ws/install/ecl_converters:/home/locobot/interbotix_ws/install/ecl_concepts:/home/locobot/interbotix_ws/install/ecl_type_traits:/home/locobot/interbotix_ws/install/ecl_time_lite:/home/locobot/interbotix_ws/install/ecl_mpl:/home/locobot/interbotix_ws/install/ecl_exceptions:/home/locobot/interbotix_ws/install/ecl_errors:/home/locobot/interbotix_ws/install/ecl_eigen:/home/locobot/interbotix_ws/install/ecl_config:/home/locobot/interbotix_ws/install/ecl_command_line:/home/locobot/interbotix_ws/install/dynamixel_workbench_toolbox:/opt/ros/humble /usr/bin/cmake --install /home/locobot/LoCoBotRos/interbotix_ws/build/sophus
+[106.768s] -- Install configuration: "Release"
+[106.768s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/sophus/share/sophus/cmake/SophusTargets.cmake
+[106.768s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/sophus/share/sophus/cmake/SophusConfig.cmake
+[106.768s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/sophus/share/sophus/cmake/SophusConfigVersion.cmake
+[106.768s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/sophus/include/sophus/average.hpp
+[106.769s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/sophus/include/sophus/common.hpp
+[106.769s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/sophus/include/sophus/geometry.hpp
+[106.769s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/sophus/include/sophus/interpolate.hpp
+[106.770s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/sophus/include/sophus/interpolate_details.hpp
+[106.770s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/sophus/include/sophus/num_diff.hpp
+[106.770s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/sophus/include/sophus/rotation_matrix.hpp
+[106.770s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/sophus/include/sophus/rxso2.hpp
+[106.770s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/sophus/include/sophus/rxso3.hpp
+[106.771s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/sophus/include/sophus/se2.hpp
+[106.771s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/sophus/include/sophus/se3.hpp
+[106.771s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/sophus/include/sophus/sim2.hpp
+[106.772s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/sophus/include/sophus/sim3.hpp
+[106.772s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/sophus/include/sophus/sim_details.hpp
+[106.772s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/sophus/include/sophus/so2.hpp
+[106.772s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/sophus/include/sophus/so3.hpp
+[106.772s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/sophus/include/sophus/types.hpp
+[106.773s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/sophus/include/sophus/velocities.hpp
+[106.773s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/sophus/include/sophus/formatstring.hpp
+[106.777s] Invoked command in '/home/locobot/LoCoBotRos/interbotix_ws/build/sophus' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_modules:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_common_modules:/home/locobot/interbotix_ws/install/kobuki_description:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_common_sim:/home/locobot/interbotix_ws/install/interbotix_common_modules:/home/locobot/interbotix_ws/install/ecl_utilities:/home/locobot/interbotix_ws/install/ecl_math:/home/locobot/interbotix_ws/install/ecl_formatters:/home/locobot/interbotix_ws/install/ecl_converters:/home/locobot/interbotix_ws/install/ecl_concepts:/home/locobot/interbotix_ws/install/ecl_type_traits:/home/locobot/interbotix_ws/install/ecl_time_lite:/home/locobot/interbotix_ws/install/ecl_mpl:/home/locobot/interbotix_ws/install/ecl_exceptions:/home/locobot/interbotix_ws/install/ecl_errors:/home/locobot/interbotix_ws/install/ecl_eigen:/home/locobot/interbotix_ws/install/ecl_config:/home/locobot/interbotix_ws/install/ecl_command_line:/home/locobot/interbotix_ws/install/dynamixel_workbench_toolbox:/opt/ros/humble /usr/bin/cmake --install /home/locobot/LoCoBotRos/interbotix_ws/build/sophus

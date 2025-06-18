@@ -1,0 +1,84 @@
+[0.023s] Invoking command in '/home/locobot/LoCoBotRos/interbotix_ws/build/interbotix_tf_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_modules:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_common_modules:/home/locobot/interbotix_ws/install/kobuki_description:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_common_sim:/home/locobot/interbotix_ws/install/interbotix_common_modules:/home/locobot/interbotix_ws/install/ecl_utilities:/home/locobot/interbotix_ws/install/ecl_math:/home/locobot/interbotix_ws/install/ecl_formatters:/home/locobot/interbotix_ws/install/ecl_converters:/home/locobot/interbotix_ws/install/ecl_concepts:/home/locobot/interbotix_ws/install/ecl_type_traits:/home/locobot/interbotix_ws/install/ecl_time_lite:/home/locobot/interbotix_ws/install/ecl_mpl:/home/locobot/interbotix_ws/install/ecl_exceptions:/home/locobot/interbotix_ws/install/ecl_errors:/home/locobot/interbotix_ws/install/ecl_eigen:/home/locobot/interbotix_ws/install/ecl_config:/home/locobot/interbotix_ws/install/ecl_command_line:/home/locobot/interbotix_ws/install/dynamixel_workbench_toolbox:/opt/ros/humble /usr/bin/cmake /home/locobot/LoCoBotRos/interbotix_ws/src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_tf_tools -DCMAKE_INSTALL_PREFIX=/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_tf_tools
+[0.113s] -- The C compiler identification is GNU 11.4.0
+[0.181s] -- The CXX compiler identification is GNU 11.4.0
+[0.191s] -- Detecting C compiler ABI info
+[0.308s] -- Detecting C compiler ABI info - done
+[0.317s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.318s] -- Detecting C compile features
+[0.318s] -- Detecting C compile features - done
+[0.321s] -- Detecting CXX compiler ABI info
+[0.454s] -- Detecting CXX compiler ABI info - done
+[0.465s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.468s] -- Detecting CXX compile features
+[0.469s] -- Detecting CXX compile features - done
+[0.480s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.717s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.975s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.145s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.167s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.194s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.250s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.305s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.392s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[1.536s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.554s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.762s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.810s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.873s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.923s] -- Looking for pthread.h
+[2.027s] -- Looking for pthread.h - found
+[2.027s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.141s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.142s] -- Found Threads: TRUE  
+[2.230s] -- Found rclcpp_components: 16.0.12 (/opt/ros/humble/share/rclcpp_components/cmake)
+[2.291s] -- Found tf2_msgs: 0.25.13 (/opt/ros/humble/share/tf2_msgs/cmake)
+[2.360s] -- Found tf2_ros: 0.25.13 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.486s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.673s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.681s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.681s] -- Configured cppcheck include dirs: /home/locobot/LoCoBotRos/interbotix_ws/src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_tf_tools/include
+[2.681s] -- Configured cppcheck exclude dirs and/or files: 
+[2.685s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.685s] -- Configured cpplint exclude dirs and/or files: 
+[2.687s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.689s] -- Added test 'lint_cmake' to check CMake code style
+[2.691s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.694s] -- Added test 'uncrustify' to check C / C++ code style
+[2.694s] -- Configured uncrustify additional arguments: 
+[2.699s] -- Added test 'xmllint' to check XML markup files
+[2.707s] -- Configuring done
+[2.724s] -- Generating done
+[2.731s] -- Build files have been written to: /home/locobot/LoCoBotRos/interbotix_ws/build/interbotix_tf_tools
+[2.752s] Invoked command in '/home/locobot/LoCoBotRos/interbotix_ws/build/interbotix_tf_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_modules:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_common_modules:/home/locobot/interbotix_ws/install/kobuki_description:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_common_sim:/home/locobot/interbotix_ws/install/interbotix_common_modules:/home/locobot/interbotix_ws/install/ecl_utilities:/home/locobot/interbotix_ws/install/ecl_math:/home/locobot/interbotix_ws/install/ecl_formatters:/home/locobot/interbotix_ws/install/ecl_converters:/home/locobot/interbotix_ws/install/ecl_concepts:/home/locobot/interbotix_ws/install/ecl_type_traits:/home/locobot/interbotix_ws/install/ecl_time_lite:/home/locobot/interbotix_ws/install/ecl_mpl:/home/locobot/interbotix_ws/install/ecl_exceptions:/home/locobot/interbotix_ws/install/ecl_errors:/home/locobot/interbotix_ws/install/ecl_eigen:/home/locobot/interbotix_ws/install/ecl_config:/home/locobot/interbotix_ws/install/ecl_command_line:/home/locobot/interbotix_ws/install/dynamixel_workbench_toolbox:/opt/ros/humble /usr/bin/cmake /home/locobot/LoCoBotRos/interbotix_ws/src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_tf_tools -DCMAKE_INSTALL_PREFIX=/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_tf_tools
+[2.754s] Invoking command in '/home/locobot/LoCoBotRos/interbotix_ws/build/interbotix_tf_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_modules:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_common_modules:/home/locobot/interbotix_ws/install/kobuki_description:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_common_sim:/home/locobot/interbotix_ws/install/interbotix_common_modules:/home/locobot/interbotix_ws/install/ecl_utilities:/home/locobot/interbotix_ws/install/ecl_math:/home/locobot/interbotix_ws/install/ecl_formatters:/home/locobot/interbotix_ws/install/ecl_converters:/home/locobot/interbotix_ws/install/ecl_concepts:/home/locobot/interbotix_ws/install/ecl_type_traits:/home/locobot/interbotix_ws/install/ecl_time_lite:/home/locobot/interbotix_ws/install/ecl_mpl:/home/locobot/interbotix_ws/install/ecl_exceptions:/home/locobot/interbotix_ws/install/ecl_errors:/home/locobot/interbotix_ws/install/ecl_eigen:/home/locobot/interbotix_ws/install/ecl_config:/home/locobot/interbotix_ws/install/ecl_command_line:/home/locobot/interbotix_ws/install/dynamixel_workbench_toolbox:/opt/ros/humble /usr/bin/cmake --build /home/locobot/LoCoBotRos/interbotix_ws/build/interbotix_tf_tools -- -j16 -l16
+[2.844s] [ 50%] [32mBuilding CXX object CMakeFiles/tf_rebroadcaster.dir/src/tf_rebroadcaster.cpp.o[0m
+[12.839s] [100%] [32m[1mLinking CXX shared library libtf_rebroadcaster.so[0m
+[13.536s] [100%] Built target tf_rebroadcaster
+[13.555s] Invoked command in '/home/locobot/LoCoBotRos/interbotix_ws/build/interbotix_tf_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_modules:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_common_modules:/home/locobot/interbotix_ws/install/kobuki_description:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_common_sim:/home/locobot/interbotix_ws/install/interbotix_common_modules:/home/locobot/interbotix_ws/install/ecl_utilities:/home/locobot/interbotix_ws/install/ecl_math:/home/locobot/interbotix_ws/install/ecl_formatters:/home/locobot/interbotix_ws/install/ecl_converters:/home/locobot/interbotix_ws/install/ecl_concepts:/home/locobot/interbotix_ws/install/ecl_type_traits:/home/locobot/interbotix_ws/install/ecl_time_lite:/home/locobot/interbotix_ws/install/ecl_mpl:/home/locobot/interbotix_ws/install/ecl_exceptions:/home/locobot/interbotix_ws/install/ecl_errors:/home/locobot/interbotix_ws/install/ecl_eigen:/home/locobot/interbotix_ws/install/ecl_config:/home/locobot/interbotix_ws/install/ecl_command_line:/home/locobot/interbotix_ws/install/dynamixel_workbench_toolbox:/opt/ros/humble /usr/bin/cmake --build /home/locobot/LoCoBotRos/interbotix_ws/build/interbotix_tf_tools -- -j16 -l16
+[13.557s] Invoking command in '/home/locobot/LoCoBotRos/interbotix_ws/build/interbotix_tf_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_modules:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_common_modules:/home/locobot/interbotix_ws/install/kobuki_description:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_common_sim:/home/locobot/interbotix_ws/install/interbotix_common_modules:/home/locobot/interbotix_ws/install/ecl_utilities:/home/locobot/interbotix_ws/install/ecl_math:/home/locobot/interbotix_ws/install/ecl_formatters:/home/locobot/interbotix_ws/install/ecl_converters:/home/locobot/interbotix_ws/install/ecl_concepts:/home/locobot/interbotix_ws/install/ecl_type_traits:/home/locobot/interbotix_ws/install/ecl_time_lite:/home/locobot/interbotix_ws/install/ecl_mpl:/home/locobot/interbotix_ws/install/ecl_exceptions:/home/locobot/interbotix_ws/install/ecl_errors:/home/locobot/interbotix_ws/install/ecl_eigen:/home/locobot/interbotix_ws/install/ecl_config:/home/locobot/interbotix_ws/install/ecl_command_line:/home/locobot/interbotix_ws/install/dynamixel_workbench_toolbox:/opt/ros/humble /usr/bin/cmake --install /home/locobot/LoCoBotRos/interbotix_ws/build/interbotix_tf_tools
+[13.573s] -- Install configuration: ""
+[13.573s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_tf_tools/lib/libtf_rebroadcaster.so
+[13.578s] -- Set runtime path of "/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_tf_tools/lib/libtf_rebroadcaster.so" to ""
+[13.579s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_tf_tools/lib/interbotix_tf_tools/static_trans_pub.py
+[13.579s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_tf_tools/share/interbotix_tf_tools//config
+[13.579s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_tf_tools/share/interbotix_tf_tools//config/tf_rebroadcaster.yaml
+[13.579s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_tf_tools/share/interbotix_tf_tools//launch
+[13.579s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_tf_tools/share/interbotix_tf_tools//launch/tf_rebroadcaster.launch.py
+[13.579s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_tf_tools/share/interbotix_tf_tools//launch/static_transform_pub.launch.py
+[13.580s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_tf_tools/share/ament_index/resource_index/package_run_dependencies/interbotix_tf_tools
+[13.580s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_tf_tools/share/ament_index/resource_index/parent_prefix_path/interbotix_tf_tools
+[13.580s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_tf_tools/share/interbotix_tf_tools/environment/ament_prefix_path.sh
+[13.580s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_tf_tools/share/interbotix_tf_tools/environment/ament_prefix_path.dsv
+[13.580s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_tf_tools/share/interbotix_tf_tools/environment/path.sh
+[13.580s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_tf_tools/share/interbotix_tf_tools/environment/path.dsv
+[13.581s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_tf_tools/share/interbotix_tf_tools/local_setup.bash
+[13.581s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_tf_tools/share/interbotix_tf_tools/local_setup.sh
+[13.581s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_tf_tools/share/interbotix_tf_tools/local_setup.zsh
+[13.581s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_tf_tools/share/interbotix_tf_tools/local_setup.dsv
+[13.581s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_tf_tools/share/interbotix_tf_tools/package.dsv
+[13.581s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_tf_tools/share/ament_index/resource_index/packages/interbotix_tf_tools
+[13.581s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_tf_tools/share/ament_index/resource_index/rclcpp_components/interbotix_tf_tools
+[13.582s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_tf_tools/share/interbotix_tf_tools/cmake/interbotix_tf_toolsConfig.cmake
+[13.582s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_tf_tools/share/interbotix_tf_tools/cmake/interbotix_tf_toolsConfig-version.cmake
+[13.582s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_tf_tools/share/interbotix_tf_tools/package.xml
+[13.585s] Invoked command in '/home/locobot/LoCoBotRos/interbotix_ws/build/interbotix_tf_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_modules:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_common_modules:/home/locobot/interbotix_ws/install/kobuki_description:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_common_sim:/home/locobot/interbotix_ws/install/interbotix_common_modules:/home/locobot/interbotix_ws/install/ecl_utilities:/home/locobot/interbotix_ws/install/ecl_math:/home/locobot/interbotix_ws/install/ecl_formatters:/home/locobot/interbotix_ws/install/ecl_converters:/home/locobot/interbotix_ws/install/ecl_concepts:/home/locobot/interbotix_ws/install/ecl_type_traits:/home/locobot/interbotix_ws/install/ecl_time_lite:/home/locobot/interbotix_ws/install/ecl_mpl:/home/locobot/interbotix_ws/install/ecl_exceptions:/home/locobot/interbotix_ws/install/ecl_errors:/home/locobot/interbotix_ws/install/ecl_eigen:/home/locobot/interbotix_ws/install/ecl_config:/home/locobot/interbotix_ws/install/ecl_command_line:/home/locobot/interbotix_ws/install/dynamixel_workbench_toolbox:/opt/ros/humble /usr/bin/cmake --install /home/locobot/LoCoBotRos/interbotix_ws/build/interbotix_tf_tools
