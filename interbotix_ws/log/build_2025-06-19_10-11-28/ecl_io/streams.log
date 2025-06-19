@@ -1,0 +1,46 @@
+[0.010s] Invoking command in '/home/locobot/LoCoBotRos/interbotix_ws/build/ecl_io': AMENT_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_errors:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_errors:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config:/home/locobot/apriltag_ws/install/apriltag_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_errors/lib:${LD_LIBRARY_PATH} PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config/bin:${PATH} /usr/bin/cmake --build /home/locobot/LoCoBotRos/interbotix_ws/build/ecl_io -- -j16 -l16
+[0.041s] [35m[1mConsolidate compiler generated dependencies of target ecl_io[0m
+[0.051s] [ 40%] Built target ecl_io
+[0.059s] [35m[1mConsolidate compiler generated dependencies of target ecl_io_example_sockets[0m
+[0.059s] [35m[1mConsolidate compiler generated dependencies of target ecl_io_example_socketpair[0m
+[0.061s] [35m[1mConsolidate compiler generated dependencies of target ecl_io_example_poll[0m
+[0.068s] [ 80%] Built target ecl_io_example_socketpair
+[0.068s] [ 80%] Built target ecl_io_example_sockets
+[0.070s] [100%] Built target ecl_io_example_poll
+[0.078s] Invoked command in '/home/locobot/LoCoBotRos/interbotix_ws/build/ecl_io' returned '0': AMENT_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_errors:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_errors:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config:/home/locobot/apriltag_ws/install/apriltag_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_errors/lib:${LD_LIBRARY_PATH} PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config/bin:${PATH} /usr/bin/cmake --build /home/locobot/LoCoBotRos/interbotix_ws/build/ecl_io -- -j16 -l16
+[0.080s] Invoking command in '/home/locobot/LoCoBotRos/interbotix_ws/build/ecl_io': AMENT_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_errors:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_errors:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config:/home/locobot/apriltag_ws/install/apriltag_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_errors/lib:${LD_LIBRARY_PATH} PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config/bin:${PATH} /usr/bin/cmake --install /home/locobot/LoCoBotRos/interbotix_ws/build/ecl_io
+[0.086s] -- Install configuration: "Release"
+[0.086s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_io/share/ecl_io/environment/library_path.sh
+[0.086s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_io/share/ecl_io/environment/library_path.dsv
+[0.086s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_io/share/ament_index/resource_index/package_run_dependencies/ecl_io
+[0.086s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_io/share/ament_index/resource_index/parent_prefix_path/ecl_io
+[0.086s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_io/share/ecl_io/environment/ament_prefix_path.sh
+[0.086s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_io/share/ecl_io/environment/ament_prefix_path.dsv
+[0.086s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_io/share/ecl_io/environment/path.sh
+[0.086s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_io/share/ecl_io/environment/path.dsv
+[0.086s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_io/share/ecl_io/local_setup.bash
+[0.086s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_io/share/ecl_io/local_setup.sh
+[0.086s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_io/share/ecl_io/local_setup.zsh
+[0.086s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_io/share/ecl_io/local_setup.dsv
+[0.086s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_io/share/ecl_io/package.dsv
+[0.086s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_io/share/ament_index/resource_index/packages/ecl_io
+[0.087s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_io/share/ecl_io/cmake/ecl_ioExport.cmake
+[0.087s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_io/share/ecl_io/cmake/ecl_ioExport-release.cmake
+[0.087s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_io/share/ecl_io/cmake/ament_cmake_export_targets-extras.cmake
+[0.087s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_io/share/ecl_io/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.087s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_io/share/ecl_io/cmake/ament_cmake_export_libraries-extras.cmake
+[0.087s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_io/share/ecl_io/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.087s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_io/share/ecl_io/cmake/ecl_ioConfig.cmake
+[0.087s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_io/share/ecl_io/cmake/ecl_ioConfig-version.cmake
+[0.087s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_io/share/ecl_io/package.xml
+[0.087s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_io/include/ecl/io.hpp
+[0.087s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_io/include/ecl/sockets/macros.hpp
+[0.087s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_io/include/ecl/sockets/poll.hpp
+[0.087s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_io/include/ecl/sockets/socketpair.hpp
+[0.087s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_io/include/ecl/sockets/sockets.hpp
+[0.087s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_io/lib/libecl_io.so.1.2.0
+[0.087s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_io/lib/libecl_io.so
+[0.087s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_io/lib/ecl_io/demo_sockets
+[0.088s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_io/lib/ecl_io/demo_socketpair
+[0.088s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_io/lib/ecl_io/demo_poll
+[0.089s] Invoked command in '/home/locobot/LoCoBotRos/interbotix_ws/build/ecl_io' returned '0': AMENT_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_errors:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_errors:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config:/home/locobot/apriltag_ws/install/apriltag_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_errors/lib:${LD_LIBRARY_PATH} PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config/bin:${PATH} /usr/bin/cmake --install /home/locobot/LoCoBotRos/interbotix_ws/build/ecl_io
