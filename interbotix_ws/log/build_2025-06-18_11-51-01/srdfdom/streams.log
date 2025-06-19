@@ -1,0 +1,87 @@
+[0.027s] Invoking command in '/home/locobot/LoCoBotRos/interbotix_ws/build/srdfdom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_modules:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_common_modules:/home/locobot/interbotix_ws/install/kobuki_description:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_common_sim:/home/locobot/interbotix_ws/install/interbotix_common_modules:/home/locobot/interbotix_ws/install/ecl_utilities:/home/locobot/interbotix_ws/install/ecl_math:/home/locobot/interbotix_ws/install/ecl_formatters:/home/locobot/interbotix_ws/install/ecl_converters:/home/locobot/interbotix_ws/install/ecl_concepts:/home/locobot/interbotix_ws/install/ecl_type_traits:/home/locobot/interbotix_ws/install/ecl_time_lite:/home/locobot/interbotix_ws/install/ecl_mpl:/home/locobot/interbotix_ws/install/ecl_exceptions:/home/locobot/interbotix_ws/install/ecl_errors:/home/locobot/interbotix_ws/install/ecl_eigen:/home/locobot/interbotix_ws/install/ecl_config:/home/locobot/interbotix_ws/install/ecl_command_line:/home/locobot/interbotix_ws/install/dynamixel_workbench_toolbox:/opt/ros/humble /usr/bin/cmake /home/locobot/LoCoBotRos/interbotix_ws/src/srdfdom -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=/home/locobot/LoCoBotRos/interbotix_ws/install/srdfdom
+[0.049s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.164s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[0.235s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.306s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[0.307s] -- Found ament_cmake_pytest: 1.3.11 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[0.687s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.687s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.709s] -- Configuring done
+[0.726s] -- Generating done
+[0.730s] -- Build files have been written to: /home/locobot/LoCoBotRos/interbotix_ws/build/srdfdom
+[0.734s] Invoked command in '/home/locobot/LoCoBotRos/interbotix_ws/build/srdfdom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_modules:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_common_modules:/home/locobot/interbotix_ws/install/kobuki_description:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_common_sim:/home/locobot/interbotix_ws/install/interbotix_common_modules:/home/locobot/interbotix_ws/install/ecl_utilities:/home/locobot/interbotix_ws/install/ecl_math:/home/locobot/interbotix_ws/install/ecl_formatters:/home/locobot/interbotix_ws/install/ecl_converters:/home/locobot/interbotix_ws/install/ecl_concepts:/home/locobot/interbotix_ws/install/ecl_type_traits:/home/locobot/interbotix_ws/install/ecl_time_lite:/home/locobot/interbotix_ws/install/ecl_mpl:/home/locobot/interbotix_ws/install/ecl_exceptions:/home/locobot/interbotix_ws/install/ecl_errors:/home/locobot/interbotix_ws/install/ecl_eigen:/home/locobot/interbotix_ws/install/ecl_config:/home/locobot/interbotix_ws/install/ecl_command_line:/home/locobot/interbotix_ws/install/dynamixel_workbench_toolbox:/opt/ros/humble /usr/bin/cmake /home/locobot/LoCoBotRos/interbotix_ws/src/srdfdom -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=/home/locobot/LoCoBotRos/interbotix_ws/install/srdfdom
+[0.736s] Invoking command in '/home/locobot/LoCoBotRos/interbotix_ws/build/srdfdom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_modules:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_common_modules:/home/locobot/interbotix_ws/install/kobuki_description:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_common_sim:/home/locobot/interbotix_ws/install/interbotix_common_modules:/home/locobot/interbotix_ws/install/ecl_utilities:/home/locobot/interbotix_ws/install/ecl_math:/home/locobot/interbotix_ws/install/ecl_formatters:/home/locobot/interbotix_ws/install/ecl_converters:/home/locobot/interbotix_ws/install/ecl_concepts:/home/locobot/interbotix_ws/install/ecl_type_traits:/home/locobot/interbotix_ws/install/ecl_time_lite:/home/locobot/interbotix_ws/install/ecl_mpl:/home/locobot/interbotix_ws/install/ecl_exceptions:/home/locobot/interbotix_ws/install/ecl_errors:/home/locobot/interbotix_ws/install/ecl_eigen:/home/locobot/interbotix_ws/install/ecl_config:/home/locobot/interbotix_ws/install/ecl_command_line:/home/locobot/interbotix_ws/install/dynamixel_workbench_toolbox:/opt/ros/humble /usr/bin/cmake --build /home/locobot/LoCoBotRos/interbotix_ws/build/srdfdom -- -j16 -l16
+[0.791s] [35m[1mConsolidate compiler generated dependencies of target srdfdom[0m
+[0.828s] [  9%] [32mBuilding CXX object CMakeFiles/srdfdom.dir/src/model.cpp.o[0m
+[2.805s] [ 18%] [32mBuilding CXX object CMakeFiles/srdfdom.dir/src/srdf_writer.cpp.o[0m
+[4.171s] [ 27%] [32m[1mLinking CXX shared library libsrdfdom.so[0m
+[4.337s] [ 27%] Built target srdfdom
+[4.365s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[4.383s] [ 36%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[7.394s] [ 45%] [32m[1mLinking CXX static library libgtest.a[0m
+[7.467s] [ 45%] Built target gtest
+[7.483s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[7.505s] [ 54%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[8.299s] [ 63%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[8.350s] [ 63%] Built target gtest_main
+[8.393s] [ 63%] Built target ament_cmake_python_copy_srdfdom
+[8.409s] [35m[1mConsolidate compiler generated dependencies of target test_cpp_nl_NL.UTF-8[0m
+[8.427s] [ 72%] [32mBuilding CXX object CMakeFiles/test_cpp_nl_NL.UTF-8.dir/test/test_parser.cpp.o[0m
+[9.984s] [ 81%] [32m[1mLinking CXX executable test_cpp_nl_NL.UTF-8[0m
+[10.160s] [ 81%] Built target test_cpp_nl_NL.UTF-8
+[10.391s] running egg_info
+[10.392s] writing srdfdom.egg-info/PKG-INFO
+[10.392s] writing dependency_links to srdfdom.egg-info/dependency_links.txt
+[10.392s] writing top-level names to srdfdom.egg-info/top_level.txt
+[10.395s] reading manifest file 'srdfdom.egg-info/SOURCES.txt'
+[10.396s] writing manifest file 'srdfdom.egg-info/SOURCES.txt'
+[10.425s] [ 81%] Built target ament_cmake_python_build_srdfdom_egg
+[10.441s] [35m[1mConsolidate compiler generated dependencies of target test_cpp_C[0m
+[10.458s] [ 90%] [32mBuilding CXX object CMakeFiles/test_cpp_C.dir/test/test_parser.cpp.o[0m
+[11.997s] [100%] [32m[1mLinking CXX executable test_cpp_C[0m
+[12.147s] [100%] Built target test_cpp_C
+[12.167s] Invoked command in '/home/locobot/LoCoBotRos/interbotix_ws/build/srdfdom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_modules:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_common_modules:/home/locobot/interbotix_ws/install/kobuki_description:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_common_sim:/home/locobot/interbotix_ws/install/interbotix_common_modules:/home/locobot/interbotix_ws/install/ecl_utilities:/home/locobot/interbotix_ws/install/ecl_math:/home/locobot/interbotix_ws/install/ecl_formatters:/home/locobot/interbotix_ws/install/ecl_converters:/home/locobot/interbotix_ws/install/ecl_concepts:/home/locobot/interbotix_ws/install/ecl_type_traits:/home/locobot/interbotix_ws/install/ecl_time_lite:/home/locobot/interbotix_ws/install/ecl_mpl:/home/locobot/interbotix_ws/install/ecl_exceptions:/home/locobot/interbotix_ws/install/ecl_errors:/home/locobot/interbotix_ws/install/ecl_eigen:/home/locobot/interbotix_ws/install/ecl_config:/home/locobot/interbotix_ws/install/ecl_command_line:/home/locobot/interbotix_ws/install/dynamixel_workbench_toolbox:/opt/ros/humble /usr/bin/cmake --build /home/locobot/LoCoBotRos/interbotix_ws/build/srdfdom -- -j16 -l16
+[12.169s] Invoking command in '/home/locobot/LoCoBotRos/interbotix_ws/build/srdfdom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_modules:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_common_modules:/home/locobot/interbotix_ws/install/kobuki_description:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_common_sim:/home/locobot/interbotix_ws/install/interbotix_common_modules:/home/locobot/interbotix_ws/install/ecl_utilities:/home/locobot/interbotix_ws/install/ecl_math:/home/locobot/interbotix_ws/install/ecl_formatters:/home/locobot/interbotix_ws/install/ecl_converters:/home/locobot/interbotix_ws/install/ecl_concepts:/home/locobot/interbotix_ws/install/ecl_type_traits:/home/locobot/interbotix_ws/install/ecl_time_lite:/home/locobot/interbotix_ws/install/ecl_mpl:/home/locobot/interbotix_ws/install/ecl_exceptions:/home/locobot/interbotix_ws/install/ecl_errors:/home/locobot/interbotix_ws/install/ecl_eigen:/home/locobot/interbotix_ws/install/ecl_config:/home/locobot/interbotix_ws/install/ecl_command_line:/home/locobot/interbotix_ws/install/dynamixel_workbench_toolbox:/opt/ros/humble /usr/bin/cmake --install /home/locobot/LoCoBotRos/interbotix_ws/build/srdfdom
+[12.179s] -- Install configuration: "Debug"
+[12.179s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/srdfdom/lib/libsrdfdom.so.2.0.8
+[12.181s] -- Set runtime path of "/home/locobot/LoCoBotRos/interbotix_ws/install/srdfdom/lib/libsrdfdom.so.2.0.8" to ""
+[12.181s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/srdfdom/lib/libsrdfdom.so
+[12.181s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/srdfdom/include/srdfdom
+[12.181s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/srdfdom/include/srdfdom/srdfdom
+[12.181s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/srdfdom/include/srdfdom/srdfdom/srdf_writer.h
+[12.182s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/srdfdom/include/srdfdom/srdfdom/visibility_control.h
+[12.182s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/srdfdom/include/srdfdom/srdfdom/model.h
+[12.182s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/srdfdom/lib/srdfdom/display_srdf
+[12.182s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/srdfdom/share/srdfdom/environment/pythonpath.sh
+[12.182s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/srdfdom/share/srdfdom/environment/pythonpath.dsv
+[12.182s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.8-py3.10.egg-info
+[12.182s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.8-py3.10.egg-info/dependency_links.txt
+[12.183s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.8-py3.10.egg-info/PKG-INFO
+[12.183s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.8-py3.10.egg-info/SOURCES.txt
+[12.183s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.8-py3.10.egg-info/top_level.txt
+[12.183s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom
+[12.183s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom/srdf.py
+[12.183s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom/__init__.py
+[12.214s] Listing '/home/locobot/LoCoBotRos/interbotix_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom'...
+[12.217s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/srdfdom/share/srdfdom/environment/library_path.sh
+[12.218s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/srdfdom/share/srdfdom/environment/library_path.dsv
+[12.218s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/srdfdom/share/ament_index/resource_index/package_run_dependencies/srdfdom
+[12.218s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/srdfdom/share/ament_index/resource_index/parent_prefix_path/srdfdom
+[12.218s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/srdfdom/share/srdfdom/environment/ament_prefix_path.sh
+[12.218s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/srdfdom/share/srdfdom/environment/ament_prefix_path.dsv
+[12.218s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/srdfdom/share/srdfdom/environment/path.sh
+[12.218s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/srdfdom/share/srdfdom/environment/path.dsv
+[12.218s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/srdfdom/share/srdfdom/local_setup.bash
+[12.218s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/srdfdom/share/srdfdom/local_setup.sh
+[12.218s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/srdfdom/share/srdfdom/local_setup.zsh
+[12.218s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/srdfdom/share/srdfdom/local_setup.dsv
+[12.218s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/srdfdom/share/srdfdom/package.dsv
+[12.218s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/srdfdom/share/ament_index/resource_index/packages/srdfdom
+[12.219s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/srdfdom/share/srdfdom/cmake/srdfdomTargetsExport.cmake
+[12.219s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/srdfdom/share/srdfdom/cmake/srdfdomTargetsExport-debug.cmake
+[12.219s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/srdfdom/share/srdfdom/cmake/ament_cmake_export_targets-extras.cmake
+[12.219s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/srdfdom/share/srdfdom/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.219s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/srdfdom/share/srdfdom/cmake/srdfdomConfig.cmake
+[12.219s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/srdfdom/share/srdfdom/cmake/srdfdomConfig-version.cmake
+[12.219s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/srdfdom/share/srdfdom/package.xml
+[12.221s] Invoked command in '/home/locobot/LoCoBotRos/interbotix_ws/build/srdfdom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_modules:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_common_modules:/home/locobot/interbotix_ws/install/kobuki_description:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_common_sim:/home/locobot/interbotix_ws/install/interbotix_common_modules:/home/locobot/interbotix_ws/install/ecl_utilities:/home/locobot/interbotix_ws/install/ecl_math:/home/locobot/interbotix_ws/install/ecl_formatters:/home/locobot/interbotix_ws/install/ecl_converters:/home/locobot/interbotix_ws/install/ecl_concepts:/home/locobot/interbotix_ws/install/ecl_type_traits:/home/locobot/interbotix_ws/install/ecl_time_lite:/home/locobot/interbotix_ws/install/ecl_mpl:/home/locobot/interbotix_ws/install/ecl_exceptions:/home/locobot/interbotix_ws/install/ecl_errors:/home/locobot/interbotix_ws/install/ecl_eigen:/home/locobot/interbotix_ws/install/ecl_config:/home/locobot/interbotix_ws/install/ecl_command_line:/home/locobot/interbotix_ws/install/dynamixel_workbench_toolbox:/opt/ros/humble /usr/bin/cmake --install /home/locobot/LoCoBotRos/interbotix_ws/build/srdfdom

@@ -1,0 +1,28 @@
+[35m[1mConsolidate compiler generated dependencies of target test_sim2[0m
+[35m[1mConsolidate compiler generated dependencies of target test_se2[0m
+[35m[1mConsolidate compiler generated dependencies of target test_so2[0m
+[35m[1mConsolidate compiler generated dependencies of target test_sim3[0m
+[35m[1mConsolidate compiler generated dependencies of target HelloSO3[0m
+[35m[1mConsolidate compiler generated dependencies of target test_common[0m
+[35m[1mConsolidate compiler generated dependencies of target test_velocities[0m
+[35m[1mConsolidate compiler generated dependencies of target test_se3[0m
+[35m[1mConsolidate compiler generated dependencies of target test_so3[0m
+[35m[1mConsolidate compiler generated dependencies of target test_rxso2[0m
+[35m[1mConsolidate compiler generated dependencies of target test_geometry[0m
+[  8%] Built target test_common
+[ 16%] [32mBuilding CXX object test/core/CMakeFiles/test_rxso3.dir/test_rxso3.cpp.o[0m
+[ 25%] Built target test_sim2
+[ 29%] Built target test_se2
+[ 41%] Built target test_so2
+[ 45%] Built target test_sim3
+[ 54%] Built target test_velocities
+[ 62%] Built target test_so3
+[ 70%] Built target HelloSO3
+[ 79%] Built target test_se3
+[ 87%] Built target test_rxso2
+[ 95%] Built target test_geometry
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [test/core/CMakeFiles/test_rxso3.dir/build.make:76: test/core/CMakeFiles/test_rxso3.dir/test_rxso3.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:378: test/core/CMakeFiles/test_rxso3.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

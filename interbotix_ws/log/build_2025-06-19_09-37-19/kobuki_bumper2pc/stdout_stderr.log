@@ -1,0 +1,32 @@
+[35m[1mConsolidate compiler generated dependencies of target kobuki_bumper2pc_node[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/kobuki_bumper2pc.dir/src/kobuki_bumper2pc.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/kobuki_bumper2pc_node.dir/rclcpp_components/node_main_kobuki_bumper2pc_node.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable kobuki_bumper2pc_node[0m
+[ 75%] Built target kobuki_bumper2pc_node
+[100%] [32m[1mLinking CXX shared library libkobuki_bumper2pc.so[0m
+[100%] Built target kobuki_bumper2pc
+-- Install configuration: "Release"
+-- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_bumper2pc/lib/kobuki_bumper2pc/kobuki_bumper2pc_node
+-- Set runtime path of "/home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_bumper2pc/lib/kobuki_bumper2pc/kobuki_bumper2pc_node" to ""
+-- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_bumper2pc/lib/libkobuki_bumper2pc.so
+-- Set runtime path of "/home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_bumper2pc/lib/libkobuki_bumper2pc.so" to ""
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_bumper2pc/include/kobuki_bumper2pc
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_bumper2pc/include/kobuki_bumper2pc/kobuki_bumper2pc.hpp
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/launch
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/launch/kobuki_bumper2pc-launch.py
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_bumper2pc/share/ament_index/resource_index/package_run_dependencies/kobuki_bumper2pc
+-- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_bumper2pc/share/ament_index/resource_index/parent_prefix_path/kobuki_bumper2pc
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/environment/ament_prefix_path.sh
+-- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/environment/path.sh
+-- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/environment/path.dsv
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/local_setup.bash
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/local_setup.sh
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/local_setup.zsh
+-- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/local_setup.dsv
+-- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/package.dsv
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_bumper2pc/share/ament_index/resource_index/packages/kobuki_bumper2pc
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_bumper2pc/share/ament_index/resource_index/rclcpp_components/kobuki_bumper2pc
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/cmake/kobuki_bumper2pcConfig.cmake
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/cmake/kobuki_bumper2pcConfig-version.cmake
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/package.xml

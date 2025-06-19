@@ -1,0 +1,4 @@
+Invoking command in '/home/locobot/LoCoBotRos/interbotix_ws/build/interbotix_tf_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/locobot/LoCoBotRos/interbotix_ws/build/interbotix_tf_tools -- -j16 -l16
+Invoked command in '/home/locobot/LoCoBotRos/interbotix_ws/build/interbotix_tf_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/locobot/LoCoBotRos/interbotix_ws/build/interbotix_tf_tools -- -j16 -l16
+Invoking command in '/home/locobot/LoCoBotRos/interbotix_ws/build/interbotix_tf_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/locobot/LoCoBotRos/interbotix_ws/build/interbotix_tf_tools
+Invoked command in '/home/locobot/LoCoBotRos/interbotix_ws/build/interbotix_tf_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/locobot/LoCoBotRos/interbotix_ws/build/interbotix_tf_tools

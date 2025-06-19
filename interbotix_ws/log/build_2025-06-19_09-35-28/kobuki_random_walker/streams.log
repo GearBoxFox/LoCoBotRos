@@ -1,0 +1,21 @@
+[0.123s] Invoking command in '/home/locobot/LoCoBotRos/interbotix_ws/build/kobuki_random_walker': AMENT_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_ros_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_ros_interfaces:/home/locobot/apriltag_ws/install/apriltag_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_ros_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_ros_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/locobot/LoCoBotRos/interbotix_ws/src/kobuki_ros/kobuki_random_walker -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_random_walker
+[2.313s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.313s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.313s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.313s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.313s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.313s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.313s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.313s] -- Found kobuki_ros_interfaces: 1.0.0 (/home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake)
+[2.313s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[2.314s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.314s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.314s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.314s] -- Found rclcpp_components: 16.0.12 (/opt/ros/humble/share/rclcpp_components/cmake)
+[2.314s] -- Configuring done
+[2.314s] -- Generating done
+[2.314s] -- Build files have been written to: /home/locobot/LoCoBotRos/interbotix_ws/build/kobuki_random_walker
+[2.328s] Invoked command in '/home/locobot/LoCoBotRos/interbotix_ws/build/kobuki_random_walker' returned '0': AMENT_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_ros_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_ros_interfaces:/home/locobot/apriltag_ws/install/apriltag_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_ros_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_ros_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/locobot/LoCoBotRos/interbotix_ws/src/kobuki_ros/kobuki_random_walker -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_random_walker
+[2.345s] Invoking command in '/home/locobot/LoCoBotRos/interbotix_ws/build/kobuki_random_walker': AMENT_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_ros_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_ros_interfaces:/home/locobot/apriltag_ws/install/apriltag_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_ros_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_ros_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/locobot/LoCoBotRos/interbotix_ws/build/kobuki_random_walker -- -j16 -l16
+[16.481s] [35m[1mConsolidate compiler generated dependencies of target kobuki_random_walker[0m
+[16.481s] [ 25%] [32mBuilding CXX object CMakeFiles/kobuki_random_walker.dir/src/random_walker.cpp.o[0m
