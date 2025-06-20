@@ -1,0 +1,88 @@
+[0.146s] Invoking command in '/home/locobot/LoCoBotRos/interbotix_ws/build/ecl_time': AMENT_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_time_lite:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_exceptions:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_errors:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_time_lite:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_exceptions:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_errors:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config:/home/locobot/apriltag_ws/install/apriltag_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_time_lite/lib:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_exceptions/lib:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_errors/lib:${LD_LIBRARY_PATH} PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config/bin:${PATH} /usr/bin/cmake /home/locobot/LoCoBotRos/interbotix_ws/src/ecl_core/ecl_time -DCMAKE_INSTALL_PREFIX=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_time
+[0.188s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.419s] -- Found ecl_build: 1.0.3 (/opt/ros/humble/share/ecl_build/cmake)
+[0.440s] -- Found ecl_config: 1.2.0 (/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config/share/ecl_config/cmake)
+[0.448s] -- Found ecl_errors: 1.2.0 (/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_errors/share/ecl_errors/cmake)
+[0.460s] -- Found ecl_exceptions: 1.2.1 (/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_exceptions/share/ecl_exceptions/cmake)
+[0.469s] -- Found ecl_time_lite: 1.2.0 (/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_time_lite/share/ecl_time_lite/cmake)
+[0.612s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.621s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.690s] -- Configuring done
+[0.852s] -- Generating done
+[0.864s] -- Build files have been written to: /home/locobot/LoCoBotRos/interbotix_ws/build/ecl_time
+[0.875s] Invoked command in '/home/locobot/LoCoBotRos/interbotix_ws/build/ecl_time' returned '0': AMENT_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_time_lite:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_exceptions:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_errors:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_time_lite:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_exceptions:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_errors:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config:/home/locobot/apriltag_ws/install/apriltag_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_time_lite/lib:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_exceptions/lib:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_errors/lib:${LD_LIBRARY_PATH} PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config/bin:${PATH} /usr/bin/cmake /home/locobot/LoCoBotRos/interbotix_ws/src/ecl_core/ecl_time -DCMAKE_INSTALL_PREFIX=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_time
+[0.876s] Invoking command in '/home/locobot/LoCoBotRos/interbotix_ws/build/ecl_time': AMENT_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_time_lite:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_exceptions:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_errors:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_time_lite:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_exceptions:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_errors:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config:/home/locobot/apriltag_ws/install/apriltag_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_time_lite/lib:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_exceptions/lib:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_errors/lib:${LD_LIBRARY_PATH} PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config/bin:${PATH} /usr/bin/cmake --build /home/locobot/LoCoBotRos/interbotix_ws/build/ecl_time -- -j16 -l16
+[0.923s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.924s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.939s] [35m[1mConsolidate compiler generated dependencies of target ecl_time[0m
+[0.939s] [  5%] Built target gtest_main
+[0.941s] [ 11%] Built target gtest
+[0.966s] [ 47%] Built target ecl_time
+[0.975s] [35m[1mConsolidate compiler generated dependencies of target ecl_test_cpuwatch_rt[0m
+[0.980s] [35m[1mConsolidate compiler generated dependencies of target ecl_test_sleep[0m
+[0.981s] [35m[1mConsolidate compiler generated dependencies of target ecl_test_time_data[0m
+[0.981s] [35m[1mConsolidate compiler generated dependencies of target ecl_test_timestamp[0m
+[0.981s] [35m[1mConsolidate compiler generated dependencies of target ecl_test_snooze[0m
+[0.982s] [35m[1mConsolidate compiler generated dependencies of target ecl_time_example_random_number_generator[0m
+[0.990s] [35m[1mConsolidate compiler generated dependencies of target ecl_test_frequency[0m
+[0.990s] [35m[1mConsolidate compiler generated dependencies of target ecl_test_stopwatch[0m
+[0.990s] [35m[1mConsolidate compiler generated dependencies of target ecl_time_example_sleep[0m
+[1.000s] [ 52%] Built target ecl_test_time_data
+[1.002s] [ 58%] Built target ecl_test_timestamp
+[1.006s] [ 64%] Built target ecl_test_cpuwatch_rt
+[1.006s] [ 70%] Built target ecl_test_sleep
+[1.009s] [ 76%] Built target ecl_time_example_random_number_generator
+[1.012s] [ 82%] Built target ecl_test_stopwatch
+[1.012s] [ 88%] Built target ecl_time_example_sleep
+[1.019s] [ 94%] Built target ecl_test_snooze
+[1.019s] [100%] Built target ecl_test_frequency
+[1.162s] Invoked command in '/home/locobot/LoCoBotRos/interbotix_ws/build/ecl_time' returned '0': AMENT_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_time_lite:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_exceptions:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_errors:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_time_lite:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_exceptions:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_errors:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config:/home/locobot/apriltag_ws/install/apriltag_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_time_lite/lib:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_exceptions/lib:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_errors/lib:${LD_LIBRARY_PATH} PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config/bin:${PATH} /usr/bin/cmake --build /home/locobot/LoCoBotRos/interbotix_ws/build/ecl_time -- -j16 -l16
+[1.168s] Invoking command in '/home/locobot/LoCoBotRos/interbotix_ws/build/ecl_time': AMENT_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_time_lite:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_exceptions:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_errors:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_time_lite:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_exceptions:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_errors:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config:/home/locobot/apriltag_ws/install/apriltag_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_time_lite/lib:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_exceptions/lib:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_errors/lib:${LD_LIBRARY_PATH} PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config/bin:${PATH} /usr/bin/cmake --install /home/locobot/LoCoBotRos/interbotix_ws/build/ecl_time
+[1.184s] -- Install configuration: "Release"
+[1.185s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_time/share/ecl_time/environment/library_path.sh
+[1.185s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_time/share/ecl_time/environment/library_path.dsv
+[1.186s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_time/share/ament_index/resource_index/package_run_dependencies/ecl_time
+[1.186s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_time/share/ament_index/resource_index/parent_prefix_path/ecl_time
+[1.186s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_time/share/ecl_time/environment/ament_prefix_path.sh
+[1.186s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_time/share/ecl_time/environment/ament_prefix_path.dsv
+[1.186s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_time/share/ecl_time/environment/path.sh
+[1.186s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_time/share/ecl_time/environment/path.dsv
+[1.186s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_time/share/ecl_time/local_setup.bash
+[1.186s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_time/share/ecl_time/local_setup.sh
+[1.186s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_time/share/ecl_time/local_setup.zsh
+[1.186s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_time/share/ecl_time/local_setup.dsv
+[1.186s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_time/share/ecl_time/package.dsv
+[1.186s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_time/share/ament_index/resource_index/packages/ecl_time
+[1.187s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_time/share/ecl_time/cmake/ecl_timeExport.cmake
+[1.192s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_time/share/ecl_time/cmake/ecl_timeExport-release.cmake
+[1.193s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_time/share/ecl_time/cmake/ament_cmake_export_targets-extras.cmake
+[1.194s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_time/share/ecl_time/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.194s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_time/share/ecl_time/cmake/ament_cmake_export_libraries-extras.cmake
+[1.194s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_time/share/ecl_time/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.194s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_time/share/ecl_time/cmake/ecl_timeConfig.cmake
+[1.194s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_time/share/ecl_time/cmake/ecl_timeConfig-version.cmake
+[1.194s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_time/share/ecl_time/package.xml
+[1.194s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_time/include/ecl/time.hpp
+[1.194s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_time/include/ecl/time/cpuwatch.hpp
+[1.194s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_time/include/ecl/time/cpuwatch_rt.hpp
+[1.194s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_time/include/ecl/time/duration.hpp
+[1.194s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_time/include/ecl/time/frequency.hpp
+[1.194s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_time/include/ecl/time/macros.hpp
+[1.194s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_time/include/ecl/time/random_number_generator.hpp
+[1.195s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_time/include/ecl/time/sleep.hpp
+[1.197s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_time/include/ecl/time/sleep_pos.hpp
+[1.199s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_time/include/ecl/time/sleep_win.hpp
+[1.200s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_time/include/ecl/time/snooze.hpp
+[1.200s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_time/include/ecl/time/snooze_pos.hpp
+[1.200s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_time/include/ecl/time/snooze_win.hpp
+[1.201s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_time/include/ecl/time/stopwatch.hpp
+[1.201s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_time/include/ecl/time/time_data.hpp
+[1.201s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_time/include/ecl/time/timestamp.hpp
+[1.201s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_time/include/ecl/time/timestamp_base.hpp
+[1.201s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_time/include/ecl/time/timestamp_pos.hpp
+[1.201s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_time/include/ecl/time/timestamp_win.hpp
+[1.201s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_time/lib/libecl_time.so.1.2.1
+[1.201s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_time/lib/libecl_time.so
+[1.203s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_time/lib/ecl_time/demo_random_number_generator
+[1.204s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_time/lib/ecl_time/demo_sleep
+[1.219s] Invoked command in '/home/locobot/LoCoBotRos/interbotix_ws/build/ecl_time' returned '0': AMENT_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_time_lite:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_exceptions:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_errors:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_time_lite:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_exceptions:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_errors:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config:/home/locobot/apriltag_ws/install/apriltag_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_time_lite/lib:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_exceptions/lib:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_errors/lib:${LD_LIBRARY_PATH} PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config/bin:${PATH} /usr/bin/cmake --install /home/locobot/LoCoBotRos/interbotix_ws/build/ecl_time

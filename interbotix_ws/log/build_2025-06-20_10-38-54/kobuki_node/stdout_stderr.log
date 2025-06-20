@@ -1,0 +1,60 @@
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+-- Found diagnostic_msgs: 4.9.0 (/opt/ros/humble/share/diagnostic_msgs/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found diagnostic_updater: 4.0.6 (/opt/ros/humble/share/diagnostic_updater/cmake)
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found ecl_build: 1.0.3 (/opt/ros/humble/share/ecl_build/cmake)
+-- Found ecl_errors: 1.2.0 (/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_errors/share/ecl_errors/cmake)
+-- Found ecl_exceptions: 1.2.1 (/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_exceptions/share/ecl_exceptions/cmake)
+-- Found ecl_geometry: 1.2.1 (/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_geometry/share/ecl_geometry/cmake)
+-- Found ecl_sigslots: 1.2.1 (/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_sigslots/share/ecl_sigslots/cmake)
+-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found kobuki_core: 1.4.0 (/home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_core/share/kobuki_core/cmake)
+-- Found kobuki_ros_interfaces: 1.0.0 (/home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake)
+-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Found rclcpp_components: 16.0.12 (/opt/ros/humble/share/rclcpp_components/cmake)
+-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found tf2: 0.25.13 (/opt/ros/humble/share/tf2/cmake)
+-- Found tf2_ros: 0.25.13 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/locobot/LoCoBotRos/interbotix_ws/build/kobuki_node
+[35m[1mConsolidate compiler generated dependencies of target kobuki_ros_node[0m
+[35m[1mConsolidate compiler generated dependencies of target kobuki_ros[0m
+[ 33%] Built target kobuki_ros_node
+[100%] Built target kobuki_ros
+-- Install configuration: "Release"
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_node/lib/kobuki_node/kobuki_ros_node
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_node/lib/libkobuki_ros.so
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_node/include/kobuki_node
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_node/include/kobuki_node/diagnostics.hpp
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_node/include/kobuki_node/kobuki_ros.hpp
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_node/include/kobuki_node/odometry.hpp
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_node/share/kobuki_node/config
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_node/share/kobuki_node/config/kobuki_node_params.yaml
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_node/share/kobuki_node/launch
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_node/share/kobuki_node/launch/kobuki_node-composed-launch.py
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_node/share/kobuki_node/launch/kobuki_node-launch.py
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_node/share/ament_index/resource_index/package_run_dependencies/kobuki_node
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_node/share/ament_index/resource_index/parent_prefix_path/kobuki_node
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_node/share/kobuki_node/environment/ament_prefix_path.sh
+-- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_node/share/kobuki_node/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_node/share/kobuki_node/environment/path.sh
+-- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_node/share/kobuki_node/environment/path.dsv
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_node/share/kobuki_node/local_setup.bash
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_node/share/kobuki_node/local_setup.sh
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_node/share/kobuki_node/local_setup.zsh
+-- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_node/share/kobuki_node/local_setup.dsv
+-- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_node/share/kobuki_node/package.dsv
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_node/share/ament_index/resource_index/packages/kobuki_node
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_node/share/ament_index/resource_index/rclcpp_components/kobuki_node
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_node/share/kobuki_node/cmake/kobuki_nodeConfig.cmake
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_node/share/kobuki_node/cmake/kobuki_nodeConfig-version.cmake
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_node/share/kobuki_node/package.xml

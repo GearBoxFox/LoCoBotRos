@@ -1,0 +1,50 @@
+[0.347s] Invoking command in '/home/locobot/LoCoBotRos/interbotix_ws/build/dynamixel_workbench_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/locobot/LoCoBotRos/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/dynamixel_workbench_toolbox -DCMAKE_INSTALL_PREFIX=/home/locobot/LoCoBotRos/interbotix_ws/install/dynamixel_workbench_toolbox
+[0.755s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.755s] -- Found dynamixel_sdk: 3.8.4 (/opt/ros/humble/share/dynamixel_sdk/cmake)
+[0.755s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.755s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.755s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.755s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.756s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.756s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.756s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.756s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.875s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.056s] -- Configuring done
+[1.072s] -- Generating done
+[1.074s] -- Build files have been written to: /home/locobot/LoCoBotRos/interbotix_ws/build/dynamixel_workbench_toolbox
+[1.224s] Invoked command in '/home/locobot/LoCoBotRos/interbotix_ws/build/dynamixel_workbench_toolbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/locobot/LoCoBotRos/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/dynamixel_workbench_toolbox -DCMAKE_INSTALL_PREFIX=/home/locobot/LoCoBotRos/interbotix_ws/install/dynamixel_workbench_toolbox
+[1.225s] Invoking command in '/home/locobot/LoCoBotRos/interbotix_ws/build/dynamixel_workbench_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/locobot/LoCoBotRos/interbotix_ws/build/dynamixel_workbench_toolbox -- -j16 -l16
+[1.278s] [35m[1mConsolidate compiler generated dependencies of target dynamixel_workbench_toolbox[0m
+[1.316s] [100%] Built target dynamixel_workbench_toolbox
+[1.346s] Invoked command in '/home/locobot/LoCoBotRos/interbotix_ws/build/dynamixel_workbench_toolbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/locobot/LoCoBotRos/interbotix_ws/build/dynamixel_workbench_toolbox -- -j16 -l16
+[1.357s] Invoking command in '/home/locobot/LoCoBotRos/interbotix_ws/build/dynamixel_workbench_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/locobot/LoCoBotRos/interbotix_ws/build/dynamixel_workbench_toolbox
+[1.582s] -- Install configuration: "Release"
+[1.582s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/dynamixel_workbench_toolbox/lib/libdynamixel_workbench_toolbox.so
+[1.583s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/dynamixel_workbench_toolbox/include/
+[1.583s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/dynamixel_workbench_toolbox/include//dynamixel_workbench_toolbox
+[1.583s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/dynamixel_workbench_toolbox/include//dynamixel_workbench_toolbox/dynamixel_item.h
+[1.583s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/dynamixel_workbench_toolbox/include//dynamixel_workbench_toolbox/dynamixel_driver.h
+[1.583s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/dynamixel_workbench_toolbox/include//dynamixel_workbench_toolbox/dynamixel_workbench.h
+[1.583s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/dynamixel_workbench_toolbox/include//dynamixel_workbench_toolbox/dynamixel_tool.h
+[1.583s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/environment/library_path.sh
+[1.583s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/environment/library_path.dsv
+[1.583s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/dynamixel_workbench_toolbox/share/ament_index/resource_index/package_run_dependencies/dynamixel_workbench_toolbox
+[1.583s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/dynamixel_workbench_toolbox/share/ament_index/resource_index/parent_prefix_path/dynamixel_workbench_toolbox
+[1.584s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/environment/ament_prefix_path.sh
+[1.584s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/environment/ament_prefix_path.dsv
+[1.584s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/environment/path.sh
+[1.584s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/environment/path.dsv
+[1.584s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/local_setup.bash
+[1.584s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/local_setup.sh
+[1.584s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/local_setup.zsh
+[1.584s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/local_setup.dsv
+[1.584s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/package.dsv
+[1.584s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/dynamixel_workbench_toolbox/share/ament_index/resource_index/packages/dynamixel_workbench_toolbox
+[1.584s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.584s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.585s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/cmake/ament_cmake_export_libraries-extras.cmake
+[1.585s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/cmake/dynamixel_workbench_toolboxConfig.cmake
+[1.585s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/cmake/dynamixel_workbench_toolboxConfig-version.cmake
+[1.585s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/package.xml
+[1.601s] Invoked command in '/home/locobot/LoCoBotRos/interbotix_ws/build/dynamixel_workbench_toolbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/locobot/LoCoBotRos/interbotix_ws/build/dynamixel_workbench_toolbox
