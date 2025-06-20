@@ -19,7 +19,7 @@ target_compile_features(hello_moveit PUBLIC c_std_99 cxx_std_17)  # Require C99 
 ament_target_dependencies(
   hello_moveit
   "moveit_ros_planning_interface"
-  "moveit_vizual_tools"
+  "moveit_visual_tools"
   "rclcpp"
 )
 

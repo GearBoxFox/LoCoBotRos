@@ -67,3 +67,5 @@ qtcreator-*
 
 # Catkin custom files
 CATKIN_IGNORE
+interbotix_ws/log/
+interbotix_ws/install/
