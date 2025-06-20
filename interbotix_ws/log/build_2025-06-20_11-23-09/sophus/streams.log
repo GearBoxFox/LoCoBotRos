@@ -1,0 +1,39 @@
+[0.430s] Invoking command in '/home/locobot/LoCoBotRos/interbotix_ws/build/sophus': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/LoCoBotRos/interbotix_ws/install/moveit_configs_utils:/home/locobot/LoCoBotRos/interbotix_ws/install/launch_param_builder:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_modules:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --build /home/locobot/LoCoBotRos/interbotix_ws/build/sophus -- -j16 -l16
+[0.603s] [  8%] Built target test_sim2
+[0.611s] [ 16%] Built target test_sim3
+[0.612s] [ 25%] Built target test_so3
+[0.612s] [ 33%] Built target test_common
+[0.618s] [ 41%] Built target test_se3
+[0.622s] [ 50%] Built target test_so2
+[0.623s] [ 58%] Built target test_velocities
+[0.626s] [ 75%] Built target test_rxso2
+[0.627s] [ 75%] Built target test_se2
+[0.628s] [ 83%] Built target test_rxso3
+[0.636s] [ 91%] Built target test_geometry
+[0.638s] [100%] Built target HelloSO3
+[1.074s] Invoked command in '/home/locobot/LoCoBotRos/interbotix_ws/build/sophus' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/LoCoBotRos/interbotix_ws/install/moveit_configs_utils:/home/locobot/LoCoBotRos/interbotix_ws/install/launch_param_builder:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_modules:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --build /home/locobot/LoCoBotRos/interbotix_ws/build/sophus -- -j16 -l16
+[1.074s] Invoking command in '/home/locobot/LoCoBotRos/interbotix_ws/build/sophus': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/LoCoBotRos/interbotix_ws/install/moveit_configs_utils:/home/locobot/LoCoBotRos/interbotix_ws/install/launch_param_builder:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_modules:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --install /home/locobot/LoCoBotRos/interbotix_ws/build/sophus
+[1.093s] -- Install configuration: "Release"
+[1.093s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/sophus/share/sophus/cmake/SophusTargets.cmake
+[1.093s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/sophus/share/sophus/cmake/SophusConfig.cmake
+[1.093s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/sophus/share/sophus/cmake/SophusConfigVersion.cmake
+[1.094s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/sophus/include/sophus/average.hpp
+[1.094s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/sophus/include/sophus/common.hpp
+[1.094s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/sophus/include/sophus/geometry.hpp
+[1.094s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/sophus/include/sophus/interpolate.hpp
+[1.094s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/sophus/include/sophus/interpolate_details.hpp
+[1.094s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/sophus/include/sophus/num_diff.hpp
+[1.094s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/sophus/include/sophus/rotation_matrix.hpp
+[1.094s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/sophus/include/sophus/rxso2.hpp
+[1.094s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/sophus/include/sophus/rxso3.hpp
+[1.094s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/sophus/include/sophus/se2.hpp
+[1.094s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/sophus/include/sophus/se3.hpp
+[1.095s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/sophus/include/sophus/sim2.hpp
+[1.095s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/sophus/include/sophus/sim3.hpp
+[1.095s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/sophus/include/sophus/sim_details.hpp
+[1.095s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/sophus/include/sophus/so2.hpp
+[1.095s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/sophus/include/sophus/so3.hpp
+[1.095s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/sophus/include/sophus/types.hpp
+[1.095s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/sophus/include/sophus/velocities.hpp
+[1.095s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/sophus/include/sophus/formatstring.hpp
+[1.316s] Invoked command in '/home/locobot/LoCoBotRos/interbotix_ws/build/sophus' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/LoCoBotRos/interbotix_ws/install/moveit_configs_utils:/home/locobot/LoCoBotRos/interbotix_ws/install/launch_param_builder:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_modules:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --install /home/locobot/LoCoBotRos/interbotix_ws/build/sophus

@@ -2,6 +2,7 @@
 
 #include <rclcpp/rclcpp.hpp>
 #include <moveit/move_group_interface/move_group_interface.h>
+#include <moveit_visual_tools/moveit_visual_tools.h>
 
 int main(int argc, char * argv[])
 {
@@ -16,16 +17,18 @@ int main(int argc, char * argv[])
   auto const logger = rclcpp::get_logger("hello_moveit");
 
   // Create the MoveIt MoveGroup Interface
+  static const std::string PLANNING_GROUP = "interbotix_arm";
+
   using moveit::planning_interface::MoveGroupInterface;
-  auto move_group_interface = MoveGroupInterface(node, "interbotix_arm");
+  auto move_group_interface = MoveGroupInterface(node, PLANNING_GROUP);
 
   // Set a target Pose
   auto const target_pose = []{
     geometry_msgs::msg::Pose msg;
     msg.orientation.w = 1.0;
-    msg.position.x = 0.28;
-    msg.position.y = -0.2;
-    msg.position.z = 0.5;
+    msg.position.x = 0.0;
+    msg.position.y = 0.0;
+    msg.position.z = 0.0;
     return msg;
   }();
   move_group_interface.setPoseTarget(target_pose);
