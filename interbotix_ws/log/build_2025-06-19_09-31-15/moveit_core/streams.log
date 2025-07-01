@@ -1,0 +1,445 @@
+[0.012s] Invoking command in '/home/locobot/LoCoBotRos/interbotix_ws/build/moveit_core': AMENT_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/moveit_resources_panda_moveit_config:/home/locobot/LoCoBotRos/interbotix_ws/install/srdfdom:/home/locobot/LoCoBotRos/interbotix_ws/install/moveit_resources_pr2_description:/home/locobot/LoCoBotRos/interbotix_ws/install/moveit_resources_panda_description:/home/locobot/LoCoBotRos/interbotix_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/moveit_resources_panda_moveit_config:/home/locobot/LoCoBotRos/interbotix_ws/install/srdfdom:/home/locobot/LoCoBotRos/interbotix_ws/install/moveit_resources_pr2_description:/home/locobot/LoCoBotRos/interbotix_ws/install/moveit_resources_panda_description:/home/locobot/LoCoBotRos/interbotix_ws/install/moveit_common:/home/locobot/apriltag_ws/install/apriltag_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/srdfdom/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/locobot/LoCoBotRos/interbotix_ws/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/locobot/LoCoBotRos/interbotix_ws/src/moveit2/moveit_core -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=/home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core
+[0.021s] -- Found moveit_common: 2.5.9 (/home/locobot/LoCoBotRos/interbotix_ws/install/moveit_common/share/moveit_common/cmake)
+[0.022s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.170s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[0.187s] -- Found common_interfaces: 4.8.0 (/opt/ros/humble/share/common_interfaces/cmake)
+[0.188s] -- Found eigen_stl_containers: 1.1.0 (/opt/ros/humble/share/eigen_stl_containers/cmake)
+[0.191s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.195s] -- Found generate_parameter_library: 0.4.0 (/opt/ros/humble/share/generate_parameter_library/cmake)
+[0.198s] -- Found parameter_traits: 0.4.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[0.226s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.229s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.236s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.248s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.259s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.294s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.296s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.376s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.437s] -- Found rclcpp_lifecycle: 16.0.12 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[0.456s] -- Found geometric_shapes: 2.3.2 (/opt/ros/humble/share/geometric_shapes/cmake)
+[0.460s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[0.503s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[0.560s] -- Found kdl_parser: 2.6.4 (/opt/ros/humble/share/kdl_parser/cmake)
+[0.564s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.567s] -- Found moveit_msgs: 2.2.1 (/opt/ros/humble/share/moveit_msgs/cmake)
+[0.664s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[0.677s] -- Found srdfdom: 2.0.8 (/home/locobot/LoCoBotRos/interbotix_ws/install/srdfdom/share/srdfdom/cmake)
+[0.683s] -- Found tf2_eigen: 0.25.13 (/opt/ros/humble/share/tf2_eigen/cmake)
+[0.746s] -- Found tf2_geometry_msgs: 0.25.13 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.749s] -- Found tf2_kdl: 0.25.13 (/opt/ros/humble/share/tf2_kdl/cmake)
+[0.772s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[0.773s] --  *** Building MoveIt 2.5.9-Alpha ***
+[0.780s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[0.780s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.788s] -- Found ament_cmake_gmock: 1.3.11 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[0.790s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[0.792s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[0.793s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.800s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[0.801s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.818s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[0.818s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.829s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.829s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[0.830s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.843s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[0.843s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.851s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[0.852s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.858s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[0.859s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[0.859s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.869s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.877s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.886s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[0.886s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.901s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.912s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.922s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.927s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.955s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.956s] -- Configured cppcheck include dirs: /home/locobot/LoCoBotRos/interbotix_ws/src/moveit2/moveit_core/exceptions/include;/home/locobot/LoCoBotRos/interbotix_ws/src/moveit2/moveit_core/collision_detection/include;/home/locobot/LoCoBotRos/interbotix_ws/src/moveit2/moveit_core/collision_detection_fcl/include;/home/locobot/LoCoBotRos/interbotix_ws/src/moveit2/moveit_core/collision_detection_bullet/include;/home/locobot/LoCoBotRos/interbotix_ws/src/moveit2/moveit_core/constraint_samplers/include;/home/locobot/LoCoBotRos/interbotix_ws/src/moveit2/moveit_core/controller_manager/include;/home/locobot/LoCoBotRos/interbotix_ws/src/moveit2/moveit_core/distance_field/include;/home/locobot/LoCoBotRos/interbotix_ws/src/moveit2/moveit_core/collision_distance_field/include;/home/locobot/LoCoBotRos/interbotix_ws/src/moveit2/moveit_core/dynamics_solver/include;/home/locobot/LoCoBotRos/interbotix_ws/src/moveit2/moveit_core/kinematics_base/include;/home/locobot/LoCoBotRos/interbotix_ws/src/moveit2/moveit_core/kinematics_metrics/include;/home/locobot/LoCoBotRos/interbotix_ws/src/moveit2/moveit_core/robot_model/include;/home/locobot/LoCoBotRos/interbotix_ws/src/moveit2/moveit_core/transforms/include;/home/locobot/LoCoBotRos/interbotix_ws/src/moveit2/moveit_core/robot_state/include;/home/locobot/LoCoBotRos/interbotix_ws/src/moveit2/moveit_core/robot_trajectory/include;/home/locobot/LoCoBotRos/interbotix_ws/src/moveit2/moveit_core/kinematic_constraints/include;/home/locobot/LoCoBotRos/interbotix_ws/src/moveit2/moveit_core/macros/include;/home/locobot/LoCoBotRos/interbotix_ws/src/moveit2/moveit_core/online_signal_smoothing/include;/home/locobot/LoCoBotRos/interbotix_ws/src/moveit2/moveit_core/planning_interface/include;/home/locobot/LoCoBotRos/interbotix_ws/src/moveit2/moveit_core/planning_request_adapter/include;/home/locobot/LoCoBotRos/interbotix_ws/src/moveit2/moveit_core/planning_scene/include;/home/locobot/LoCoBotRos/interbotix_ws/src/moveit2/moveit_core/sensor_manager/include;/home/locobot/LoCoBotRos/interbotix_ws/src/moveit2/moveit_core/trajectory_processing/include;/home/locobot/LoCoBotRos/interbotix_ws/src/moveit2/moveit_core/utils/include
+[0.956s] -- Configured cppcheck exclude dirs and/or files: 
+[0.958s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.960s] -- Added test 'xmllint' to check XML markup files
+[0.962s] -- Configuring done
+[1.503s] -- Generating done
+[1.641s] -- Build files have been written to: /home/locobot/LoCoBotRos/interbotix_ws/build/moveit_core
+[1.671s] Invoked command in '/home/locobot/LoCoBotRos/interbotix_ws/build/moveit_core' returned '0': AMENT_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/moveit_resources_panda_moveit_config:/home/locobot/LoCoBotRos/interbotix_ws/install/srdfdom:/home/locobot/LoCoBotRos/interbotix_ws/install/moveit_resources_pr2_description:/home/locobot/LoCoBotRos/interbotix_ws/install/moveit_resources_panda_description:/home/locobot/LoCoBotRos/interbotix_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/moveit_resources_panda_moveit_config:/home/locobot/LoCoBotRos/interbotix_ws/install/srdfdom:/home/locobot/LoCoBotRos/interbotix_ws/install/moveit_resources_pr2_description:/home/locobot/LoCoBotRos/interbotix_ws/install/moveit_resources_panda_description:/home/locobot/LoCoBotRos/interbotix_ws/install/moveit_common:/home/locobot/apriltag_ws/install/apriltag_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/srdfdom/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/locobot/LoCoBotRos/interbotix_ws/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/locobot/LoCoBotRos/interbotix_ws/src/moveit2/moveit_core -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=/home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core
+[1.673s] Invoking command in '/home/locobot/LoCoBotRos/interbotix_ws/build/moveit_core': AMENT_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/moveit_resources_panda_moveit_config:/home/locobot/LoCoBotRos/interbotix_ws/install/srdfdom:/home/locobot/LoCoBotRos/interbotix_ws/install/moveit_resources_pr2_description:/home/locobot/LoCoBotRos/interbotix_ws/install/moveit_resources_panda_description:/home/locobot/LoCoBotRos/interbotix_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/moveit_resources_panda_moveit_config:/home/locobot/LoCoBotRos/interbotix_ws/install/srdfdom:/home/locobot/LoCoBotRos/interbotix_ws/install/moveit_resources_pr2_description:/home/locobot/LoCoBotRos/interbotix_ws/install/moveit_resources_panda_description:/home/locobot/LoCoBotRos/interbotix_ws/install/moveit_common:/home/locobot/apriltag_ws/install/apriltag_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/srdfdom/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/locobot/LoCoBotRos/interbotix_ws/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/locobot/LoCoBotRos/interbotix_ws/build/moveit_core -- -j16 -l16
+[1.708s] [35m[1mConsolidate compiler generated dependencies of target moveit_exceptions[0m
+[1.708s] [35m[1mConsolidate compiler generated dependencies of target moveit_transforms[0m
+[1.708s] [35m[1mConsolidate compiler generated dependencies of target moveit_utils[0m
+[1.708s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[1.708s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[1.709s] [35m[1mConsolidate compiler generated dependencies of target gmock_main[0m
+[1.709s] [35m[1mConsolidate compiler generated dependencies of target moveit_version[0m
+[1.709s] [35m[1mConsolidate compiler generated dependencies of target moveit_smoothing_base[0m
+[1.709s] [35m[1mConsolidate compiler generated dependencies of target moveit_kinematics_base[0m
+[1.710s] [35m[1mConsolidate compiler generated dependencies of target gmock[0m
+[1.712s] [35m[1mConsolidate compiler generated dependencies of target moveit_distance_field[0m
+[1.721s] [  2%] Built target moveit_version
+[1.721s] [  3%] Built target moveit_butterworth_parameters
+[1.722s] [  4%] Built target gtest_main
+[1.722s] [  5%] Built target gtest
+[1.722s] [  6%] Built target gmock_main
+[1.725s] [  7%] Built target moveit_exceptions
+[1.725s] [  9%] Built target gmock
+[1.729s] [ 10%] Built target moveit_smoothing_base
+[1.730s] [ 13%] Built target moveit_utils
+[1.730s] [ 14%] Built target moveit_kinematics_base
+[1.732s] [ 15%] Built target moveit_transforms
+[1.741s] [35m[1mConsolidate compiler generated dependencies of target test_transforms[0m
+[1.747s] [35m[1mConsolidate compiler generated dependencies of target moveit_robot_model[0m
+[1.747s] [ 18%] Built target moveit_distance_field
+[1.752s] [ 19%] Built target test_transforms
+[1.756s] [35m[1mConsolidate compiler generated dependencies of target test_voxel_grid[0m
+[1.757s] [35m[1mConsolidate compiler generated dependencies of target test_distance_field[0m
+[1.770s] [ 20%] Built target test_voxel_grid
+[1.774s] [ 22%] Built target test_distance_field
+[1.774s] [ 27%] Built target moveit_robot_model
+[1.783s] [35m[1mConsolidate compiler generated dependencies of target moveit_butterworth_filter[0m
+[1.783s] [35m[1mConsolidate compiler generated dependencies of target moveit_test_utils[0m
+[1.786s] [35m[1mConsolidate compiler generated dependencies of target moveit_robot_state[0m
+[1.800s] [ 28%] Built target moveit_butterworth_filter
+[1.804s] [ 30%] Built target moveit_test_utils
+[1.807s] [ 33%] Built target moveit_robot_state
+[1.810s] [35m[1mConsolidate compiler generated dependencies of target test_butterworth_filter[0m
+[1.816s] [35m[1mConsolidate compiler generated dependencies of target test_robot_model[0m
+[1.817s] [35m[1mConsolidate compiler generated dependencies of target moveit_dynamics_solver[0m
+[1.819s] [35m[1mConsolidate compiler generated dependencies of target moveit_kinematics_metrics[0m
+[1.819s] [35m[1mConsolidate compiler generated dependencies of target moveit_robot_trajectory[0m
+[1.819s] [35m[1mConsolidate compiler generated dependencies of target test_cartesian_interpolator[0m
+[1.820s] [35m[1mConsolidate compiler generated dependencies of target test_robot_state_complex[0m
+[1.820s] [35m[1mConsolidate compiler generated dependencies of target test_robot_state[0m
+[1.820s] [35m[1mConsolidate compiler generated dependencies of target test_robot_state_benchmark[0m
+[1.820s] [35m[1mConsolidate compiler generated dependencies of target test_aabb[0m
+[1.829s] [35m[1mConsolidate compiler generated dependencies of target moveit_collision_detection[0m
+[1.830s] [ 34%] Built target test_butterworth_filter
+[1.834s] [ 35%] Built target test_robot_model
+[1.837s] [ 36%] Built target test_cartesian_interpolator
+[1.837s] [ 37%] Built target moveit_robot_trajectory
+[1.837s] [ 38%] Built target test_robot_state_benchmark
+[1.838s] [ 39%] Built target moveit_dynamics_solver
+[1.838s] [ 40%] Built target moveit_kinematics_metrics
+[1.839s] [ 41%] Built target test_robot_state_complex
+[1.840s] [ 42%] Built target test_aabb
+[1.841s] [ 44%] Built target test_robot_state
+[1.848s] [35m[1mConsolidate compiler generated dependencies of target test_robot_trajectory[0m
+[1.851s] [35m[1mConsolidate compiler generated dependencies of target moveit_planning_interface[0m
+[1.855s] [35m[1mConsolidate compiler generated dependencies of target moveit_trajectory_processing[0m
+[1.859s] [ 49%] Built target moveit_collision_detection
+[1.868s] [ 50%] Built target test_robot_trajectory
+[1.868s] [35m[1mConsolidate compiler generated dependencies of target test_world[0m
+[1.870s] [35m[1mConsolidate compiler generated dependencies of target test_world_diff[0m
+[1.870s] [35m[1mConsolidate compiler generated dependencies of target test_all_valid[0m
+[1.872s] [ 52%] Built target moveit_planning_interface
+[1.873s] [35m[1mConsolidate compiler generated dependencies of target moveit_collision_detection_fcl[0m
+[1.879s] [35m[1mConsolidate compiler generated dependencies of target moveit_collision_detection_bullet[0m
+[1.881s] [ 54%] Built target test_world_diff
+[1.883s] [ 57%] Built target test_world
+[1.884s] [ 58%] Built target moveit_trajectory_processing
+[1.891s] [ 59%] Built target test_all_valid
+[1.894s] [35m[1mConsolidate compiler generated dependencies of target test_time_optimal_trajectory_generation[0m
+[1.895s] [35m[1mConsolidate compiler generated dependencies of target test_ruckig_traj_smoothing[0m
+[1.896s] [35m[1mConsolidate compiler generated dependencies of target test_time_parameterization[0m
+[1.898s] [ 61%] Built target moveit_collision_detection_fcl
+[1.908s] [35m[1mConsolidate compiler generated dependencies of target test_fcl_collision_detection_panda[0m
+[1.909s] [35m[1mConsolidate compiler generated dependencies of target test_fcl_collision_detection[0m
+[1.909s] [35m[1mConsolidate compiler generated dependencies of target test_fcl_collision_env[0m
+[1.909s] [35m[1mConsolidate compiler generated dependencies of target moveit_kinematic_constraints[0m
+[1.911s] [ 63%] Built target test_time_optimal_trajectory_generation
+[1.913s] [ 64%] Built target test_time_parameterization
+[1.914s] [ 69%] Built target moveit_collision_detection_bullet
+[1.915s] [ 70%] Built target test_ruckig_traj_smoothing
+[1.925s] [35m[1mConsolidate compiler generated dependencies of target test_bullet_continuous_collision_checking[0m
+[1.926s] [35m[1mConsolidate compiler generated dependencies of target test_bullet_collision_detection_panda[0m
+[1.926s] [35m[1mConsolidate compiler generated dependencies of target test_bullet_collision_detection[0m
+[1.929s] [ 71%] Built target test_fcl_collision_detection
+[1.929s] [ 73%] Built target test_fcl_collision_detection_panda
+[1.930s] [ 74%] Built target test_fcl_collision_env
+[1.933s] [ 76%] Built target moveit_kinematic_constraints
+[1.943s] [35m[1mConsolidate compiler generated dependencies of target test_orientation_constraints[0m
+[1.944s] [35m[1mConsolidate compiler generated dependencies of target test_constraints[0m
+[1.944s] [ 78%] Built target test_bullet_collision_detection_panda
+[1.944s] [35m[1mConsolidate compiler generated dependencies of target moveit_planning_scene[0m
+[1.945s] [ 79%] Built target test_bullet_collision_detection
+[1.950s] [ 80%] Built target test_bullet_continuous_collision_checking
+[1.959s] [ 82%] Built target test_constraints
+[1.959s] [ 82%] Built target test_orientation_constraints
+[1.966s] [ 84%] Built target moveit_planning_scene
+[1.976s] [35m[1mConsolidate compiler generated dependencies of target test_multi_threaded[0m
+[1.976s] [35m[1mConsolidate compiler generated dependencies of target test_collision_objects[0m
+[1.976s] [35m[1mConsolidate compiler generated dependencies of target moveit_planning_request_adapter[0m
+[1.977s] [35m[1mConsolidate compiler generated dependencies of target collision_detector_bullet_plugin[0m
+[1.977s] [35m[1mConsolidate compiler generated dependencies of target collision_detector_fcl_plugin[0m
+[1.977s] [35m[1mConsolidate compiler generated dependencies of target test_planning_scene[0m
+[1.982s] [35m[1mConsolidate compiler generated dependencies of target moveit_collision_distance_field[0m
+[1.983s] [35m[1mConsolidate compiler generated dependencies of target moveit_constraint_samplers[0m
+[1.994s] [ 86%] Built target moveit_planning_request_adapter
+[1.994s] [ 86%] Built target test_multi_threaded
+[1.994s] [ 87%] Built target test_collision_objects
+[1.998s] [ 88%] Built target collision_detector_bullet_plugin
+[1.999s] [ 89%] Built target test_planning_scene
+[2.001s] [ 90%] Built target collision_detector_fcl_plugin
+[2.009s] [ 96%] Built target moveit_collision_distance_field
+[2.009s] [ 96%] Built target moveit_constraint_samplers
+[2.019s] [35m[1mConsolidate compiler generated dependencies of target test_collision_distance_field[0m
+[2.021s] [35m[1mConsolidate compiler generated dependencies of target test_constraint_samplers[0m
+[2.037s] [ 97%] Built target test_collision_distance_field
+[2.043s] [100%] Built target test_constraint_samplers
+[2.052s] Invoked command in '/home/locobot/LoCoBotRos/interbotix_ws/build/moveit_core' returned '0': AMENT_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/moveit_resources_panda_moveit_config:/home/locobot/LoCoBotRos/interbotix_ws/install/srdfdom:/home/locobot/LoCoBotRos/interbotix_ws/install/moveit_resources_pr2_description:/home/locobot/LoCoBotRos/interbotix_ws/install/moveit_resources_panda_description:/home/locobot/LoCoBotRos/interbotix_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/moveit_resources_panda_moveit_config:/home/locobot/LoCoBotRos/interbotix_ws/install/srdfdom:/home/locobot/LoCoBotRos/interbotix_ws/install/moveit_resources_pr2_description:/home/locobot/LoCoBotRos/interbotix_ws/install/moveit_resources_panda_description:/home/locobot/LoCoBotRos/interbotix_ws/install/moveit_common:/home/locobot/apriltag_ws/install/apriltag_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/srdfdom/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/locobot/LoCoBotRos/interbotix_ws/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/locobot/LoCoBotRos/interbotix_ws/build/moveit_core -- -j16 -l16
+[2.054s] Invoking command in '/home/locobot/LoCoBotRos/interbotix_ws/build/moveit_core': AMENT_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/moveit_resources_panda_moveit_config:/home/locobot/LoCoBotRos/interbotix_ws/install/srdfdom:/home/locobot/LoCoBotRos/interbotix_ws/install/moveit_resources_pr2_description:/home/locobot/LoCoBotRos/interbotix_ws/install/moveit_resources_panda_description:/home/locobot/LoCoBotRos/interbotix_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/moveit_resources_panda_moveit_config:/home/locobot/LoCoBotRos/interbotix_ws/install/srdfdom:/home/locobot/LoCoBotRos/interbotix_ws/install/moveit_resources_pr2_description:/home/locobot/LoCoBotRos/interbotix_ws/install/moveit_resources_panda_description:/home/locobot/LoCoBotRos/interbotix_ws/install/moveit_common:/home/locobot/apriltag_ws/install/apriltag_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/srdfdom/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/locobot/LoCoBotRos/interbotix_ws/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/locobot/LoCoBotRos/interbotix_ws/build/moveit_core
+[2.060s] -- Install configuration: "Debug"
+[2.061s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/version.h
+[2.061s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include
+[2.061s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit
+[2.061s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/collision_distance_field
+[2.061s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/collision_distance_field/collision_common_distance_field.h
+[2.061s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/collision_distance_field/collision_detector_allocator_hybrid.h
+[2.061s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/collision_distance_field/collision_detector_allocator_distance_field.h
+[2.061s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/collision_distance_field/collision_distance_field_types.h
+[2.061s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/collision_distance_field/collision_env_hybrid.h
+[2.061s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/collision_distance_field/collision_env_distance_field.h
+[2.061s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit_collision_distance_field_export.h
+[2.062s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include
+[2.062s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit
+[2.062s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/constraint_samplers
+[2.062s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/constraint_samplers/constraint_sampler_manager.h
+[2.062s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/constraint_samplers/default_constraint_samplers.h
+[2.062s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/constraint_samplers/union_constraint_sampler.h
+[2.062s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/constraint_samplers/constraint_sampler_allocator.h
+[2.062s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/constraint_samplers/constraint_sampler.h
+[2.062s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/constraint_samplers/constraint_sampler_tools.h
+[2.062s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include
+[2.062s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit
+[2.062s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/controller_manager
+[2.062s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/controller_manager/controller_manager.h
+[2.062s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include
+[2.062s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit
+[2.062s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/distance_field
+[2.063s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/distance_field/find_internal_points.h
+[2.063s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/distance_field/distance_field.h
+[2.063s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/distance_field/propagation_distance_field.h
+[2.063s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/distance_field/voxel_grid.h
+[2.063s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include
+[2.063s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit
+[2.063s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/dynamics_solver
+[2.063s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/dynamics_solver/dynamics_solver.h
+[2.063s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include
+[2.064s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit
+[2.064s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/exceptions
+[2.064s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/exceptions/exceptions.h
+[2.064s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include
+[2.064s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit
+[2.064s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/kinematics_base
+[2.064s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/kinematics_base/kinematics_base.h
+[2.064s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit_kinematics_base_export.h
+[2.064s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include
+[2.064s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit
+[2.064s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/kinematic_constraints
+[2.064s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/kinematic_constraints/kinematic_constraint.h
+[2.064s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/kinematic_constraints/utils.h
+[2.064s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include
+[2.064s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit
+[2.064s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/kinematics_metrics
+[2.065s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/kinematics_metrics/kinematics_metrics.h
+[2.065s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include
+[2.065s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit
+[2.065s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/macros
+[2.065s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/macros/console_colors.h
+[2.065s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/macros/declare_ptr.h
+[2.065s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/macros/deprecation.h
+[2.065s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/macros/class_forward.h
+[2.065s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit_core
+[2.065s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit_core/moveit_butterworth_parameters.hpp
+[2.065s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include
+[2.066s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit
+[2.066s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/online_signal_smoothing
+[2.066s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/online_signal_smoothing/smoothing_base_class.h
+[2.066s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/online_signal_smoothing/butterworth_filter.h
+[2.066s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit_smoothing_base_export.h
+[2.066s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit_butterworth_filter_export.h
+[2.066s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include
+[2.066s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit
+[2.066s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/planning_interface
+[2.066s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/planning_interface/planning_request.h
+[2.066s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/planning_interface/planning_response.h
+[2.066s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/planning_interface/planning_interface.h
+[2.066s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include
+[2.066s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit
+[2.066s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/planning_request_adapter
+[2.067s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/planning_request_adapter/planning_request_adapter.h
+[2.067s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include
+[2.067s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit
+[2.067s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/planning_scene
+[2.067s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/planning_scene/planning_scene.h
+[2.067s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit_planning_scene_export.h
+[2.067s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include
+[2.067s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit
+[2.067s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/robot_model
+[2.067s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/robot_model/joint_model.h
+[2.067s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/robot_model/joint_model_group.h
+[2.067s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/robot_model/robot_model.h
+[2.067s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/robot_model/floating_joint_model.h
+[2.067s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/robot_model/planar_joint_model.h
+[2.067s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/robot_model/prismatic_joint_model.h
+[2.067s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/robot_model/fixed_joint_model.h
+[2.068s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/robot_model/revolute_joint_model.h
+[2.068s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/robot_model/aabb.h
+[2.068s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/robot_model/link_model.h
+[2.068s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include
+[2.068s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit
+[2.068s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/robot_state
+[2.068s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/robot_state/conversions.h
+[2.068s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/robot_state/attached_body.h
+[2.068s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/robot_state/robot_state.h
+[2.068s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/robot_state/cartesian_interpolator.h
+[2.068s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include
+[2.068s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit
+[2.068s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/robot_trajectory
+[2.068s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/robot_trajectory/robot_trajectory.h
+[2.068s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include
+[2.069s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit
+[2.069s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/sensor_manager
+[2.069s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/sensor_manager/sensor_manager.h
+[2.069s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include
+[2.069s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit
+[2.069s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/trajectory_processing
+[2.069s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/trajectory_processing/time_parameterization.h
+[2.069s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/trajectory_processing/iterative_time_parameterization.h
+[2.069s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/trajectory_processing/ruckig_traj_smoothing.h
+[2.069s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/trajectory_processing/trajectory_tools.h
+[2.069s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/trajectory_processing/iterative_spline_parameterization.h
+[2.069s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/trajectory_processing/time_optimal_trajectory_generation.h
+[2.069s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include
+[2.069s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit
+[2.069s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/transforms
+[2.069s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/transforms/transforms.h
+[2.069s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include
+[2.069s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit
+[2.070s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/utils
+[2.070s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/utils/moveit_error_code.h
+[2.070s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/utils/message_checks.h
+[2.070s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/utils/lexical_casts.h
+[2.070s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/utils/rclcpp_utils.h
+[2.070s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/utils/robot_model_test_utils.h
+[2.070s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/bin/moveit_version
+[2.070s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include
+[2.070s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit
+[2.070s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/collision_detection
+[2.070s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/collision_detection/collision_octomap_filter.h
+[2.070s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/collision_detection/world_diff.h
+[2.070s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/collision_detection/test_collision_common_panda.h
+[2.070s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/collision_detection/test_collision_common_pr2.h
+[2.071s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/collision_detection/collision_plugin.h
+[2.071s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/collision_detection/occupancy_map.h
+[2.071s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/collision_detection/world.h
+[2.071s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/collision_detection/collision_tools.h
+[2.071s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/collision_detection/collision_env.h
+[2.071s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/collision_detection/collision_matrix.h
+[2.071s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/collision_detection/allvalid
+[2.071s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/collision_detection/allvalid/collision_env_allvalid.h
+[2.071s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/collision_detection/allvalid/collision_detector_allocator_allvalid.h
+[2.071s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/collision_detection/collision_detector_allocator.h
+[2.071s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/collision_detection/collision_common.h
+[2.071s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/collision_detection/collision_plugin_cache.h
+[2.071s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit_collision_detection_export.h
+[2.071s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include
+[2.071s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit
+[2.071s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/collision_detection_bullet
+[2.071s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/collision_detection_bullet/collision_detector_bullet_plugin_loader.h
+[2.072s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/collision_detection_bullet/collision_detector_allocator_bullet.h
+[2.072s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/collision_detection_bullet/collision_env_bullet.h
+[2.072s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/collision_detection_bullet/bullet_integration
+[2.072s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/collision_detection_bullet/bullet_integration/bullet_bvh_manager.h
+[2.072s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/collision_detection_bullet/bullet_integration/basic_types.h
+[2.072s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/collision_detection_bullet/bullet_integration/bullet_utils.h
+[2.072s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/collision_detection_bullet/bullet_integration/ros_bullet_utils.h
+[2.072s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/collision_detection_bullet/bullet_integration/bullet_cast_bvh_manager.h
+[2.072s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/collision_detection_bullet/bullet_integration/bullet_discrete_bvh_manager.h
+[2.072s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/collision_detection_bullet/bullet_integration/contact_checker_common.h
+[2.072s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit_collision_detection_bullet_export.h
+[2.072s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include
+[2.072s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit
+[2.072s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/collision_detection_fcl
+[2.072s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/collision_detection_fcl/collision_detector_allocator_fcl.h
+[2.072s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/collision_detection_fcl/fcl_compat.h
+[2.072s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/collision_detection_fcl/collision_detector_fcl_plugin_loader.h
+[2.072s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/collision_detection_fcl/collision_common.h
+[2.073s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit/collision_detection_fcl/collision_env_fcl.h
+[2.073s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/include/moveit_collision_detection_fcl_export.h
+[2.073s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/lib/libcollision_detector_bullet_plugin.so.2.5.9
+[2.073s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/lib/libcollision_detector_bullet_plugin.so
+[2.073s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/lib/libmoveit_butterworth_filter.so.2.5.9
+[2.073s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/lib/libmoveit_butterworth_filter.so
+[2.073s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/lib/libmoveit_collision_distance_field.so.2.5.9
+[2.073s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/lib/libmoveit_collision_distance_field.so
+[2.074s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/lib/libmoveit_collision_detection.so.2.5.9
+[2.074s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/lib/libmoveit_collision_detection.so
+[2.075s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/lib/libmoveit_collision_detection_fcl.so.2.5.9
+[2.075s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/lib/libmoveit_collision_detection_fcl.so
+[2.075s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/lib/libmoveit_collision_detection_bullet.so.2.5.9
+[2.076s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/lib/libmoveit_collision_detection_bullet.so
+[2.076s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/lib/libmoveit_dynamics_solver.so.2.5.9
+[2.076s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/lib/libmoveit_dynamics_solver.so
+[2.077s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/lib/libmoveit_constraint_samplers.so.2.5.9
+[2.077s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/lib/libmoveit_constraint_samplers.so
+[2.078s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/lib/libmoveit_distance_field.so.2.5.9
+[2.078s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/lib/libmoveit_distance_field.so
+[2.078s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/lib/libmoveit_exceptions.so.2.5.9
+[2.079s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/lib/libmoveit_exceptions.so
+[2.079s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/lib/libmoveit_kinematics_base.so
+[2.080s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/lib/libmoveit_kinematic_constraints.so.2.5.9
+[2.080s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/lib/libmoveit_kinematic_constraints.so
+[2.081s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/lib/libmoveit_kinematics_metrics.so.2.5.9
+[2.081s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/lib/libmoveit_kinematics_metrics.so
+[2.082s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/lib/libmoveit_planning_interface.so.2.5.9
+[2.082s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/lib/libmoveit_planning_interface.so
+[2.083s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/lib/libmoveit_planning_scene.so.2.5.9
+[2.083s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/lib/libmoveit_planning_scene.so
+[2.084s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/lib/libmoveit_planning_request_adapter.so.2.5.9
+[2.084s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/lib/libmoveit_planning_request_adapter.so
+[2.085s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/lib/libmoveit_robot_model.so.2.5.9
+[2.085s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/lib/libmoveit_robot_model.so
+[2.085s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/lib/libmoveit_robot_state.so.2.5.9
+[2.086s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/lib/libmoveit_robot_state.so
+[2.086s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/lib/libmoveit_robot_trajectory.so.2.5.9
+[2.086s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/lib/libmoveit_robot_trajectory.so
+[2.087s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/lib/libmoveit_smoothing_base.so.2.5.9
+[2.087s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/lib/libmoveit_smoothing_base.so
+[2.088s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/lib/libmoveit_test_utils.so.2.5.9
+[2.088s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/lib/libmoveit_test_utils.so
+[2.089s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/lib/libmoveit_trajectory_processing.so.2.5.9
+[2.089s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/lib/libmoveit_trajectory_processing.so
+[2.089s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/lib/libmoveit_transforms.so.2.5.9
+[2.090s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/lib/libmoveit_transforms.so
+[2.090s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/lib/libmoveit_utils.so.2.5.9
+[2.090s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/lib/libmoveit_utils.so
+[2.091s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/share/moveit_core/environment/library_path.sh
+[2.091s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/share/moveit_core/environment/library_path.dsv
+[2.091s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/share/moveit_core/collision_detector_fcl_description.xml
+[2.091s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/share/moveit_core/collision_detector_bullet_description.xml
+[2.091s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/share/moveit_core/filter_plugin_butterworth.xml
+[2.091s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/share/ament_index/resource_index/package_run_dependencies/moveit_core
+[2.091s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/share/ament_index/resource_index/parent_prefix_path/moveit_core
+[2.091s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/share/moveit_core/environment/ament_prefix_path.sh
+[2.091s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/share/moveit_core/environment/ament_prefix_path.dsv
+[2.091s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/share/moveit_core/environment/path.sh
+[2.091s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/share/moveit_core/environment/path.dsv
+[2.092s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/share/moveit_core/local_setup.bash
+[2.092s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/share/moveit_core/local_setup.sh
+[2.092s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/share/moveit_core/local_setup.zsh
+[2.092s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/share/moveit_core/local_setup.dsv
+[2.092s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/share/moveit_core/package.dsv
+[2.092s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/share/ament_index/resource_index/packages/moveit_core
+[2.092s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/share/ament_index/resource_index/moveit_core__pluginlib__plugin/moveit_core
+[2.093s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/share/moveit_core/cmake/export_moveit_coreExport.cmake
+[2.093s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/share/moveit_core/cmake/export_moveit_coreExport-debug.cmake
+[2.093s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/share/moveit_core/cmake/ConfigExtras.cmake
+[2.093s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/share/moveit_core/cmake/ament_cmake_export_targets-extras.cmake
+[2.093s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/share/moveit_core/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.093s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/share/moveit_core/cmake/moveit_coreConfig.cmake
+[2.093s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/share/moveit_core/cmake/moveit_coreConfig-version.cmake
+[2.093s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/moveit_core/share/moveit_core/package.xml
+[2.095s] Invoked command in '/home/locobot/LoCoBotRos/interbotix_ws/build/moveit_core' returned '0': AMENT_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/moveit_resources_panda_moveit_config:/home/locobot/LoCoBotRos/interbotix_ws/install/srdfdom:/home/locobot/LoCoBotRos/interbotix_ws/install/moveit_resources_pr2_description:/home/locobot/LoCoBotRos/interbotix_ws/install/moveit_resources_panda_description:/home/locobot/LoCoBotRos/interbotix_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/moveit_resources_panda_moveit_config:/home/locobot/LoCoBotRos/interbotix_ws/install/srdfdom:/home/locobot/LoCoBotRos/interbotix_ws/install/moveit_resources_pr2_description:/home/locobot/LoCoBotRos/interbotix_ws/install/moveit_resources_panda_description:/home/locobot/LoCoBotRos/interbotix_ws/install/moveit_common:/home/locobot/apriltag_ws/install/apriltag_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/srdfdom/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/locobot/LoCoBotRos/interbotix_ws/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/locobot/LoCoBotRos/interbotix_ws/build/moveit_core

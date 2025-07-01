@@ -1,0 +1,34 @@
+[0.007s] Invoking command in '/home/locobot/LoCoBotRos/interbotix_ws/build/ecl_sigslots_lite': AMENT_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_errors:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_errors:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config:/home/locobot/apriltag_ws/install/apriltag_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_errors/lib:${LD_LIBRARY_PATH} PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config/bin:${PATH} /usr/bin/cmake --build /home/locobot/LoCoBotRos/interbotix_ws/build/ecl_sigslots_lite -- -j16 -l16
+[0.039s] [35m[1mConsolidate compiler generated dependencies of target demo_sigslots_lite[0m
+[0.049s] [100%] Built target demo_sigslots_lite
+[0.056s] Invoked command in '/home/locobot/LoCoBotRos/interbotix_ws/build/ecl_sigslots_lite' returned '0': AMENT_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_errors:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_errors:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config:/home/locobot/apriltag_ws/install/apriltag_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_errors/lib:${LD_LIBRARY_PATH} PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config/bin:${PATH} /usr/bin/cmake --build /home/locobot/LoCoBotRos/interbotix_ws/build/ecl_sigslots_lite -- -j16 -l16
+[0.058s] Invoking command in '/home/locobot/LoCoBotRos/interbotix_ws/build/ecl_sigslots_lite': AMENT_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_errors:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_errors:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config:/home/locobot/apriltag_ws/install/apriltag_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_errors/lib:${LD_LIBRARY_PATH} PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config/bin:${PATH} /usr/bin/cmake --install /home/locobot/LoCoBotRos/interbotix_ws/build/ecl_sigslots_lite
+[0.063s] -- Install configuration: "Release"
+[0.063s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_sigslots_lite/share/ament_index/resource_index/package_run_dependencies/ecl_sigslots_lite
+[0.063s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_sigslots_lite/share/ament_index/resource_index/parent_prefix_path/ecl_sigslots_lite
+[0.063s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_sigslots_lite/share/ecl_sigslots_lite/environment/ament_prefix_path.sh
+[0.063s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_sigslots_lite/share/ecl_sigslots_lite/environment/ament_prefix_path.dsv
+[0.063s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_sigslots_lite/share/ecl_sigslots_lite/environment/path.sh
+[0.064s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_sigslots_lite/share/ecl_sigslots_lite/environment/path.dsv
+[0.064s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_sigslots_lite/share/ecl_sigslots_lite/local_setup.bash
+[0.064s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_sigslots_lite/share/ecl_sigslots_lite/local_setup.sh
+[0.064s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_sigslots_lite/share/ecl_sigslots_lite/local_setup.zsh
+[0.064s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_sigslots_lite/share/ecl_sigslots_lite/local_setup.dsv
+[0.064s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_sigslots_lite/share/ecl_sigslots_lite/package.dsv
+[0.064s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_sigslots_lite/share/ament_index/resource_index/packages/ecl_sigslots_lite
+[0.064s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_sigslots_lite/share/ecl_sigslots_lite/cmake/ecl_sigslots_liteExport.cmake
+[0.064s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_sigslots_lite/share/ecl_sigslots_lite/cmake/ament_cmake_export_targets-extras.cmake
+[0.064s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_sigslots_lite/share/ecl_sigslots_lite/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.064s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_sigslots_lite/share/ecl_sigslots_lite/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.064s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_sigslots_lite/share/ecl_sigslots_lite/cmake/ecl_sigslots_liteConfig.cmake
+[0.064s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_sigslots_lite/share/ecl_sigslots_lite/cmake/ecl_sigslots_liteConfig-version.cmake
+[0.064s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_sigslots_lite/share/ecl_sigslots_lite/package.xml
+[0.064s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_sigslots_lite/include/ecl/sigslots_lite.hpp
+[0.064s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_sigslots_lite/include/ecl/sigslots_lite/connect.hpp
+[0.064s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_sigslots_lite/include/ecl/sigslots_lite/errors.hpp
+[0.064s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_sigslots_lite/include/ecl/sigslots_lite/managers.hpp
+[0.065s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_sigslots_lite/include/ecl/sigslots_lite/signal.hpp
+[0.065s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_sigslots_lite/include/ecl/sigslots_lite/slot.hpp
+[0.065s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_sigslots_lite/include/ecl/sigslots_lite/utilities.hpp
+[0.065s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_sigslots_lite/lib/ecl_sigslots_lite/demo_sigslots_lite
+[0.066s] Invoked command in '/home/locobot/LoCoBotRos/interbotix_ws/build/ecl_sigslots_lite' returned '0': AMENT_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_errors:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_errors:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config:/home/locobot/apriltag_ws/install/apriltag_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_errors/lib:${LD_LIBRARY_PATH} PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config/bin:${PATH} /usr/bin/cmake --install /home/locobot/LoCoBotRos/interbotix_ws/build/ecl_sigslots_lite

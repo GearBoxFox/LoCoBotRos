@@ -1,0 +1,59 @@
+[0.185s] Invoking command in '/home/locobot/LoCoBotRos/interbotix_ws/build/ecl_utilities': AMENT_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_concepts:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_type_traits:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_mpl:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_concepts:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_type_traits:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_mpl:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config:/home/locobot/apriltag_ws/install/apriltag_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_type_traits/lib:${LD_LIBRARY_PATH} PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_type_traits/bin:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config/bin:${PATH} /usr/bin/cmake /home/locobot/LoCoBotRos/interbotix_ws/src/ecl_core/ecl_utilities -DCMAKE_INSTALL_PREFIX=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_utilities
+[0.214s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.415s] -- Found ecl_build: 1.0.3 (/opt/ros/humble/share/ecl_build/cmake)
+[0.423s] -- Found ecl_concepts: 1.2.1 (/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_concepts/share/ecl_concepts/cmake)
+[0.569s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.587s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.635s] -- Configuring done
+[0.755s] -- Generating done
+[0.768s] -- Build files have been written to: /home/locobot/LoCoBotRos/interbotix_ws/build/ecl_utilities
+[0.787s] Invoked command in '/home/locobot/LoCoBotRos/interbotix_ws/build/ecl_utilities' returned '0': AMENT_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_concepts:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_type_traits:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_mpl:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_concepts:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_type_traits:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_mpl:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config:/home/locobot/apriltag_ws/install/apriltag_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_type_traits/lib:${LD_LIBRARY_PATH} PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_type_traits/bin:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config/bin:${PATH} /usr/bin/cmake /home/locobot/LoCoBotRos/interbotix_ws/src/ecl_core/ecl_utilities -DCMAKE_INSTALL_PREFIX=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_utilities
+[0.788s] Invoking command in '/home/locobot/LoCoBotRos/interbotix_ws/build/ecl_utilities': AMENT_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_concepts:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_type_traits:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_mpl:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_concepts:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_type_traits:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_mpl:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config:/home/locobot/apriltag_ws/install/apriltag_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_type_traits/lib:${LD_LIBRARY_PATH} PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_type_traits/bin:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config/bin:${PATH} /usr/bin/cmake --build /home/locobot/LoCoBotRos/interbotix_ws/build/ecl_utilities -- -j16 -l16
+[0.967s] [35m[1mConsolidate compiler generated dependencies of target ecl_demo_constructors[0m
+[0.967s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.967s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.967s] [ 12%] Built target ecl_demo_constructors
+[0.967s] [ 25%] Built target gtest_main
+[0.967s] [ 37%] Built target gtest
+[0.967s] [35m[1mConsolidate compiler generated dependencies of target ecl_test_references[0m
+[0.967s] [35m[1mConsolidate compiler generated dependencies of target ecl_test_parameters[0m
+[0.967s] [35m[1mConsolidate compiler generated dependencies of target ecl_test_function_objects[0m
+[0.967s] [35m[1mConsolidate compiler generated dependencies of target ecl_test_singleton[0m
+[0.968s] [35m[1mConsolidate compiler generated dependencies of target ecl_test_flags[0m
+[0.968s] [ 50%] Built target ecl_test_references
+[0.968s] [ 62%] Built target ecl_test_parameters
+[0.968s] [ 75%] Built target ecl_test_function_objects
+[0.968s] [ 87%] Built target ecl_test_singleton
+[0.968s] [100%] Built target ecl_test_flags
+[0.979s] Invoked command in '/home/locobot/LoCoBotRos/interbotix_ws/build/ecl_utilities' returned '0': AMENT_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_concepts:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_type_traits:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_mpl:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_concepts:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_type_traits:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_mpl:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config:/home/locobot/apriltag_ws/install/apriltag_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_type_traits/lib:${LD_LIBRARY_PATH} PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_type_traits/bin:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config/bin:${PATH} /usr/bin/cmake --build /home/locobot/LoCoBotRos/interbotix_ws/build/ecl_utilities -- -j16 -l16
+[0.981s] Invoking command in '/home/locobot/LoCoBotRos/interbotix_ws/build/ecl_utilities': AMENT_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_concepts:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_type_traits:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_mpl:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_concepts:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_type_traits:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_mpl:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config:/home/locobot/apriltag_ws/install/apriltag_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_type_traits/lib:${LD_LIBRARY_PATH} PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_type_traits/bin:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config/bin:${PATH} /usr/bin/cmake --install /home/locobot/LoCoBotRos/interbotix_ws/build/ecl_utilities
+[1.105s] -- Install configuration: "Release"
+[1.105s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_utilities/share/ament_index/resource_index/package_run_dependencies/ecl_utilities
+[1.105s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_utilities/share/ament_index/resource_index/parent_prefix_path/ecl_utilities
+[1.105s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_utilities/share/ecl_utilities/environment/ament_prefix_path.sh
+[1.105s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_utilities/share/ecl_utilities/environment/ament_prefix_path.dsv
+[1.105s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_utilities/share/ecl_utilities/environment/path.sh
+[1.106s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_utilities/share/ecl_utilities/environment/path.dsv
+[1.106s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_utilities/share/ecl_utilities/local_setup.bash
+[1.108s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_utilities/share/ecl_utilities/local_setup.sh
+[1.109s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_utilities/share/ecl_utilities/local_setup.zsh
+[1.109s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_utilities/share/ecl_utilities/local_setup.dsv
+[1.110s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_utilities/share/ecl_utilities/package.dsv
+[1.110s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_utilities/share/ament_index/resource_index/packages/ecl_utilities
+[1.110s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_utilities/share/ecl_utilities/cmake/ecl_utilitiesExport.cmake
+[1.110s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_utilities/share/ecl_utilities/cmake/ament_cmake_export_targets-extras.cmake
+[1.110s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_utilities/share/ecl_utilities/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.110s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_utilities/share/ecl_utilities/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.111s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_utilities/share/ecl_utilities/cmake/ecl_utilitiesConfig.cmake
+[1.111s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_utilities/share/ecl_utilities/cmake/ecl_utilitiesConfig-version.cmake
+[1.111s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_utilities/share/ecl_utilities/package.xml
+[1.111s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_utilities/include/ecl/utilities.hpp
+[1.111s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_utilities/include/ecl/utilities/blueprints.hpp
+[1.112s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_utilities/include/ecl/utilities/flags.hpp
+[1.112s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_utilities/include/ecl/utilities/function_objects.hpp
+[1.112s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_utilities/include/ecl/utilities/parameter.hpp
+[1.112s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_utilities/include/ecl/utilities/references.hpp
+[1.112s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_utilities/include/ecl/utilities/singleton.hpp
+[1.112s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_utilities/include/ecl/utilities/void.hpp
+[1.112s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_utilities/lib/ecl_utilities/demo_constructors
+[1.168s] Invoked command in '/home/locobot/LoCoBotRos/interbotix_ws/build/ecl_utilities' returned '0': AMENT_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_concepts:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_type_traits:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_mpl:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_concepts:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_type_traits:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_mpl:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config:/home/locobot/apriltag_ws/install/apriltag_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_type_traits/lib:${LD_LIBRARY_PATH} PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_type_traits/bin:/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config/bin:${PATH} /usr/bin/cmake --install /home/locobot/LoCoBotRos/interbotix_ws/build/ecl_utilities

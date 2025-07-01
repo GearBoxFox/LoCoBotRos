@@ -1,0 +1,51 @@
+[0.009s] Invoking command in '/home/locobot/LoCoBotRos/interbotix_ws/build/interbotix_xs_ros_control': AMENT_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_msgs:/home/locobot/apriltag_ws/install/apriltag_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/locobot/LoCoBotRos/interbotix_ws/build/interbotix_xs_ros_control -- -j16 -l16
+[0.057s] [35m[1mConsolidate compiler generated dependencies of target gmock_main[0m
+[0.058s] [35m[1mConsolidate compiler generated dependencies of target gmock[0m
+[0.072s] [ 11%] [32mBuilding CXX object CMakeFiles/interbotix_xs_ros_control.dir/src/xs_hardware_interface.cpp.o[0m
+[0.074s] [ 22%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[0.074s] [ 33%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[0.075s] [ 44%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[0.781s] [ 55%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[0.809s] [ 55%] Built target gmock_main
+[5.889s] [ 66%] [32m[1mLinking CXX static library libgmock.a[0m
+[5.922s] [ 66%] Built target gmock
+[5.935s] [35m[1mConsolidate compiler generated dependencies of target test_load_xs_hardware_interface[0m
+[5.951s] [ 77%] [32mBuilding CXX object CMakeFiles/test_load_xs_hardware_interface.dir/test/test_load_xs_hardware_interface.cpp.o[0m
+[9.358s] [ 88%] [32m[1mLinking CXX executable test_load_xs_hardware_interface[0m
+[9.505s] [ 88%] Built target test_load_xs_hardware_interface
+[12.315s] [100%] [32m[1mLinking CXX shared library libinterbotix_xs_ros_control.so[0m
+[12.462s] [100%] Built target interbotix_xs_ros_control
+[12.470s] Invoked command in '/home/locobot/LoCoBotRos/interbotix_ws/build/interbotix_xs_ros_control' returned '0': AMENT_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_msgs:/home/locobot/apriltag_ws/install/apriltag_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/locobot/LoCoBotRos/interbotix_ws/build/interbotix_xs_ros_control -- -j16 -l16
+[12.474s] Invoking command in '/home/locobot/LoCoBotRos/interbotix_ws/build/interbotix_xs_ros_control': AMENT_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_msgs:/home/locobot/apriltag_ws/install/apriltag_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/locobot/LoCoBotRos/interbotix_ws/build/interbotix_xs_ros_control
+[12.480s] -- Install configuration: "Release"
+[12.480s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_ros_control/share/interbotix_xs_ros_control/interbotix_xs_ros_control.xml
+[12.480s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_ros_control/include
+[12.480s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_ros_control/include/interbotix_xs_ros_control
+[12.480s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_ros_control/include/interbotix_xs_ros_control/xs_hardware_interface.hpp
+[12.481s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_ros_control/lib/libinterbotix_xs_ros_control.so
+[12.483s] -- Set runtime path of "/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_ros_control/lib/libinterbotix_xs_ros_control.so" to ""
+[12.483s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_ros_control/share/interbotix_xs_ros_control/environment/library_path.sh
+[12.483s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_ros_control/share/interbotix_xs_ros_control/environment/library_path.dsv
+[12.483s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_ros_control/share/ament_index/resource_index/package_run_dependencies/interbotix_xs_ros_control
+[12.484s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_ros_control/share/ament_index/resource_index/parent_prefix_path/interbotix_xs_ros_control
+[12.484s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_ros_control/share/interbotix_xs_ros_control/environment/ament_prefix_path.sh
+[12.484s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_ros_control/share/interbotix_xs_ros_control/environment/ament_prefix_path.dsv
+[12.484s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_ros_control/share/interbotix_xs_ros_control/environment/path.sh
+[12.484s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_ros_control/share/interbotix_xs_ros_control/environment/path.dsv
+[12.485s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_ros_control/share/interbotix_xs_ros_control/local_setup.bash
+[12.485s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_ros_control/share/interbotix_xs_ros_control/local_setup.sh
+[12.485s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_ros_control/share/interbotix_xs_ros_control/local_setup.zsh
+[12.485s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_ros_control/share/interbotix_xs_ros_control/local_setup.dsv
+[12.485s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_ros_control/share/interbotix_xs_ros_control/package.dsv
+[12.486s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_ros_control/share/ament_index/resource_index/packages/interbotix_xs_ros_control
+[12.486s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_ros_control/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/interbotix_xs_ros_control
+[12.486s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_ros_control/share/interbotix_xs_ros_control/cmake/export_interbotix_xs_ros_controlExport.cmake
+[12.486s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_ros_control/share/interbotix_xs_ros_control/cmake/export_interbotix_xs_ros_controlExport-release.cmake
+[12.487s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_ros_control/share/interbotix_xs_ros_control/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.487s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_ros_control/share/interbotix_xs_ros_control/cmake/ament_cmake_export_libraries-extras.cmake
+[12.487s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_ros_control/share/interbotix_xs_ros_control/cmake/ament_cmake_export_targets-extras.cmake
+[12.487s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_ros_control/share/interbotix_xs_ros_control/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.487s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_ros_control/share/interbotix_xs_ros_control/cmake/interbotix_xs_ros_controlConfig.cmake
+[12.487s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_ros_control/share/interbotix_xs_ros_control/cmake/interbotix_xs_ros_controlConfig-version.cmake
+[12.487s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_ros_control/share/interbotix_xs_ros_control/package.xml
+[12.489s] Invoked command in '/home/locobot/LoCoBotRos/interbotix_ws/build/interbotix_xs_ros_control' returned '0': AMENT_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_msgs:/home/locobot/apriltag_ws/install/apriltag_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/locobot/LoCoBotRos/interbotix_ws/build/interbotix_xs_ros_control

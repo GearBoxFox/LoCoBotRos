@@ -1,0 +1,38 @@
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Found ecl_build: 1.0.3 (/opt/ros/humble/share/ecl_build/cmake)
+-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/locobot/LoCoBotRos/interbotix_ws/build/ecl_mpl
+[35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[ 33%] Built target gtest_main
+[ 66%] Built target gtest
+[35m[1mConsolidate compiler generated dependencies of target test_enable_if[0m
+[100%] Built target test_enable_if
+-- Install configuration: "Debug"
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_mpl/share/ament_index/resource_index/package_run_dependencies/ecl_mpl
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_mpl/share/ament_index/resource_index/parent_prefix_path/ecl_mpl
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_mpl/share/ecl_mpl/environment/ament_prefix_path.sh
+-- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_mpl/share/ecl_mpl/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_mpl/share/ecl_mpl/environment/path.sh
+-- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_mpl/share/ecl_mpl/environment/path.dsv
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_mpl/share/ecl_mpl/local_setup.bash
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_mpl/share/ecl_mpl/local_setup.sh
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_mpl/share/ecl_mpl/local_setup.zsh
+-- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_mpl/share/ecl_mpl/local_setup.dsv
+-- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_mpl/share/ecl_mpl/package.dsv
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_mpl/share/ament_index/resource_index/packages/ecl_mpl
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_mpl/share/ecl_mpl/cmake/ecl_mplExport.cmake
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_mpl/share/ecl_mpl/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_mpl/share/ecl_mpl/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_mpl/share/ecl_mpl/cmake/ecl_mplConfig.cmake
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_mpl/share/ecl_mpl/cmake/ecl_mplConfig-version.cmake
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_mpl/share/ecl_mpl/package.xml
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_mpl/include/ecl/mpl.hpp
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_mpl/include/ecl/mpl/bool.hpp
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_mpl/include/ecl/mpl/converters.hpp
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_mpl/include/ecl/mpl/enable_if.hpp
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_mpl/include/ecl/mpl/failed_object.hpp
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_mpl/include/ecl/mpl/if.hpp

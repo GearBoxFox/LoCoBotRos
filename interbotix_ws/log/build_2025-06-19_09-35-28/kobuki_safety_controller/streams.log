@@ -1,0 +1,22 @@
+[0.126s] Invoking command in '/home/locobot/LoCoBotRos/interbotix_ws/build/kobuki_safety_controller': AMENT_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_ros_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_ros_interfaces:/home/locobot/apriltag_ws/install/apriltag_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_ros_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_ros_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/locobot/LoCoBotRos/interbotix_ws/src/kobuki_ros/kobuki_safety_controller -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_safety_controller
+[2.294s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.294s] -- Found ecl_build: 1.0.3 (/opt/ros/humble/share/ecl_build/cmake)
+[2.295s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.295s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.295s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.295s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.295s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.295s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.295s] -- Found kobuki_ros_interfaces: 1.0.0 (/home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake)
+[2.295s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[2.295s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.295s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.295s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.295s] -- Found rclcpp_components: 16.0.12 (/opt/ros/humble/share/rclcpp_components/cmake)
+[2.350s] -- Configuring done
+[2.441s] -- Generating done
+[2.459s] -- Build files have been written to: /home/locobot/LoCoBotRos/interbotix_ws/build/kobuki_safety_controller
+[2.513s] Invoked command in '/home/locobot/LoCoBotRos/interbotix_ws/build/kobuki_safety_controller' returned '0': AMENT_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_ros_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_ros_interfaces:/home/locobot/apriltag_ws/install/apriltag_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_ros_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_ros_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/locobot/LoCoBotRos/interbotix_ws/src/kobuki_ros/kobuki_safety_controller -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_safety_controller
+[2.514s] Invoking command in '/home/locobot/LoCoBotRos/interbotix_ws/build/kobuki_safety_controller': AMENT_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_ros_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_ros_interfaces:/home/locobot/apriltag_ws/install/apriltag_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_ros_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_ros_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/locobot/LoCoBotRos/interbotix_ws/build/kobuki_safety_controller -- -j16 -l16
+[20.227s] [35m[1mConsolidate compiler generated dependencies of target kobuki_safety_controller[0m
+[20.227s] [ 25%] [32mBuilding CXX object CMakeFiles/kobuki_safety_controller.dir/src/safety_controller.cpp.o[0m

@@ -132,12 +132,15 @@ def launch_setup(context, *args, **kwargs):
         executable='ros2_control_node',
         namespace=robot_name_launch_arg,
         parameters=[
-            {
-                'robot_description': ParameterValue(robot_description_launch_arg, value_type=str)
-            },
+        #     {
+        #         'robot_description': ParameterValue(robot_description_launch_arg, value_type=str)
+        #     },
             ros2_control_controllers_config_parameter_file,
         ],
-        output={'both': 'screen'},
+        remappings=[
+            (f"/{robot_name_launch_arg.perform(context)}/controller_manager/robot_description", f"/{robot_name_launch_arg.perform(context)}/robot_description"),
+        ],
+        output='screen',
     )
 
     spawn_arm_controller_node = Node(

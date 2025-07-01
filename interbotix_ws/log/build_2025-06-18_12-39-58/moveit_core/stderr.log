@@ -1,0 +1,15 @@
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [planning_scene/CMakeFiles/test_multi_threaded.dir/build.make:76: planning_scene/CMakeFiles/test_multi_threaded.dir/test/test_multi_threaded.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:1566: planning_scene/CMakeFiles/test_multi_threaded.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [collision_distance_field/CMakeFiles/moveit_collision_distance_field.dir/build.make:90: collision_distance_field/CMakeFiles/moveit_collision_distance_field.dir/src/collision_common_distance_field.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [collision_detection_bullet/CMakeFiles/collision_detector_bullet_plugin.dir/build.make:76: collision_detection_bullet/CMakeFiles/collision_detector_bullet_plugin.dir/src/collision_detector_bullet_plugin_loader.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:2354: collision_detection_bullet/CMakeFiles/collision_detector_bullet_plugin.dir/all] Error 2
+gmake[1]: *** [CMakeFiles/Makefile2:702: collision_distance_field/CMakeFiles/moveit_collision_distance_field.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

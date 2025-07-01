@@ -1,0 +1,25 @@
+-- Install configuration: ""
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xslocobot_nav/share/interbotix_xslocobot_nav//config
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xslocobot_nav/share/interbotix_xslocobot_nav//config/slam_toolbox_online_async.yaml
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xslocobot_nav/share/interbotix_xslocobot_nav//config/nav2_params.yaml
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xslocobot_nav/share/interbotix_xslocobot_nav//config/slam_toolbox_localization.yaml
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xslocobot_nav/share/interbotix_xslocobot_nav//config/slam_toolbox_online_sync.yaml
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xslocobot_nav/share/interbotix_xslocobot_nav//launch
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xslocobot_nav/share/interbotix_xslocobot_nav//launch/xslocobot_nav2_bringup.launch.py
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xslocobot_nav/share/interbotix_xslocobot_nav//launch/xslocobot_slam_toolbox.launch.py
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xslocobot_nav/share/interbotix_xslocobot_nav//launch/xslocobot_rtabmap.launch.py
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xslocobot_nav/share/ament_index/resource_index/package_run_dependencies/interbotix_xslocobot_nav
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xslocobot_nav/share/ament_index/resource_index/parent_prefix_path/interbotix_xslocobot_nav
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xslocobot_nav/share/interbotix_xslocobot_nav/environment/ament_prefix_path.sh
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xslocobot_nav/share/interbotix_xslocobot_nav/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xslocobot_nav/share/interbotix_xslocobot_nav/environment/path.sh
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xslocobot_nav/share/interbotix_xslocobot_nav/environment/path.dsv
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xslocobot_nav/share/interbotix_xslocobot_nav/local_setup.bash
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xslocobot_nav/share/interbotix_xslocobot_nav/local_setup.sh
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xslocobot_nav/share/interbotix_xslocobot_nav/local_setup.zsh
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xslocobot_nav/share/interbotix_xslocobot_nav/local_setup.dsv
+-- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xslocobot_nav/share/interbotix_xslocobot_nav/package.dsv
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xslocobot_nav/share/ament_index/resource_index/packages/interbotix_xslocobot_nav
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xslocobot_nav/share/interbotix_xslocobot_nav/cmake/interbotix_xslocobot_navConfig.cmake
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xslocobot_nav/share/interbotix_xslocobot_nav/cmake/interbotix_xslocobot_navConfig-version.cmake
+-- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xslocobot_nav/share/interbotix_xslocobot_nav/package.xml

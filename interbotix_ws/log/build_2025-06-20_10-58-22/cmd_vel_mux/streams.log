@@ -1,0 +1,32 @@
+[0.310s] Invoking command in '/home/locobot/LoCoBotRos/interbotix_ws/build/cmd_vel_mux': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/LoCoBotRos/interbotix_ws/install/moveit_configs_utils:/home/locobot/LoCoBotRos/interbotix_ws/install/launch_param_builder:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_modules:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --build /home/locobot/LoCoBotRos/interbotix_ws/build/cmd_vel_mux -- -j16 -l16
+[0.396s] [100%] Built target cmd_vel_mux_node
+[0.396s] [100%] Built target cmd_vel_mux
+[0.526s] Invoked command in '/home/locobot/LoCoBotRos/interbotix_ws/build/cmd_vel_mux' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/LoCoBotRos/interbotix_ws/install/moveit_configs_utils:/home/locobot/LoCoBotRos/interbotix_ws/install/launch_param_builder:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_modules:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --build /home/locobot/LoCoBotRos/interbotix_ws/build/cmd_vel_mux -- -j16 -l16
+[0.527s] Invoking command in '/home/locobot/LoCoBotRos/interbotix_ws/build/cmd_vel_mux': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/LoCoBotRos/interbotix_ws/install/moveit_configs_utils:/home/locobot/LoCoBotRos/interbotix_ws/install/launch_param_builder:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_modules:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --install /home/locobot/LoCoBotRos/interbotix_ws/build/cmd_vel_mux
+[0.563s] -- Install configuration: "Release"
+[0.563s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/cmd_vel_mux/lib/cmd_vel_mux/cmd_vel_mux_node
+[0.563s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/cmd_vel_mux/lib/libcmd_vel_mux.so
+[0.564s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/cmd_vel_mux/include/cmd_vel_mux
+[0.564s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/cmd_vel_mux/include/cmd_vel_mux/cmd_vel_mux.hpp
+[0.564s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/cmd_vel_mux/share/cmd_vel_mux/config
+[0.564s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/cmd_vel_mux/share/cmd_vel_mux/config/cmd_vel_mux_params.yaml
+[0.564s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/cmd_vel_mux/share/cmd_vel_mux/launch
+[0.564s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/cmd_vel_mux/share/cmd_vel_mux/launch/cmd_vel_mux-composed-launch.py
+[0.564s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/cmd_vel_mux/share/cmd_vel_mux/launch/cmd_vel_mux-launch.py
+[0.564s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/cmd_vel_mux/share/ament_index/resource_index/package_run_dependencies/cmd_vel_mux
+[0.564s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/cmd_vel_mux/share/ament_index/resource_index/parent_prefix_path/cmd_vel_mux
+[0.564s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/cmd_vel_mux/share/cmd_vel_mux/environment/ament_prefix_path.sh
+[0.565s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/cmd_vel_mux/share/cmd_vel_mux/environment/ament_prefix_path.dsv
+[0.565s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/cmd_vel_mux/share/cmd_vel_mux/environment/path.sh
+[0.565s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/cmd_vel_mux/share/cmd_vel_mux/environment/path.dsv
+[0.565s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/cmd_vel_mux/share/cmd_vel_mux/local_setup.bash
+[0.565s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/cmd_vel_mux/share/cmd_vel_mux/local_setup.sh
+[0.565s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/cmd_vel_mux/share/cmd_vel_mux/local_setup.zsh
+[0.565s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/cmd_vel_mux/share/cmd_vel_mux/local_setup.dsv
+[0.565s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/cmd_vel_mux/share/cmd_vel_mux/package.dsv
+[0.565s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/cmd_vel_mux/share/ament_index/resource_index/packages/cmd_vel_mux
+[0.566s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/cmd_vel_mux/share/ament_index/resource_index/rclcpp_components/cmd_vel_mux
+[0.566s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/cmd_vel_mux/share/cmd_vel_mux/cmake/cmd_vel_muxConfig.cmake
+[0.566s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/cmd_vel_mux/share/cmd_vel_mux/cmake/cmd_vel_muxConfig-version.cmake
+[0.566s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/cmd_vel_mux/share/cmd_vel_mux/package.xml
+[0.713s] Invoked command in '/home/locobot/LoCoBotRos/interbotix_ws/build/cmd_vel_mux' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/LoCoBotRos/interbotix_ws/install/moveit_configs_utils:/home/locobot/LoCoBotRos/interbotix_ws/install/launch_param_builder:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_modules:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --install /home/locobot/LoCoBotRos/interbotix_ws/build/cmd_vel_mux

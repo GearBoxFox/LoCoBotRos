@@ -1,0 +1,42 @@
+[0.269s] Invoking command in '/home/locobot/LoCoBotRos/interbotix_ws/build/sophus': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/locobot/LoCoBotRos/interbotix_ws/src/sophus -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/locobot/LoCoBotRos/interbotix_ws/install/sophus
+[0.578s] -- Configuring done
+[0.578s] -- Generating done
+[0.578s] -- Build files have been written to: /home/locobot/LoCoBotRos/interbotix_ws/build/sophus
+[0.596s] Invoked command in '/home/locobot/LoCoBotRos/interbotix_ws/build/sophus' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/locobot/LoCoBotRos/interbotix_ws/src/sophus -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/locobot/LoCoBotRos/interbotix_ws/install/sophus
+[0.597s] Invoking command in '/home/locobot/LoCoBotRos/interbotix_ws/build/sophus': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/locobot/LoCoBotRos/interbotix_ws/build/sophus -- -j16 -l16
+[0.660s] [35m[1mConsolidate compiler generated dependencies of target test_so2[0m
+[0.660s] [35m[1mConsolidate compiler generated dependencies of target test_se2[0m
+[0.661s] [35m[1mConsolidate compiler generated dependencies of target test_common[0m
+[0.661s] [35m[1mConsolidate compiler generated dependencies of target test_rxso2[0m
+[0.661s] [35m[1mConsolidate compiler generated dependencies of target test_sim2[0m
+[0.662s] [35m[1mConsolidate compiler generated dependencies of target test_so3[0m
+[0.668s] [35m[1mConsolidate compiler generated dependencies of target test_se3[0m
+[0.668s] [35m[1mConsolidate compiler generated dependencies of target test_sim3[0m
+[0.708s] [35m[1mConsolidate compiler generated dependencies of target test_rxso3[0m
+[0.708s] [35m[1mConsolidate compiler generated dependencies of target test_velocities[0m
+[0.746s] [35m[1mConsolidate compiler generated dependencies of target test_geometry[0m
+[0.746s] [  4%] [32mBuilding CXX object test/core/CMakeFiles/test_common.dir/test_common.cpp.o[0m
+[0.746s] [35m[1mConsolidate compiler generated dependencies of target HelloSO3[0m
+[0.746s] [  8%] [32mBuilding CXX object test/core/CMakeFiles/test_sim2.dir/test_sim2.cpp.o[0m
+[0.746s] [ 12%] [32mBuilding CXX object test/core/CMakeFiles/test_so2.dir/test_so2.cpp.o[0m
+[0.802s] [ 16%] [32mBuilding CXX object test/core/CMakeFiles/test_so3.dir/test_so3.cpp.o[0m
+[0.812s] [ 20%] [32mBuilding CXX object test/core/CMakeFiles/test_se2.dir/test_se2.cpp.o[0m
+[0.822s] [ 25%] [32mBuilding CXX object test/core/CMakeFiles/test_rxso2.dir/test_rxso2.cpp.o[0m
+[0.823s] [ 29%] [32mBuilding CXX object test/core/CMakeFiles/test_se3.dir/test_se3.cpp.o[0m
+[0.829s] [ 33%] [32mBuilding CXX object test/core/CMakeFiles/test_sim3.dir/test_sim3.cpp.o[0m
+[0.829s] [ 37%] [32mBuilding CXX object test/core/CMakeFiles/test_velocities.dir/test_velocities.cpp.o[0m
+[0.829s] [ 41%] [32mBuilding CXX object examples/CMakeFiles/HelloSO3.dir/HelloSO3.cpp.o[0m
+[0.831s] [ 45%] [32mBuilding CXX object test/core/CMakeFiles/test_rxso3.dir/test_rxso3.cpp.o[0m
+[0.838s] [ 50%] [32mBuilding CXX object test/core/CMakeFiles/test_geometry.dir/test_geometry.cpp.o[0m
+[8.979s] [ 54%] [32m[1mLinking CXX executable test_common[0m
+[9.404s] [ 54%] Built target test_common
+[9.453s] [ 58%] [32m[1mLinking CXX executable HelloSO3[0m
+[10.094s] [ 58%] Built target HelloSO3
+[25.402s] [ 62%] [32m[1mLinking CXX executable test_velocities[0m
+[25.670s] [ 62%] Built target test_velocities
+[36.152s] [ 66%] [32m[1mLinking CXX executable test_geometry[0m
+[36.423s] [ 66%] Built target test_geometry
+[58.497s] [ 70%] [32m[1mLinking CXX executable test_rxso2[0m
+[58.791s] [ 70%] Built target test_rxso2
+[60.859s] [ 75%] [32m[1mLinking CXX executable test_so2[0m
+[61.146s] [ 75%] Built target test_so2

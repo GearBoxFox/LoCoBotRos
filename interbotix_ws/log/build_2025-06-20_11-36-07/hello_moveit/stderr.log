@@ -1,0 +1,31 @@
+[01m[K/home/locobot/LoCoBotRos/interbotix_ws/src/hello_moveit/src/hello_moveit.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/locobot/LoCoBotRos/interbotix_ws/src/hello_moveit/src/hello_moveit.cpp:21:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kusing[m[K’
+   21 |   [01;31m[Kusing[m[K moveit::planning_interface::MoveGroupInterface;
+      |   [01;31m[K^~~~~[m[K
+[01m[K/home/locobot/LoCoBotRos/interbotix_ws/src/hello_moveit/src/hello_moveit.cpp:25:7:[m[K [01;31m[Kerror: [m[K‘[01m[KROBOT_DESCRIPTION[m[K’ was not declared in this scope
+   25 |       [01;31m[KROBOT_DESCRIPTION[m[K,
+      |       [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/locobot/LoCoBotRos/interbotix_ws/src/hello_moveit/src/hello_moveit.cpp:23:5:[m[K [01;31m[Kerror: [m[K‘[01m[KOptions[m[K’ was not declared in this scope
+   23 |     [01;31m[KOptions[m[K(
+      |     [01;31m[K^~~~~~~[m[K
+[01m[K/home/locobot/LoCoBotRos/interbotix_ws/src/hello_moveit/src/hello_moveit.cpp:22:31:[m[K [01;31m[Kerror: [m[K‘[01m[KMoveGroupInterface[m[K’ was not declared in this scope; did you mean ‘[01m[Kmoveit::planning_interface::MoveGroupInterface[m[K’?
+   22 |   auto move_group_interface = [01;31m[KMoveGroupInterface[m[K(node,
+      |                               [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |                               [32m[Kmoveit::planning_interface::MoveGroupInterface[m[K
+In file included from [01m[K/home/locobot/LoCoBotRos/interbotix_ws/src/hello_moveit/src/hello_moveit.cpp:4[m[K:
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:80:42:[m[K [01;36m[Knote: [m[K‘[01m[Kmoveit::planning_interface::MoveGroupInterface[m[K’ declared here
+   80 | class MOVEIT_MOVE_GROUP_INTERFACE_EXPORT [01;36m[KMoveGroupInterface[m[K
+      |                                          [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/locobot/LoCoBotRos/interbotix_ws/src/hello_moveit/src/hello_moveit.cpp:[m[K In lambda function:
+[01m[K/home/locobot/LoCoBotRos/interbotix_ws/src/hello_moveit/src/hello_moveit.cpp:43:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group_interface[m[K’ is not captured
+   43 |     auto const ok = static_cast<bool>([01;31m[Kmove_group_interface[m[K.plan(msg));
+      |                                       [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/locobot/LoCoBotRos/interbotix_ws/src/hello_moveit/src/hello_moveit.cpp:41:54:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+   41 |   auto const [success, plan] = [&move_group_interface[01;36m[K][m[K{
+      |                                                      [01;36m[K^[m[K
+[01m[K/home/locobot/LoCoBotRos/interbotix_ws/src/hello_moveit/src/hello_moveit.cpp:22:8:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>move_group_interface[m[K’ declared here
+   22 |   auto [01;36m[Kmove_group_interface[m[K = MoveGroupInterface(node,
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/hello_moveit.dir/build.make:76: CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/hello_moveit.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

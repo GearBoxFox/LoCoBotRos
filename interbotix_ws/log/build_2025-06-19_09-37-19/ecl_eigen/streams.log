@@ -1,0 +1,26 @@
+[0.007s] Invoking command in '/home/locobot/LoCoBotRos/interbotix_ws/build/ecl_eigen': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/locobot/LoCoBotRos/interbotix_ws/build/ecl_eigen -- -j16 -l16
+[0.036s] Invoked command in '/home/locobot/LoCoBotRos/interbotix_ws/build/ecl_eigen' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/locobot/LoCoBotRos/interbotix_ws/build/ecl_eigen -- -j16 -l16
+[0.038s] Invoking command in '/home/locobot/LoCoBotRos/interbotix_ws/build/ecl_eigen': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/locobot/LoCoBotRos/interbotix_ws/build/ecl_eigen
+[0.044s] -- Install configuration: "Release"
+[0.044s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_eigen/include/ecl/eigen.hpp
+[0.044s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_eigen/share/ament_index/resource_index/package_run_dependencies/ecl_eigen
+[0.044s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_eigen/share/ament_index/resource_index/parent_prefix_path/ecl_eigen
+[0.045s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_eigen/share/ecl_eigen/environment/ament_prefix_path.sh
+[0.045s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_eigen/share/ecl_eigen/environment/ament_prefix_path.dsv
+[0.045s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_eigen/share/ecl_eigen/environment/path.sh
+[0.045s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_eigen/share/ecl_eigen/environment/path.dsv
+[0.045s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_eigen/share/ecl_eigen/local_setup.bash
+[0.045s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_eigen/share/ecl_eigen/local_setup.sh
+[0.045s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_eigen/share/ecl_eigen/local_setup.zsh
+[0.045s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_eigen/share/ecl_eigen/local_setup.dsv
+[0.045s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_eigen/share/ecl_eigen/package.dsv
+[0.045s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_eigen/share/ament_index/resource_index/packages/ecl_eigen
+[0.045s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_eigen/share/ecl_eigen/cmake/ecl_eigenExport.cmake
+[0.045s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_eigen/share/ecl_eigen/cmake/ament_cmake_export_targets-extras.cmake
+[0.045s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_eigen/share/ecl_eigen/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.045s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_eigen/share/ecl_eigen/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.046s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_eigen/share/ecl_eigen/cmake/ecl_eigenConfig.cmake
+[0.046s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_eigen/share/ecl_eigen/cmake/ecl_eigenConfig-version.cmake
+[0.046s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_eigen/share/ecl_eigen/package.xml
+[0.046s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_eigen/share/licenses/eigen/COPYING.LESSER
+[0.047s] Invoked command in '/home/locobot/LoCoBotRos/interbotix_ws/build/ecl_eigen' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/locobot/LoCoBotRos/interbotix_ws/build/ecl_eigen

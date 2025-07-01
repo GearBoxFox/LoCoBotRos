@@ -1,0 +1,74 @@
+[0.032s] Invoking command in '/home/locobot/LoCoBotRos/interbotix_ws/build/ecl_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_modules:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_common_modules:/home/locobot/interbotix_ws/install/kobuki_description:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_common_sim:/home/locobot/interbotix_ws/install/interbotix_common_modules:/home/locobot/interbotix_ws/install/ecl_utilities:/home/locobot/interbotix_ws/install/ecl_math:/home/locobot/interbotix_ws/install/ecl_formatters:/home/locobot/interbotix_ws/install/ecl_converters:/home/locobot/interbotix_ws/install/ecl_concepts:/home/locobot/interbotix_ws/install/ecl_type_traits:/home/locobot/interbotix_ws/install/ecl_time_lite:/home/locobot/interbotix_ws/install/ecl_mpl:/home/locobot/interbotix_ws/install/ecl_exceptions:/home/locobot/interbotix_ws/install/ecl_errors:/home/locobot/interbotix_ws/install/ecl_eigen:/home/locobot/interbotix_ws/install/ecl_config:/home/locobot/interbotix_ws/install/ecl_command_line:/home/locobot/interbotix_ws/install/dynamixel_workbench_toolbox:/opt/ros/humble /usr/bin/cmake /home/locobot/LoCoBotRos/interbotix_ws/src/ecl_lite/ecl_config -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config
+[0.047s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.174s] -- Found ecl_build: 1.0.3 (/opt/ros/humble/share/ecl_build/cmake)
+[0.184s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.243s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.314s] -- Configuring done
+[0.339s] -- Generating done
+[0.344s] -- Build files have been written to: /home/locobot/LoCoBotRos/interbotix_ws/build/ecl_config
+[0.349s] Invoked command in '/home/locobot/LoCoBotRos/interbotix_ws/build/ecl_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_modules:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_common_modules:/home/locobot/interbotix_ws/install/kobuki_description:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_common_sim:/home/locobot/interbotix_ws/install/interbotix_common_modules:/home/locobot/interbotix_ws/install/ecl_utilities:/home/locobot/interbotix_ws/install/ecl_math:/home/locobot/interbotix_ws/install/ecl_formatters:/home/locobot/interbotix_ws/install/ecl_converters:/home/locobot/interbotix_ws/install/ecl_concepts:/home/locobot/interbotix_ws/install/ecl_type_traits:/home/locobot/interbotix_ws/install/ecl_time_lite:/home/locobot/interbotix_ws/install/ecl_mpl:/home/locobot/interbotix_ws/install/ecl_exceptions:/home/locobot/interbotix_ws/install/ecl_errors:/home/locobot/interbotix_ws/install/ecl_eigen:/home/locobot/interbotix_ws/install/ecl_config:/home/locobot/interbotix_ws/install/ecl_command_line:/home/locobot/interbotix_ws/install/dynamixel_workbench_toolbox:/opt/ros/humble /usr/bin/cmake /home/locobot/LoCoBotRos/interbotix_ws/src/ecl_lite/ecl_config -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config
+[0.350s] Invoking command in '/home/locobot/LoCoBotRos/interbotix_ws/build/ecl_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_modules:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_common_modules:/home/locobot/interbotix_ws/install/kobuki_description:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_common_sim:/home/locobot/interbotix_ws/install/interbotix_common_modules:/home/locobot/interbotix_ws/install/ecl_utilities:/home/locobot/interbotix_ws/install/ecl_math:/home/locobot/interbotix_ws/install/ecl_formatters:/home/locobot/interbotix_ws/install/ecl_converters:/home/locobot/interbotix_ws/install/ecl_concepts:/home/locobot/interbotix_ws/install/ecl_type_traits:/home/locobot/interbotix_ws/install/ecl_time_lite:/home/locobot/interbotix_ws/install/ecl_mpl:/home/locobot/interbotix_ws/install/ecl_exceptions:/home/locobot/interbotix_ws/install/ecl_errors:/home/locobot/interbotix_ws/install/ecl_eigen:/home/locobot/interbotix_ws/install/ecl_config:/home/locobot/interbotix_ws/install/ecl_command_line:/home/locobot/interbotix_ws/install/dynamixel_workbench_toolbox:/opt/ros/humble /usr/bin/cmake --build /home/locobot/LoCoBotRos/interbotix_ws/build/ecl_config -- -j16 -l16
+[0.403s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.421s] [  6%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[1.030s] [ 12%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[1.081s] [ 12%] Built target gtest_main
+[1.099s] [35m[1mConsolidate compiler generated dependencies of target ecl_detect_posix[0m
+[1.121s] [ 18%] [32mBuilding CXX object src/utilities/CMakeFiles/ecl_detect_posix.dir/detect_posix.cpp.o[0m
+[1.341s] [ 25%] [32m[1mLinking CXX executable bin/ecl_detect_posix[0m
+[1.425s] [ 25%] Built target ecl_detect_posix
+[1.440s] [35m[1mConsolidate compiler generated dependencies of target ecl_detect_endian[0m
+[1.455s] [ 31%] [32mBuilding CXX object src/utilities/CMakeFiles/ecl_detect_endian.dir/detect_endian.cpp.o[0m
+[1.654s] [ 37%] [32m[1mLinking CXX executable bin/ecl_detect_endian[0m
+[1.735s] [ 37%] Built target ecl_detect_endian
+[1.752s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[1.769s] [ 43%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[4.489s] [ 50%] [32m[1mLinking CXX static library libgtest.a[0m
+[4.556s] [ 50%] Built target gtest
+[4.571s] [35m[1mConsolidate compiler generated dependencies of target ecl_test_char_sign[0m
+[4.589s] [ 56%] [32mBuilding CXX object src/test/CMakeFiles/ecl_test_char_sign.dir/char_sign.cpp.o[0m
+[5.165s] [ 62%] [32m[1mLinking CXX executable ecl_test_char_sign[0m
+[5.316s] [ 62%] Built target ecl_test_char_sign
+[5.338s] [35m[1mConsolidate compiler generated dependencies of target ecl_test_portable_types[0m
+[5.360s] [ 68%] [32mBuilding CXX object src/test/CMakeFiles/ecl_test_portable_types.dir/portable_types.cpp.o[0m
+[5.949s] [ 75%] [32m[1mLinking CXX executable ecl_test_portable_types[0m
+[6.111s] [ 75%] Built target ecl_test_portable_types
+[6.128s] [35m[1mConsolidate compiler generated dependencies of target ecl_test_macros[0m
+[6.144s] [ 81%] [32mBuilding CXX object src/test/CMakeFiles/ecl_test_macros.dir/macros.cpp.o[0m
+[6.742s] [ 87%] [32m[1mLinking CXX executable ecl_test_macros[0m
+[6.896s] [ 87%] Built target ecl_test_macros
+[6.912s] [35m[1mConsolidate compiler generated dependencies of target ecl_test_endianness[0m
+[6.929s] [ 93%] [32mBuilding CXX object src/test/CMakeFiles/ecl_test_endianness.dir/endianness.cpp.o[0m
+[7.518s] [100%] [32m[1mLinking CXX executable ecl_test_endianness[0m
+[7.656s] [100%] Built target ecl_test_endianness
+[7.669s] Invoked command in '/home/locobot/LoCoBotRos/interbotix_ws/build/ecl_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_modules:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_common_modules:/home/locobot/interbotix_ws/install/kobuki_description:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_common_sim:/home/locobot/interbotix_ws/install/interbotix_common_modules:/home/locobot/interbotix_ws/install/ecl_utilities:/home/locobot/interbotix_ws/install/ecl_math:/home/locobot/interbotix_ws/install/ecl_formatters:/home/locobot/interbotix_ws/install/ecl_converters:/home/locobot/interbotix_ws/install/ecl_concepts:/home/locobot/interbotix_ws/install/ecl_type_traits:/home/locobot/interbotix_ws/install/ecl_time_lite:/home/locobot/interbotix_ws/install/ecl_mpl:/home/locobot/interbotix_ws/install/ecl_exceptions:/home/locobot/interbotix_ws/install/ecl_errors:/home/locobot/interbotix_ws/install/ecl_eigen:/home/locobot/interbotix_ws/install/ecl_config:/home/locobot/interbotix_ws/install/ecl_command_line:/home/locobot/interbotix_ws/install/dynamixel_workbench_toolbox:/opt/ros/humble /usr/bin/cmake --build /home/locobot/LoCoBotRos/interbotix_ws/build/ecl_config -- -j16 -l16
+[7.670s] Invoking command in '/home/locobot/LoCoBotRos/interbotix_ws/build/ecl_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_modules:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_common_modules:/home/locobot/interbotix_ws/install/kobuki_description:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_common_sim:/home/locobot/interbotix_ws/install/interbotix_common_modules:/home/locobot/interbotix_ws/install/ecl_utilities:/home/locobot/interbotix_ws/install/ecl_math:/home/locobot/interbotix_ws/install/ecl_formatters:/home/locobot/interbotix_ws/install/ecl_converters:/home/locobot/interbotix_ws/install/ecl_concepts:/home/locobot/interbotix_ws/install/ecl_type_traits:/home/locobot/interbotix_ws/install/ecl_time_lite:/home/locobot/interbotix_ws/install/ecl_mpl:/home/locobot/interbotix_ws/install/ecl_exceptions:/home/locobot/interbotix_ws/install/ecl_errors:/home/locobot/interbotix_ws/install/ecl_eigen:/home/locobot/interbotix_ws/install/ecl_config:/home/locobot/interbotix_ws/install/ecl_command_line:/home/locobot/interbotix_ws/install/dynamixel_workbench_toolbox:/opt/ros/humble /usr/bin/cmake --install /home/locobot/LoCoBotRos/interbotix_ws/build/ecl_config
+[7.680s] -- Install configuration: "Debug"
+[7.681s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config/share/ament_index/resource_index/package_run_dependencies/ecl_config
+[7.681s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config/share/ament_index/resource_index/parent_prefix_path/ecl_config
+[7.681s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config/share/ecl_config/environment/ament_prefix_path.sh
+[7.681s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config/share/ecl_config/environment/ament_prefix_path.dsv
+[7.681s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config/share/ecl_config/environment/path.sh
+[7.681s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config/share/ecl_config/environment/path.dsv
+[7.681s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config/share/ecl_config/local_setup.bash
+[7.681s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config/share/ecl_config/local_setup.sh
+[7.681s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config/share/ecl_config/local_setup.zsh
+[7.681s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config/share/ecl_config/local_setup.dsv
+[7.681s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config/share/ecl_config/package.dsv
+[7.682s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config/share/ament_index/resource_index/packages/ecl_config
+[7.692s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config/share/ecl_config/cmake/ecl_configExport.cmake
+[7.692s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config/share/ecl_config/cmake/ament_cmake_export_targets-extras.cmake
+[7.692s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config/share/ecl_config/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.692s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config/share/ecl_config/cmake/ecl_configConfig.cmake
+[7.692s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config/share/ecl_config/cmake/ecl_configConfig-version.cmake
+[7.692s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config/share/ecl_config/package.xml
+[7.693s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config/include/ecl/config.hpp
+[7.693s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config/include/ecl/config/ecl.hpp
+[7.693s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config/include/ecl/config/char_sign.hpp
+[7.693s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config/include/ecl/config/ecl_unknown.hpp
+[7.693s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config/include/ecl/config/endianness.hpp
+[7.693s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config/include/ecl/config/macros.hpp
+[7.693s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config/include/ecl/config/portable_types.hpp
+[7.693s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config/include/ecl/config/windows.hpp
+[7.694s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config/bin/ecl_detect_endian
+[7.694s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_config/bin/ecl_detect_posix
+[7.696s] Invoked command in '/home/locobot/LoCoBotRos/interbotix_ws/build/ecl_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_modules:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_common_modules:/home/locobot/interbotix_ws/install/kobuki_description:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_common_sim:/home/locobot/interbotix_ws/install/interbotix_common_modules:/home/locobot/interbotix_ws/install/ecl_utilities:/home/locobot/interbotix_ws/install/ecl_math:/home/locobot/interbotix_ws/install/ecl_formatters:/home/locobot/interbotix_ws/install/ecl_converters:/home/locobot/interbotix_ws/install/ecl_concepts:/home/locobot/interbotix_ws/install/ecl_type_traits:/home/locobot/interbotix_ws/install/ecl_time_lite:/home/locobot/interbotix_ws/install/ecl_mpl:/home/locobot/interbotix_ws/install/ecl_exceptions:/home/locobot/interbotix_ws/install/ecl_errors:/home/locobot/interbotix_ws/install/ecl_eigen:/home/locobot/interbotix_ws/install/ecl_config:/home/locobot/interbotix_ws/install/ecl_command_line:/home/locobot/interbotix_ws/install/dynamixel_workbench_toolbox:/opt/ros/humble /usr/bin/cmake --install /home/locobot/LoCoBotRos/interbotix_ws/build/ecl_config

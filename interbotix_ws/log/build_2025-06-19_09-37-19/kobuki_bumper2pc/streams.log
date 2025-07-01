@@ -1,0 +1,36 @@
+[0.009s] Invoking command in '/home/locobot/LoCoBotRos/interbotix_ws/build/kobuki_bumper2pc': AMENT_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_ros_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_ros_interfaces:/home/locobot/apriltag_ws/install/apriltag_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_ros_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_ros_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/locobot/LoCoBotRos/interbotix_ws/build/kobuki_bumper2pc -- -j16 -l16
+[0.048s] [35m[1mConsolidate compiler generated dependencies of target kobuki_bumper2pc_node[0m
+[0.061s] [ 25%] [32mBuilding CXX object CMakeFiles/kobuki_bumper2pc.dir/src/kobuki_bumper2pc.cpp.o[0m
+[0.062s] [ 50%] [32mBuilding CXX object CMakeFiles/kobuki_bumper2pc_node.dir/rclcpp_components/node_main_kobuki_bumper2pc_node.cpp.o[0m
+[2.804s] [ 75%] [32m[1mLinking CXX executable kobuki_bumper2pc_node[0m
+[2.891s] [ 75%] Built target kobuki_bumper2pc_node
+[11.779s] [100%] [32m[1mLinking CXX shared library libkobuki_bumper2pc.so[0m
+[11.923s] [100%] Built target kobuki_bumper2pc
+[11.932s] Invoked command in '/home/locobot/LoCoBotRos/interbotix_ws/build/kobuki_bumper2pc' returned '0': AMENT_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_ros_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_ros_interfaces:/home/locobot/apriltag_ws/install/apriltag_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_ros_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_ros_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/locobot/LoCoBotRos/interbotix_ws/build/kobuki_bumper2pc -- -j16 -l16
+[11.934s] Invoking command in '/home/locobot/LoCoBotRos/interbotix_ws/build/kobuki_bumper2pc': AMENT_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_ros_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_ros_interfaces:/home/locobot/apriltag_ws/install/apriltag_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_ros_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_ros_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/locobot/LoCoBotRos/interbotix_ws/build/kobuki_bumper2pc
+[11.940s] -- Install configuration: "Release"
+[11.941s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_bumper2pc/lib/kobuki_bumper2pc/kobuki_bumper2pc_node
+[11.941s] -- Set runtime path of "/home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_bumper2pc/lib/kobuki_bumper2pc/kobuki_bumper2pc_node" to ""
+[11.942s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_bumper2pc/lib/libkobuki_bumper2pc.so
+[11.943s] -- Set runtime path of "/home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_bumper2pc/lib/libkobuki_bumper2pc.so" to ""
+[11.943s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_bumper2pc/include/kobuki_bumper2pc
+[11.944s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_bumper2pc/include/kobuki_bumper2pc/kobuki_bumper2pc.hpp
+[11.944s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/launch
+[11.945s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/launch/kobuki_bumper2pc-launch.py
+[11.945s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_bumper2pc/share/ament_index/resource_index/package_run_dependencies/kobuki_bumper2pc
+[11.945s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_bumper2pc/share/ament_index/resource_index/parent_prefix_path/kobuki_bumper2pc
+[11.946s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/environment/ament_prefix_path.sh
+[11.946s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/environment/ament_prefix_path.dsv
+[11.946s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/environment/path.sh
+[11.946s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/environment/path.dsv
+[11.947s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/local_setup.bash
+[11.947s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/local_setup.sh
+[11.947s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/local_setup.zsh
+[11.947s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/local_setup.dsv
+[11.947s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/package.dsv
+[11.947s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_bumper2pc/share/ament_index/resource_index/packages/kobuki_bumper2pc
+[11.947s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_bumper2pc/share/ament_index/resource_index/rclcpp_components/kobuki_bumper2pc
+[11.948s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/cmake/kobuki_bumper2pcConfig.cmake
+[11.948s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/cmake/kobuki_bumper2pcConfig-version.cmake
+[11.948s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/package.xml
+[11.950s] Invoked command in '/home/locobot/LoCoBotRos/interbotix_ws/build/kobuki_bumper2pc' returned '0': AMENT_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_ros_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_ros_interfaces:/home/locobot/apriltag_ws/install/apriltag_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_ros_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/locobot/LoCoBotRos/interbotix_ws/install/kobuki_ros_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/locobot/LoCoBotRos/interbotix_ws/build/kobuki_bumper2pc

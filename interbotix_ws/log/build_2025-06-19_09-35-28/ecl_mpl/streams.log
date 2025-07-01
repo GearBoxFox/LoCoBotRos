@@ -1,0 +1,50 @@
+[0.270s] Invoking command in '/home/locobot/LoCoBotRos/interbotix_ws/build/ecl_mpl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/locobot/LoCoBotRos/interbotix_ws/src/ecl_core/ecl_mpl -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_mpl
+[0.586s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.586s] -- Found ecl_build: 1.0.3 (/opt/ros/humble/share/ecl_build/cmake)
+[0.586s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.586s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.586s] -- Configuring done
+[0.590s] -- Generating done
+[0.592s] -- Build files have been written to: /home/locobot/LoCoBotRos/interbotix_ws/build/ecl_mpl
+[0.643s] Invoked command in '/home/locobot/LoCoBotRos/interbotix_ws/build/ecl_mpl' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/locobot/LoCoBotRos/interbotix_ws/src/ecl_core/ecl_mpl -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/locobot/LoCoBotRos/interbotix_ws/install/ecl_mpl
+[0.644s] Invoking command in '/home/locobot/LoCoBotRos/interbotix_ws/build/ecl_mpl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/locobot/LoCoBotRos/interbotix_ws/build/ecl_mpl -- -j16 -l16
+[0.820s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.831s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.847s] [ 33%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[0.847s] [ 33%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[2.139s] [ 50%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[2.244s] [ 50%] Built target gtest_main
+[33.378s] [ 66%] [32m[1mLinking CXX static library libgtest.a[0m
+[33.544s] [ 66%] Built target gtest
+[33.597s] [35m[1mConsolidate compiler generated dependencies of target test_enable_if[0m
+[33.664s] [ 83%] [32mBuilding CXX object src/test/CMakeFiles/test_enable_if.dir/enable_if.cpp.o[0m
+[36.177s] [100%] [32m[1mLinking CXX executable test_enable_if[0m
+[36.538s] [100%] Built target test_enable_if
+[36.611s] Invoked command in '/home/locobot/LoCoBotRos/interbotix_ws/build/ecl_mpl' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/locobot/LoCoBotRos/interbotix_ws/build/ecl_mpl -- -j16 -l16
+[36.612s] Invoking command in '/home/locobot/LoCoBotRos/interbotix_ws/build/ecl_mpl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/locobot/LoCoBotRos/interbotix_ws/build/ecl_mpl
+[37.461s] -- Install configuration: "Release"
+[37.461s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_mpl/share/ament_index/resource_index/package_run_dependencies/ecl_mpl
+[37.461s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_mpl/share/ament_index/resource_index/parent_prefix_path/ecl_mpl
+[37.461s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_mpl/share/ecl_mpl/environment/ament_prefix_path.sh
+[37.462s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_mpl/share/ecl_mpl/environment/ament_prefix_path.dsv
+[37.462s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_mpl/share/ecl_mpl/environment/path.sh
+[37.462s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_mpl/share/ecl_mpl/environment/path.dsv
+[37.462s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_mpl/share/ecl_mpl/local_setup.bash
+[37.462s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_mpl/share/ecl_mpl/local_setup.sh
+[37.472s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_mpl/share/ecl_mpl/local_setup.zsh
+[37.472s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_mpl/share/ecl_mpl/local_setup.dsv
+[37.472s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_mpl/share/ecl_mpl/package.dsv
+[37.472s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_mpl/share/ament_index/resource_index/packages/ecl_mpl
+[37.472s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_mpl/share/ecl_mpl/cmake/ecl_mplExport.cmake
+[37.472s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_mpl/share/ecl_mpl/cmake/ament_cmake_export_targets-extras.cmake
+[37.473s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_mpl/share/ecl_mpl/cmake/ament_cmake_export_include_directories-extras.cmake
+[37.473s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_mpl/share/ecl_mpl/cmake/ecl_mplConfig.cmake
+[37.473s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_mpl/share/ecl_mpl/cmake/ecl_mplConfig-version.cmake
+[37.473s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_mpl/share/ecl_mpl/package.xml
+[37.473s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_mpl/include/ecl/mpl.hpp
+[37.473s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_mpl/include/ecl/mpl/bool.hpp
+[37.473s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_mpl/include/ecl/mpl/converters.hpp
+[37.473s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_mpl/include/ecl/mpl/enable_if.hpp
+[37.474s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_mpl/include/ecl/mpl/failed_object.hpp
+[37.474s] -- Up-to-date: /home/locobot/LoCoBotRos/interbotix_ws/install/ecl_mpl/include/ecl/mpl/if.hpp
+[37.589s] Invoked command in '/home/locobot/LoCoBotRos/interbotix_ws/build/ecl_mpl' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/locobot/LoCoBotRos/interbotix_ws/build/ecl_mpl
