@@ -4,7 +4,8 @@
   <xacro:macro name="camera_tower" params="*origin *inertial">
 
     <joint name="camera_tower" type="fixed">
-      <xacro:insert_block name="origin"/>
+      <!--<xacro:insert_block name="origin"/> -->
+      <origin rpy="0 0 0" xyz="-0.03751 0 0.13775"/>
       <parent
         link="${robot_name}/base_link"/>
       <child
@@ -13,27 +14,28 @@
 
     <link name="${robot_name}/camera_tower_link">
       <visual>
-        <origin
-          rpy="0 0 0"
-          xyz="0 0 0"/>
+        <origin rpy="1.57079632679 0 1.57079632679" xyz="0.03751 0 -0.146150"/>
         <geometry>
           <mesh
-            filename="package://interbotix_xslocobot_descriptions/meshes/locobot_meshes/${base_type}_version/locobot_camera_tower_${camera_tower_size}.stl"
-            scale="${mesh_scale}"/>
+            filename="package://interbotix_xslocobot_descriptions/cmu_meshes/interbotix_cam_mount.stl" scale="0.001 0.001 0.001"/>
         </geometry>
-        <material name="interbotix_black"/>
+        <material name="">
+            <color rgba="0.792156862745098 0.819607843137255 0.933333333333333 1"/>
+        </material>
       </visual>
       <collision>
-        <origin
-          rpy="0 0 0"
-          xyz="0 0 0"/>
+        <origin rpy="1.57079632679 0 1.57079632679" xyz="0.03751 0 -0.146150"/>
         <geometry>
           <mesh
-            filename="package://interbotix_xslocobot_descriptions/meshes/locobot_meshes/${base_type}_version/locobot_camera_tower_${camera_tower_size}_simple.stl"
-            scale="${mesh_scale}"/>
+            filename="package://interbotix_xslocobot_descriptions/cmu_meshes/interbotix_cam_mount.stl" scale="0.001 0.001 0.001"/>
         </geometry>
       </collision>
-      <xacro:insert_block name="inertial"/>
+      <inertial>
+            <origin rpy="0 0 1.57079632679" xyz="-0.0053535000 -0.0030566200 0.1091990000"/>
+            <!-- <mass value="1"/> -->
+            <mass value="2.091937"/>
+            <inertia ixx="0.0376600000" ixy="-0.0001113000" ixz="-0.0004178000" iyy="0.0440300000" iyz="0.0001531000" izz="0.0116800000"/>
+        </inertial>
     </link>
 
     <gazebo reference="${robot_name}/camera_tower_link">

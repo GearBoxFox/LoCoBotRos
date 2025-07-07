@@ -112,11 +112,13 @@
 
       <xacro:if value="${base_type == 'kobuki'}">
 
+        <!--
         <xacro:arm_cradle>
           <origin
             rpy="0 0 0"
             xyz="0.0215 0 0.1195"/>
         </xacro:arm_cradle>
+        -->
 
       </xacro:if> <!-- base_type == 'kobuki' -->
 

@@ -587,6 +587,7 @@
         <axis xyz="0 1 0"/>
         <limit effort="1" lower="-1.57" upper="1.57" velocity="1"/>
     </joint>
+    <!-- Camera Model -->
     <link name="camera_link">
         <inertial>
             <origin rpy="0 0 0" xyz="-0.0132722976093535 0.00168171470080143 2.49829664994428E-06"/>
