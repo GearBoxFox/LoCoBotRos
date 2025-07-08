@@ -55,7 +55,7 @@ add_library(srdfdom::srdfdom SHARED IMPORTED)
 
 set_target_properties(srdfdom::srdfdom PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include/srdfdom"
-  INTERFACE_LINK_LIBRARIES "tinyxml2::tinyxml2;console_bridge;urdf::urdf;urdfdom_headers::urdfdom_headers"
+  INTERFACE_LINK_LIBRARIES "tinyxml2::tinyxml2;console_bridge::console_bridge;urdf::urdf;urdfdom_headers::urdfdom_headers"
 )
 
 if(CMAKE_VERSION VERSION_LESS 2.8.12)
