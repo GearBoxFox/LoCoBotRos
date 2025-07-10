@@ -1,0 +1,65 @@
+[0.079s] Invoking command in '/home/locobot/LoCoBotRos/interbotix_ws/src/build/ecl_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/LoCoBotRos/interbotix_ws/install/moveit_configs_utils:/home/locobot/LoCoBotRos/interbotix_ws/install/launch_param_builder:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_modules:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake /home/locobot/LoCoBotRos/interbotix_ws/src/ecl_lite/ecl_config -DCMAKE_INSTALL_PREFIX=/home/locobot/LoCoBotRos/interbotix_ws/src/install/ecl_config
+[0.308s] -- The C compiler identification is GNU 11.4.0
+[0.509s] -- The CXX compiler identification is GNU 11.4.0
+[0.535s] -- Detecting C compiler ABI info
+[0.800s] -- Detecting C compiler ABI info - done
+[0.822s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.824s] -- Detecting C compile features
+[0.824s] -- Detecting C compile features - done
+[0.829s] -- Detecting CXX compiler ABI info
+[1.105s] -- Detecting CXX compiler ABI info - done
+[1.147s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.147s] -- Detecting CXX compile features
+[1.149s] -- Detecting CXX compile features - done
+[1.200s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.823s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.731s] -- Found ecl_build: 1.0.3 (/opt/ros/humble/share/ecl_build/cmake)
+[2.749s] -- Looking for _POSIX_VERSION
+[3.166s] -- Looking for _POSIX_VERSION - found
+[3.170s] -- Looking for realpath in rt
+[3.622s] -- Looking for realpath in rt - found
+[3.622s] -- Looking for clock_nanosleep in rt
+[3.999s] -- Looking for clock_nanosleep in rt - found
+[3.999s] -- Looking for clock_gettime in rt
+[4.622s] -- Looking for clock_gettime in rt - found
+[4.623s] -- Looking for pthread_mutex_timedlock in pthread
+[5.157s] -- Looking for pthread_mutex_timedlock in pthread - found
+[5.157s] -- Looking for nanosleep in pthread
+[5.688s] -- Looking for nanosleep in pthread - found
+[5.688s] -- Looking for shm_open in rt
+[6.192s] -- Looking for shm_open in rt - found
+[6.193s] -- Looking for sched_setscheduler in pthread
+[6.684s] -- Looking for sched_setscheduler in pthread - found
+[6.686s] -- Looking for sem_timedwait in pthread
+[7.103s] -- Looking for sem_timedwait in pthread - found
+[7.103s] -- Looking for sem_init in pthread
+[7.539s] -- Looking for sem_init in pthread - found
+[7.540s] -- Looking for CLOCK_MONOTONIC
+[8.080s] -- Looking for CLOCK_MONOTONIC - found
+[8.083s] -- Looking for CLOCK_PROCESS_CPUTIME_ID
+[8.433s] -- Looking for CLOCK_PROCESS_CPUTIME_ID - found
+[8.454s] -- Looking for pthread.h
+[8.702s] -- Looking for pthread.h - found
+[8.709s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.212s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[9.212s] -- Found Threads: TRUE  
+[9.212s] -- Looking for sys/types.h
+[9.624s] -- Looking for sys/types.h - found
+[9.624s] -- Looking for stdint.h
+[10.073s] -- Looking for stdint.h - found
+[10.073s] -- Looking for stddef.h
+[10.424s] -- Looking for stddef.h - found
+[10.424s] -- Check size of char
+[10.874s] -- Check size of char - done
+[10.874s] -- Check size of short
+[11.224s] -- Check size of short - done
+[11.224s] -- Check size of int
+[11.745s] -- Check size of int - done
+[11.748s] -- Check size of long
+[12.215s] -- Check size of long - done
+[12.219s] -- Check size of long long
+[12.667s] -- Check size of long long - done
+[12.669s] -- Check size of float
+[13.102s] -- Check size of float - done
+[13.108s] -- Check size of double
+[13.328s] Invoked command in '/home/locobot/LoCoBotRos/interbotix_ws/src/build/ecl_config' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/LoCoBotRos/interbotix_ws/install/moveit_configs_utils:/home/locobot/LoCoBotRos/interbotix_ws/install/launch_param_builder:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_modules:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake /home/locobot/LoCoBotRos/interbotix_ws/src/ecl_lite/ecl_config -DCMAKE_INSTALL_PREFIX=/home/locobot/LoCoBotRos/interbotix_ws/src/install/ecl_config

@@ -52,7 +52,7 @@
         xyz="-0.095773 0 -0.10565023"/>
       <geometry>
         <mesh
-          filename="${mesh_directory}/base.stl"
+          filename="package://interbotix_xslocobot_descriptions/cmu_meshes/mobile_base.STL"
           scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="interbotix_black"/>
@@ -63,7 +63,7 @@
         xyz="-0.095773 0 -0.10565023"/>
       <geometry>
         <mesh
-          filename="${mesh_directory}/base.stl"
+          filename="package://interbotix_xslocobot_descriptions/cmu_meshes/mobile_base.STL"
           scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
@@ -91,7 +91,7 @@
       velocity="${waist_limit_vel}"/>
     <origin
       rpy="0 0 0"
-      xyz="0 0 0.066175"/>
+      xyz="0 0 0.0655"/>
     <parent
       link="${robot_name}/arm_base_link"/>
     <child
@@ -104,23 +104,22 @@
   <link name="${robot_name}/shoulder_link">
     <visual>
       <origin
-        rpy="0 0 ${pi/2}"
-        xyz="0 0 -0.003"/>
+        rpy="0 0 0"
+        xyz="0 0 -0.000"/>
       <geometry>
         <mesh
-          filename="${mesh_directory}/shoulder.stl"
-          scale="0.001 0.001 0.001"/>
+          filename="package://interbotix_xslocobot_descriptions/cmu_meshes/shoulder_link.STL"/>
       </geometry>
       <material name="interbotix_black"/>
     </visual>
     <collision>
       <origin
-        rpy="0 0 ${pi/2}"
-        xyz="0 0 -0.003"/>
+        rpy="0 0 0"
+        xyz="0 0 -0.000"/>
       <geometry>
         <mesh
-          filename="${mesh_directory}/shoulder.stl"
-          scale="0.001 0.001 0.001"/>
+          filename="package://interbotix_xslocobot_descriptions/cmu_meshes/shoulder_link.STL"
+          />
       </geometry>
     </collision>
     <inertial>

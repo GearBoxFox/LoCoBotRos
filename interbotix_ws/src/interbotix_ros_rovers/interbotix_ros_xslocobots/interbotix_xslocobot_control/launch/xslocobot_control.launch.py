@@ -484,7 +484,7 @@ def generate_launch_description():
     declared_arguments.append(
         DeclareLaunchArgument(
             'load_configs',
-            default_value='true',
+            default_value='false',
             choices=('true', 'false'),
             description=(
                 'a boolean that specifies whether or not the initial register values '

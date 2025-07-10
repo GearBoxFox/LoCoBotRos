@@ -1,0 +1,35 @@
+[0.069s] Invoking command in '/home/locobot/LoCoBotRos/interbotix_ws/src/build/sophus': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/LoCoBotRos/interbotix_ws/install/moveit_configs_utils:/home/locobot/LoCoBotRos/interbotix_ws/install/launch_param_builder:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_modules:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake /home/locobot/LoCoBotRos/interbotix_ws/src/sophus -DCMAKE_INSTALL_PREFIX=/home/locobot/LoCoBotRos/interbotix_ws/src/install/sophus
+[0.251s] -- The C compiler identification is GNU 11.4.0
+[0.452s] -- The CXX compiler identification is GNU 11.4.0
+[0.479s] -- Detecting C compiler ABI info
+[0.701s] -- Detecting C compiler ABI info - done
+[0.723s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.726s] -- Detecting C compile features
+[0.730s] -- Detecting C compile features - done
+[0.739s] -- Detecting CXX compiler ABI info
+[1.018s] -- Detecting CXX compiler ABI info - done
+[1.033s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.033s] -- Detecting CXX compile features
+[1.036s] -- Detecting CXX compile features - done
+[1.075s] -- Found Eigen3: /usr/include/eigen3 (Required is at least version "3.3.0") 
+[1.309s] -- Configuring done
+[1.341s] -- Generating done
+[1.373s] -- Build files have been written to: /home/locobot/LoCoBotRos/interbotix_ws/src/build/sophus
+[1.378s] Invoked command in '/home/locobot/LoCoBotRos/interbotix_ws/src/build/sophus' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/LoCoBotRos/interbotix_ws/install/moveit_configs_utils:/home/locobot/LoCoBotRos/interbotix_ws/install/launch_param_builder:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_modules:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake /home/locobot/LoCoBotRos/interbotix_ws/src/sophus -DCMAKE_INSTALL_PREFIX=/home/locobot/LoCoBotRos/interbotix_ws/src/install/sophus
+[1.380s] Invoking command in '/home/locobot/LoCoBotRos/interbotix_ws/src/build/sophus': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/LoCoBotRos/interbotix_ws/install/moveit_configs_utils:/home/locobot/LoCoBotRos/interbotix_ws/install/launch_param_builder:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_modules:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --build /home/locobot/LoCoBotRos/interbotix_ws/src/build/sophus -- -j4 -l4
+[1.585s] [  4%] [32mBuilding CXX object test/core/CMakeFiles/test_so2.dir/test_so2.cpp.o[0m
+[1.621s] [  8%] [32mBuilding CXX object test/core/CMakeFiles/test_common.dir/test_common.cpp.o[0m
+[1.621s] [ 12%] [32mBuilding CXX object test/core/CMakeFiles/test_se2.dir/test_se2.cpp.o[0m
+[1.631s] [ 16%] [32mBuilding CXX object test/core/CMakeFiles/test_rxso2.dir/test_rxso2.cpp.o[0m
+[9.596s] [ 20%] [32m[1mLinking CXX executable test_common[0m
+[10.003s] [ 20%] Built target test_common
+[10.168s] [ 25%] [32mBuilding CXX object test/core/CMakeFiles/test_sim2.dir/test_sim2.cpp.o[0m
+[13.254s] gmake[2]: *** [test/core/CMakeFiles/test_sim2.dir/build.make:76: test/core/CMakeFiles/test_sim2.dir/test_sim2.cpp.o] Interrupt
+[13.254s] gmake[2]: *** [test/core/CMakeFiles/test_se2.dir/build.make:76: test/core/CMakeFiles/test_se2.dir/test_se2.cpp.o] Interrupt
+[13.254s] gmake[2]: *** [test/core/CMakeFiles/test_rxso2.dir/build.make:76: test/core/CMakeFiles/test_rxso2.dir/test_rxso2.cpp.o] Interrupt
+[13.254s] gmake[1]: *** [CMakeFiles/Makefile2:300: test/core/CMakeFiles/test_sim2.dir/all] Interrupt
+[13.254s] gmake[2]: *** [test/core/CMakeFiles/test_so2.dir/build.make:76: test/core/CMakeFiles/test_so2.dir/test_so2.cpp.o] Interrupt
+[13.255s] gmake[1]: *** [CMakeFiles/Makefile2:248: test/core/CMakeFiles/test_se2.dir/all] Interrupt
+[13.255s] gmake[1]: *** [CMakeFiles/Makefile2:274: test/core/CMakeFiles/test_rxso2.dir/all] Interrupt
+[13.255s] gmake[1]: *** [CMakeFiles/Makefile2:222: test/core/CMakeFiles/test_so2.dir/all] Interrupt
+[13.258s] gmake: *** [Makefile:146: all] Interrupt

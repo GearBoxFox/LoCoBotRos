@@ -1,0 +1,45 @@
+[0.057s] Invoking command in '/home/locobot/LoCoBotRos/interbotix_ws/src/build/ecl_eigen': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/LoCoBotRos/interbotix_ws/install/moveit_configs_utils:/home/locobot/LoCoBotRos/interbotix_ws/install/launch_param_builder:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_modules:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake /home/locobot/LoCoBotRos/interbotix_ws/src/ecl_core/ecl_eigen -DCMAKE_INSTALL_PREFIX=/home/locobot/LoCoBotRos/interbotix_ws/src/install/ecl_eigen
+[0.278s] -- The C compiler identification is GNU 11.4.0
+[0.478s] -- The CXX compiler identification is GNU 11.4.0
+[0.498s] -- Detecting C compiler ABI info
+[0.759s] -- Detecting C compiler ABI info - done
+[0.786s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.792s] -- Detecting C compile features
+[0.792s] -- Detecting C compile features - done
+[0.803s] -- Detecting CXX compiler ABI info
+[1.058s] -- Detecting CXX compiler ABI info - done
+[1.078s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.079s] -- Detecting CXX compile features
+[1.080s] -- Detecting CXX compile features - done
+[1.113s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.777s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.968s] -- Configuring done
+[2.987s] -- Generating done
+[2.995s] -- Build files have been written to: /home/locobot/LoCoBotRos/interbotix_ws/src/build/ecl_eigen
+[3.031s] Invoked command in '/home/locobot/LoCoBotRos/interbotix_ws/src/build/ecl_eigen' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/LoCoBotRos/interbotix_ws/install/moveit_configs_utils:/home/locobot/LoCoBotRos/interbotix_ws/install/launch_param_builder:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_modules:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake /home/locobot/LoCoBotRos/interbotix_ws/src/ecl_core/ecl_eigen -DCMAKE_INSTALL_PREFIX=/home/locobot/LoCoBotRos/interbotix_ws/src/install/ecl_eigen
+[3.032s] Invoking command in '/home/locobot/LoCoBotRos/interbotix_ws/src/build/ecl_eigen': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/LoCoBotRos/interbotix_ws/install/moveit_configs_utils:/home/locobot/LoCoBotRos/interbotix_ws/install/launch_param_builder:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_modules:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --build /home/locobot/LoCoBotRos/interbotix_ws/src/build/ecl_eigen -- -j4 -l4
+[3.312s] Invoked command in '/home/locobot/LoCoBotRos/interbotix_ws/src/build/ecl_eigen' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/LoCoBotRos/interbotix_ws/install/moveit_configs_utils:/home/locobot/LoCoBotRos/interbotix_ws/install/launch_param_builder:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_modules:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --build /home/locobot/LoCoBotRos/interbotix_ws/src/build/ecl_eigen -- -j4 -l4
+[3.366s] Invoking command in '/home/locobot/LoCoBotRos/interbotix_ws/src/build/ecl_eigen': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/LoCoBotRos/interbotix_ws/install/moveit_configs_utils:/home/locobot/LoCoBotRos/interbotix_ws/install/launch_param_builder:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_modules:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --install /home/locobot/LoCoBotRos/interbotix_ws/src/build/ecl_eigen
+[3.432s] -- Install configuration: ""
+[3.433s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/src/install/ecl_eigen/include/ecl/eigen.hpp
+[3.434s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/src/install/ecl_eigen/share/ament_index/resource_index/package_run_dependencies/ecl_eigen
+[3.436s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/src/install/ecl_eigen/share/ament_index/resource_index/parent_prefix_path/ecl_eigen
+[3.436s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/src/install/ecl_eigen/share/ecl_eigen/environment/ament_prefix_path.sh
+[3.437s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/src/install/ecl_eigen/share/ecl_eigen/environment/ament_prefix_path.dsv
+[3.442s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/src/install/ecl_eigen/share/ecl_eigen/environment/path.sh
+[3.448s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/src/install/ecl_eigen/share/ecl_eigen/environment/path.dsv
+[3.448s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/src/install/ecl_eigen/share/ecl_eigen/local_setup.bash
+[3.448s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/src/install/ecl_eigen/share/ecl_eigen/local_setup.sh
+[3.448s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/src/install/ecl_eigen/share/ecl_eigen/local_setup.zsh
+[3.448s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/src/install/ecl_eigen/share/ecl_eigen/local_setup.dsv
+[3.448s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/src/install/ecl_eigen/share/ecl_eigen/package.dsv
+[3.448s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/src/install/ecl_eigen/share/ament_index/resource_index/packages/ecl_eigen
+[3.449s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/src/install/ecl_eigen/share/ecl_eigen/cmake/ecl_eigenExport.cmake
+[3.449s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/src/install/ecl_eigen/share/ecl_eigen/cmake/ament_cmake_export_targets-extras.cmake
+[3.449s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/src/install/ecl_eigen/share/ecl_eigen/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.449s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/src/install/ecl_eigen/share/ecl_eigen/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.449s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/src/install/ecl_eigen/share/ecl_eigen/cmake/ecl_eigenConfig.cmake
+[3.450s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/src/install/ecl_eigen/share/ecl_eigen/cmake/ecl_eigenConfig-version.cmake
+[3.453s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/src/install/ecl_eigen/share/ecl_eigen/package.xml
+[3.453s] -- Installing: /home/locobot/LoCoBotRos/interbotix_ws/src/install/ecl_eigen/share/licenses/eigen/COPYING.LESSER
+[3.473s] Invoked command in '/home/locobot/LoCoBotRos/interbotix_ws/src/build/ecl_eigen' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/LoCoBotRos/interbotix_ws/install/moveit_configs_utils:/home/locobot/LoCoBotRos/interbotix_ws/install/launch_param_builder:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xs_modules:/home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --install /home/locobot/LoCoBotRos/interbotix_ws/src/build/ecl_eigen
