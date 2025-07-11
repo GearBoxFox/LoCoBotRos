@@ -1,8 +1,0 @@
-[0mmoveit_task_constructor_core: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
-gmake[2]: *** [src/CMakeFiles/moveit_task_constructor_core.dir/build.make:90: src/CMakeFiles/moveit_task_constructor_core.dir/cost_terms.cpp.o] Interrupt
-gmake[2]: *** [gmock/CMakeFiles/gmock.dir/build.make:90: gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o] Interrupt
-gmake[2]: *** [src/CMakeFiles/moveit_task_constructor_core.dir/build.make:76: src/CMakeFiles/moveit_task_constructor_core.dir/container.cpp.o] Interrupt
-gmake[2]: *** [gmock/CMakeFiles/gmock.dir/build.make:76: gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o] Interrupt
-gmake[1]: *** [CMakeFiles/Makefile2:362: src/CMakeFiles/moveit_task_constructor_core.dir/all] Interrupt
-gmake[1]: *** [CMakeFiles/Makefile2:947: gmock/CMakeFiles/gmock.dir/all] Interrupt
-gmake: *** [Makefile:146: all] Interrupt
