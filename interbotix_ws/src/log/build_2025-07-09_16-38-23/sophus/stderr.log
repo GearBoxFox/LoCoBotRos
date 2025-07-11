@@ -1,9 +1,0 @@
-gmake[2]: *** [test/core/CMakeFiles/test_sim2.dir/build.make:76: test/core/CMakeFiles/test_sim2.dir/test_sim2.cpp.o] Interrupt
-gmake[2]: *** [test/core/CMakeFiles/test_se2.dir/build.make:76: test/core/CMakeFiles/test_se2.dir/test_se2.cpp.o] Interrupt
-gmake[2]: *** [test/core/CMakeFiles/test_rxso2.dir/build.make:76: test/core/CMakeFiles/test_rxso2.dir/test_rxso2.cpp.o] Interrupt
-gmake[1]: *** [CMakeFiles/Makefile2:300: test/core/CMakeFiles/test_sim2.dir/all] Interrupt
-gmake[2]: *** [test/core/CMakeFiles/test_so2.dir/build.make:76: test/core/CMakeFiles/test_so2.dir/test_so2.cpp.o] Interrupt
-gmake[1]: *** [CMakeFiles/Makefile2:248: test/core/CMakeFiles/test_se2.dir/all] Interrupt
-gmake[1]: *** [CMakeFiles/Makefile2:274: test/core/CMakeFiles/test_rxso2.dir/all] Interrupt
-gmake[1]: *** [CMakeFiles/Makefile2:222: test/core/CMakeFiles/test_so2.dir/all] Interrupt
-gmake: *** [Makefile:146: all] Interrupt

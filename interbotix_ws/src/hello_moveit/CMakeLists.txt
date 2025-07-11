@@ -10,6 +10,9 @@ find_package(ament_cmake REQUIRED)
 find_package(moveit_ros_planning_interface REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(moveit_visual_tools REQUIRED)
+find_package(yasmin REQUIRED)
+find_package(yasmin_ros REQUIRED)
+find_package(yasmin_viewer REQUIRED)
 
 add_executable(hello_moveit src/hello_moveit.cpp)
 target_include_directories(hello_moveit PUBLIC
@@ -21,6 +24,9 @@ ament_target_dependencies(
   "moveit_ros_planning_interface"
   "moveit_visual_tools"
   "rclcpp"
+  "yasmin"
+  "yasmin_ros"
+  "yasmin_viewer"
 )
 
 install(TARGETS hello_moveit
