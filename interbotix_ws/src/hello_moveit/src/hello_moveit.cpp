@@ -16,6 +16,7 @@ int main(int argc, char * argv[])
 
   // Create a ROS logger
   auto const logger = rclcpp::get_logger("hello_moveit");
+  // yasmin_ros::set_ros_loggers();q
 
   // MoveItVisualTools needs a thread to work in
   rclcpp::executors::SingleThreadedExecutor executor;
@@ -55,7 +56,7 @@ int main(int argc, char * argv[])
   auto const draw_trajectory_tool_path =
       [&moveit_visual_tools,
       jmg = move_group_interface.getRobotModel()->getJointModelGroup(
-          "interbotix_arm")](auto const trajectory) {
+          "interbotix_gripper")](auto const trajectory) {
         moveit_visual_tools.publishTrajectoryLine(trajectory, jmg);
       };
 
