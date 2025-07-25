@@ -12,6 +12,7 @@
   <depend>moveit_ros_planning_interface</depend>
   <depend>rclcpp</depend>
   <depend>moveit_visual_tools</depend>
+  <depend>interbotix_xs_msgs</depend>
   <depend>yasmin</depend>
   <depend>yasmin_ros</depend>
   <depend>yasmin_viewer</depend>

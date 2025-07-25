@@ -13,6 +13,7 @@ find_package(moveit_visual_tools REQUIRED)
 find_package(yasmin REQUIRED)
 find_package(yasmin_ros REQUIRED)
 find_package(yasmin_viewer REQUIRED)
+find_package(interbotix_xs_msgs REQUIRED)
 
 add_executable(hello_moveit src/hello_moveit.cpp)
 target_include_directories(hello_moveit PUBLIC
@@ -27,10 +28,14 @@ ament_target_dependencies(
   "yasmin"
   "yasmin_ros"
   "yasmin_viewer"
+  "interbotix_xs_msgs"
 )
 
 install(TARGETS hello_moveit
   DESTINATION lib/${PROJECT_NAME})
+
+install(DIRECTORY launch config
+  DESTINATION share/${PROJECT_NAME})
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
