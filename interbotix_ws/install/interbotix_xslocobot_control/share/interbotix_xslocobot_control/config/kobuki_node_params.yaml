@@ -1,7 +1,1 @@
-/$(var robot_name)/kobuki_ros_node:
-    ros__parameters:
-      acceleration_limiter: true
-      device_port: /dev/kobuki
-      cmd_vel_timeout_sec: 2.0
-      odom_frame: $(var robot_name)/odom
-      base_frame: $(var robot_name)/base_footprint
+/home/locobot/LoCoBotRos/interbotix_ws/src/interbotix_ros_rovers/interbotix_ros_xslocobots/interbotix_xslocobot_control/config/kobuki_node_params.yaml

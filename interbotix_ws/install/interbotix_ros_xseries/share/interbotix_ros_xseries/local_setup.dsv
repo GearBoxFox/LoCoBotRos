@@ -1,2 +1,1 @@
-source;share/interbotix_ros_xseries/environment/ament_prefix_path.sh
-source;share/interbotix_ros_xseries/environment/path.sh
+/home/locobot/LoCoBotRos/interbotix_ws/build/interbotix_ros_xseries/ament_cmake_environment_hooks/local_setup.dsv
