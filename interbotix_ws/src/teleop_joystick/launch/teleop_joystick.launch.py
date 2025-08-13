@@ -33,7 +33,8 @@ def generate_launch_description():
         package='teleop_twist_joy',
         executable='teleop_node',
         remappings=[
-            ('/joy', '/joy_cmds')
+            ('/joy', '/joy_cmds'),
+            ("/cmd_vel", "/locobot/commands/velocity")
         ],
         condition=UnlessCondition(use_remote)
     )

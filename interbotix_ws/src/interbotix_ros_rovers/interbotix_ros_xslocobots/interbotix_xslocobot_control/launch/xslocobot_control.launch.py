@@ -212,7 +212,6 @@ def launch_setup(context, *args, **kwargs):
         package='realsense2_camera',
         executable='realsense2_camera_node',
         namespace=(robot_name_launch_arg, '/camera'),
-        name='camera',
         parameters=[
             {
                 'publish_tf': True,
