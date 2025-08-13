@@ -1,5 +1,1 @@
-# unique id of this task
-string task_id
-
-# list of all stages, including the task stage itself
-StageDescription[] stages
+/home/locobot/LoCoBotRos/interbotix_ws/src/moveit_task_constructor/msgs/msg/TaskDescription.msg

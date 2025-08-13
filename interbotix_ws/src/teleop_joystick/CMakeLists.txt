@@ -11,14 +11,21 @@ find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(kobuki_ros_interfaces)
+find_package(moveit_ros_planning_interface REQUIRED)
 # uncomment the following section in order to fill in
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
 
 add_executable(teleop_joystick src/main.cpp)
-ament_target_dependencies(teleop_joystick rclcpp std_msgs sensor_msgs kobuki_ros_interfaces)
+ament_target_dependencies(teleop_joystick 
+  rclcpp 
+  std_msgs 
+  sensor_msgs 
+  kobuki_ros_interfaces 
+  moveit_ros_planning_interface)
 
 target_include_directories(teleop_joystick PRIVATE ${PROJECT_SOURCE_DIR}/include/teleop_joystick)
+target_include_directories(teleop_joystick PRIVATE ${PROJECT_NAME}/src)
 
 install(TARGETS
   teleop_joystick

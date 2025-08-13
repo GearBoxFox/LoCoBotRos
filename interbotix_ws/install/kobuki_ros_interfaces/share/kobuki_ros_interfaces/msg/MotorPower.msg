@@ -1,7 +1,1 @@
-# Turn on/off Kobuki's motors
-
-# State
-uint8 OFF = 0
-uint8 ON  = 1
-
-uint8 state
+/home/locobot/LoCoBotRos/interbotix_ws/src/kobuki_ros_interfaces/msg/MotorPower.msg

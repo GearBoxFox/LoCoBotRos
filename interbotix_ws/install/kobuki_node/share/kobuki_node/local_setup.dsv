@@ -1,2 +1,1 @@
-source;share/kobuki_node/environment/ament_prefix_path.sh
-source;share/kobuki_node/environment/path.sh
+/home/locobot/LoCoBotRos/interbotix_ws/build/kobuki_node/ament_cmake_environment_hooks/local_setup.dsv

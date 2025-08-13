@@ -1,2 +1,1 @@
-source;share/moveit_runtime/environment/ament_prefix_path.sh
-source;share/moveit_runtime/environment/path.sh
+/home/locobot/LoCoBotRos/interbotix_ws/build/moveit_runtime/ament_cmake_environment_hooks/local_setup.dsv

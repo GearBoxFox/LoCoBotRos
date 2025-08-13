@@ -1,5 +1,1 @@
-# generic solution information
-SolutionInfo info
-
-# IDs of subsolutions
-uint32[] sub_solution_id
+/home/locobot/LoCoBotRos/interbotix_ws/src/moveit_task_constructor/msgs/msg/SubSolution.msg

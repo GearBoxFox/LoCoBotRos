@@ -1,3 +1,1 @@
-source;share/moveit_kinematics/environment/ament_prefix_path.sh
-source;share/moveit_kinematics/environment/library_path.sh
-source;share/moveit_kinematics/environment/path.sh
+/home/locobot/LoCoBotRos/interbotix_ws/build/moveit_kinematics/ament_cmake_environment_hooks/local_setup.dsv
