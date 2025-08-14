@@ -1,8 +1,9 @@
 from launch import LaunchDescription
-from launch_ros.actions import Node
+from launch.substitutions import PathJoinSubstitution
 
-import os
-from ament_index_python.packages import get_package_share_directory
+from launch_ros.actions import Node
+from launch_ros.substitutions import FindPackageShare
+from launch_ros.parameter_descriptions import ParameterFile
 
 def generate_launch_description():
     joy_node = Node(
@@ -18,11 +19,19 @@ def generate_launch_description():
         executable='teleop_joystick'
     )
 
-    joy_params = os.path.join(get_package_share_directory('articubot_one'),'config','joystick.yaml')
+    joy_params = ParameterFile(
+        param_file=PathJoinSubstitution([
+            FindPackageShare('teleop_joystick'),
+            'config',
+            'joystick.config.yaml',
+        ]),
+        allow_substs=True,
+    )
 
     joy_twist_node = Node(
         package='teleop_twist_joy',
         executable='teleop_node',
+        parameters=[joy_params],
         remappings=[
             ('/joy', '/joy_cmds'),
             ('/cmd_vel', '/locobot/commands/velocity')
