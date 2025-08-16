@@ -1,1 +1,4 @@
-/home/locobot/LoCoBotRos/interbotix_ws/build/interbotix_moveit_interface_msgs/ament_cmake_environment_hooks/local_setup.dsv
+source;share/interbotix_moveit_interface_msgs/environment/ament_prefix_path.sh
+source;share/interbotix_moveit_interface_msgs/environment/library_path.sh
+source;share/interbotix_moveit_interface_msgs/environment/path.sh
+source;share/interbotix_moveit_interface_msgs/environment/pythonpath.sh

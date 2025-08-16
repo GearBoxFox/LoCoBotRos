@@ -1,1 +1,13 @@
-/home/locobot/LoCoBotRos/interbotix_ws/src/interbotix_ros_rovers/interbotix_ros_xslocobots/interbotix_xslocobot_descriptions/urdf/create3_version/button.urdf.xacro
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro">
+
+<xacro:macro name="button" params="name parent_link:=base_link *origin">
+  <joint name="${name}_joint" type="fixed">
+    <parent link="${robot_name}/${parent_link}"/>
+    <child link="${robot_name}/${name}"/>
+    <xacro:insert_block name="origin"/>
+  </joint>
+  <link name="${robot_name}/${name}"/>
+</xacro:macro>
+
+</robot>

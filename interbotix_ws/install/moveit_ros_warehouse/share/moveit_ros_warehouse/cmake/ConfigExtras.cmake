@@ -1,1 +1,11 @@
-/home/locobot/LoCoBotRos/interbotix_ws/src/moveit2/moveit_ros/warehouse/ConfigExtras.cmake
+# Extras module needed for dependencies to find boost components
+
+find_package(
+  Boost REQUIRED
+  thread
+  system
+  filesystem
+  regex
+  date_time
+  program_options
+)

@@ -21,6 +21,7 @@ install(
   DIRECTORY
     config
     launch
+    behaviour_trees
   DESTINATION
     share/${PROJECT_NAME}/
 )

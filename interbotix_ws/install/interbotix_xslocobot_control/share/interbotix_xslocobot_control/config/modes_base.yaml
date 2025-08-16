@@ -1,1 +1,7 @@
-/home/locobot/LoCoBotRos/interbotix_ws/src/interbotix_ros_rovers/interbotix_ros_xslocobots/interbotix_xslocobot_control/config/modes_base.yaml
+groups:
+  camera:
+    operating_mode: position
+    profile_type: velocity
+    profile_velocity: 131
+    profile_acceleration: 15
+    torque_enable: true

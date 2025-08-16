@@ -143,7 +143,7 @@ def launch_setup(context, *args, **kwargs):
         parameters=[
             configured_params
         ],
-        remappings=tf_remappings,
+        remappings=tf_remappings + remappings,
     )
 
     bt_navigator_node = Node(
@@ -154,7 +154,7 @@ def launch_setup(context, *args, **kwargs):
         parameters=[
             configured_params
         ],
-        remappings=tf_remappings,
+        remappings=tf_remappings + remappings,
     )
 
     waypoint_follower_node = Node(
@@ -165,7 +165,7 @@ def launch_setup(context, *args, **kwargs):
         parameters=[
             configured_params
         ],
-        remappings=tf_remappings,
+        remappings=tf_remappings + remappings,
     )
 
     lifecycle_manager_navigation_node = Node(
@@ -289,7 +289,7 @@ def generate_launch_description():
     declared_arguments.append(
         DeclareLaunchArgument(
             'cmd_vel_topic',
-            default_value=(LaunchConfiguration('robot_name'), '/mobile_base/cmd_vel'),
+            default_value=(LaunchConfiguration('robot_name'), '/commands/velocity'),
             description="topic to remap /cmd_vel to."
         )
     )
@@ -362,7 +362,7 @@ def generate_launch_description():
     )
     declared_arguments.append(
         DeclareLaunchArgument(
-            'use_respawn', default_value='false',
+            'use_respawn', default_value='true',
             choices=('true', 'false'),
             description='Whether to respawn if a node crashes. Applied when composition is disabled.')
 

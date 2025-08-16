@@ -1,1 +1,29 @@
-/home/locobot/LoCoBotRos/interbotix_ws/src/interbotix_ros_rovers/interbotix_ros_xslocobots/interbotix_xslocobot_ros_control/config/modes_all.yaml
+groups:
+  arm:
+    operating_mode: position
+    profile_type: velocity
+    profile_velocity: 131
+    profile_acceleration: 15
+    torque_enable: true
+
+singles:
+  gripper:
+    operating_mode: position
+    profile_type: velocity
+    profile_velocity: 131
+    profile_acceleration: 15
+    torque_enable: true
+
+  pan:
+    operating_mode: position
+    profile_type: velocity
+    profile_velocity: 131
+    profile_acceleration: 15
+    torque_enable: true
+
+  tilt:
+    operating_mode: position
+    profile_type: velocity
+    profile_velocity: 131
+    profile_acceleration: 15
+    torque_enable: true

@@ -1,1 +1,4 @@
-/home/locobot/LoCoBotRos/interbotix_ws/src/moveit_task_constructor/msgs/msg/Property.msg
+string name
+string description
+string type
+string value

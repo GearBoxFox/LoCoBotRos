@@ -1,1 +1,27 @@
-/home/locobot/LoCoBotRos/interbotix_ws/build/kobuki_ros_interfaces/rosidl_typesupport_introspection_cpp/kobuki_ros_interfaces/msg/detail/external_power__rosidl_typesupport_introspection_cpp.hpp
+// generated from rosidl_typesupport_introspection_cpp/resource/idl__rosidl_typesupport_introspection_cpp.h.em
+// with input from kobuki_ros_interfaces:msg/ExternalPower.idl
+// generated code does not contain a copyright notice
+
+#ifndef KOBUKI_ROS_INTERFACES__MSG__DETAIL__EXTERNAL_POWER__ROSIDL_TYPESUPPORT_INTROSPECTION_CPP_HPP_
+#define KOBUKI_ROS_INTERFACES__MSG__DETAIL__EXTERNAL_POWER__ROSIDL_TYPESUPPORT_INTROSPECTION_CPP_HPP_
+
+
+#include "rosidl_runtime_c/message_type_support_struct.h"
+#include "rosidl_typesupport_interface/macros.h"
+#include "rosidl_typesupport_introspection_cpp/visibility_control.h"
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+// TODO(dirk-thomas) these visibility macros should be message package specific
+ROSIDL_TYPESUPPORT_INTROSPECTION_CPP_PUBLIC
+const rosidl_message_type_support_t *
+  ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_cpp, kobuki_ros_interfaces, msg, ExternalPower)();
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif  // KOBUKI_ROS_INTERFACES__MSG__DETAIL__EXTERNAL_POWER__ROSIDL_TYPESUPPORT_INTROSPECTION_CPP_HPP_

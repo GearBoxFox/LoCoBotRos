@@ -1,1 +1,1 @@
-/home/locobot/LoCoBotRos/interbotix_ws/build/kobuki_auto_docking/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/kobuki_auto_docking
+rclcpp;rclpy;rclcpp_components;message_filters;rclcpp_action;std_msgs;nav_msgs;geometry_msgs;actionlib_msgs;tf2_geometry_msgs;kobuki_core;kobuki_ros_interfaces;ecl_linear_algebra

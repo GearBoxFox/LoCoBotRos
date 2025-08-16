@@ -1,1 +1,1 @@
-/home/locobot/LoCoBotRos/interbotix_ws/build/cmd_vel_mux/ament_cmake_index/share/ament_index/resource_index/rclcpp_components/cmd_vel_mux
+cmd_vel_mux::CmdVelMux;lib/libcmd_vel_mux.so

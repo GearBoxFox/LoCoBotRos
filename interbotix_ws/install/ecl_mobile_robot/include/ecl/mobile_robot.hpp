@@ -1,1 +1,22 @@
-/home/locobot/LoCoBotRos/interbotix_ws/src/ecl_core/ecl_mobile_robot/include/ecl/mobile_robot.hpp
+/**
+ * @file /include/ecl/mobile_robot.hpp
+ *
+ * @brief Mobile robot classes and algorithms.
+ *
+ * @date March 2010
+ **/
+/*****************************************************************************
+** Ifdefs
+*****************************************************************************/
+
+#ifndef ECL_MOBILE_ROBOT_HPP_
+#define ECL_MOBILE_ROBOT_HPP_
+
+/*****************************************************************************
+** Includes
+*****************************************************************************/
+
+#include "mobile_robot/differential_drive.hpp"
+
+
+#endif /* ECL_MOBILE_ROBOT_HPP_ */

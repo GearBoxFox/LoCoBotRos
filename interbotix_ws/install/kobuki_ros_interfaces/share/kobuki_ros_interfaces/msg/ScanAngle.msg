@@ -1,1 +1,2 @@
-/home/locobot/LoCoBotRos/interbotix_ws/src/kobuki_ros_interfaces/msg/ScanAngle.msg
+std_msgs/Header header
+float64 scan_angle

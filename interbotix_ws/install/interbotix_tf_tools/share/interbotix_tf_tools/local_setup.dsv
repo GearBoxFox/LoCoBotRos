@@ -1,1 +1,2 @@
-/home/locobot/LoCoBotRos/interbotix_ws/build/interbotix_tf_tools/ament_cmake_environment_hooks/local_setup.dsv
+source;share/interbotix_tf_tools/environment/ament_prefix_path.sh
+source;share/interbotix_tf_tools/environment/path.sh

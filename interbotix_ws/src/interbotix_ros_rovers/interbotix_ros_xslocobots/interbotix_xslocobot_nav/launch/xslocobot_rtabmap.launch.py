@@ -496,7 +496,7 @@ def generate_launch_description():
             default_value=PathJoinSubstitution([
                 FindPackageShare('interbotix_xslocobot_nav'),
                 'config',
-                'nav2_params.yaml'
+                'nav2_params_new.yaml'
             ]),
             description=(
                 'full path to the ROS 2 parameters file to use when configuring the Nav2 stack.'
@@ -506,7 +506,7 @@ def generate_launch_description():
     declared_arguments.append(
         DeclareLaunchArgument(
             'cmd_vel_topic',
-            default_value=(LaunchConfiguration('robot_name'), '/mobile_base/cmd_vel'),
+            default_value=(LaunchConfiguration('robot_name'), '/commands/velocity'),
             description="topic to remap /cmd_vel to."
         )
     )

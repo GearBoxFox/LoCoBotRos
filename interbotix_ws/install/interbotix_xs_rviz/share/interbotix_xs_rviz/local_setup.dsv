@@ -1,1 +1,3 @@
-/home/locobot/LoCoBotRos/interbotix_ws/build/interbotix_xs_rviz/ament_cmake_environment_hooks/local_setup.dsv
+source;share/interbotix_xs_rviz/environment/ament_prefix_path.sh
+source;share/interbotix_xs_rviz/environment/library_path.sh
+source;share/interbotix_xs_rviz/environment/path.sh

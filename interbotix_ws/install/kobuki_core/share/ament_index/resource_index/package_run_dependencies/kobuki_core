@@ -1,1 +1,1 @@
-/home/locobot/LoCoBotRos/interbotix_ws/build/kobuki_core/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/kobuki_core
+ecl_command_line;ecl_config;ecl_console;ecl_converters;ecl_devices;ecl_geometry;ecl_mobile_robot;ecl_sigslots;ecl_threads;ecl_time

@@ -1,1 +1,2 @@
-/home/locobot/LoCoBotRos/interbotix_ws/build/kobuki_velocity_smoother/ament_cmake_environment_hooks/local_setup.dsv
+source;share/kobuki_velocity_smoother/environment/ament_prefix_path.sh
+source;share/kobuki_velocity_smoother/environment/path.sh

@@ -1,1 +1,1 @@
-/home/locobot/LoCoBotRos/interbotix_ws/build/kobuki_node/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/kobuki_node
+angles;diagnostic_msgs;diagnostic_updater;geometry_msgs;nav_msgs;rclcpp;rclcpp_components;sensor_msgs;std_msgs;tf2;tf2_ros;kobuki_core;kobuki_ros_interfaces;ecl_errors;ecl_exceptions;ecl_geometry;ecl_linear_algebra;ecl_sigslots

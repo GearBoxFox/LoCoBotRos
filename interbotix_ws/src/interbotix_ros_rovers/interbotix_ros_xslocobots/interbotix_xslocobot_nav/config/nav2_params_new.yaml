@@ -8,7 +8,7 @@ bt_navigator:
     # Nodes
     # (https://navigation.ros.org/configuration/packages/configuring-bt-xml.html#configuring-behavior-tree-xml)
     # for details on this file. Used to be default_bt_xml_filename pre-Galactic.
-    # default_nav_to_pose_bt_xml: CONFIGURED IN LAUNCH FILE
+    default_nav_to_pose_bt_xml: /home/locobot/LoCoBotRos/interbotix_ws/install/interbotix_xslocobot_nav/share/interbotix_xslocobot_nav/behaviour_trees/follow_point.xml
 
     # Path to the default behavior tree XML description for NavigateThroughPoses, see Behavior Tree
     # XML Nodes
@@ -556,191 +556,41 @@ local_costmap:
 # The Costmap 2D package implements a 2D grid-based costmap for environmental representations and a
 # number of sensor processing plugins. It is used in the planner and controller servers for
 # creating the space to check for collisions or higher cost areas to negotiate around.
+
 global_costmap:
   global_costmap:
     ros__parameters:
-      # Whether to send full costmap every update, rather than updates. (default: false)
-      always_send_full_costmap: True
-
-      # Amount to pad footprint (m). (default: 0.01)
-      footprint_padding: 0.01
-
-      # Ordered set of footprint points passed in as a string, must be closed set. For example, the
-      # following defines a square base with side lengths of 0.2 meters footprint: “[ [0.1, 0.1],
-      # [0.1, -0.1], [-0.1, -0.1], [-0.1, 0.1] ]”. (default: [])
-      # Disabled due to circular robot. See `robot_radius` parameter
-      # footprint:
-
-      # Reference frame. (default: map)
-      global_frame: map
-
-      # Minimum cost of an occupancy grid map to be considered a lethal obstacle. (default: 100)
-      lethal_cost_threshold: 100
-
-      # Topic of map from map_server or SLAM. (default: map)
-      map_topic: map
-
-      # X origin of the costmap relative to width (m). (default: 0.0)
-      origin_x: -10.0
-
-      # Y origin of the costmap relative to height (m). (default: 0.0)
-      origin_y: -10.0
-
-      # Frequency to publish costmap to topic. (default 1.0)
-      publish_frequency: 1.0
-
-      # Height of costmap (m). (default: 5)
-      width: 20
-
-      # Width of costmap (m). (default: 5)
-      height: 20
-
-      # Resolution of 1 pixel of the costmap, in meters. (default: 0.1)
-      resolution: 0.1
-
-      # Robot base frame. (default: base_link)
-      robot_base_frame: locobot/base_link
-
-      # Robot radius to use, if footprint coordinates not provided. (default: 0.1)
-      robot_radius: 0.25
-
-      # Whether costmap should roll with robot base frame. (default: False)
-      rolling_window: False
-
-      # If false, treats unknown space as free space, else as unknown space. (default: False)
-      track_unknown_space: True
-
-      # TF transform tolerance. (default: 0.3)
-      transform_tolerance: 0.3
-
-      # If occupancy grid map should be interpreted as only 3 values (free, occupied, unknown) or
-      # with its stored values. (default: True)
-      trinary_costmap: True
-
-      # Cost of unknown space if tracking it. (default: 255)
-      unknown_cost_value: 255
-
-      # Costmap update frequency. (default 5.0)
       update_frequency: 1.0
-
-      # Whether when combining costmaps to use the maximum cost or override. (default: False)
-      use_maximum: False
-
-      # List of mapped plugin names for parameter namespaces and names. Note: Each plugin namespace
-      # defined in this list needs to have a plugin parameter defining the type of plugin to be
-      # loaded in the namespace.
+      publish_frequency: 1.0
+      global_frame: map
+      robot_base_frame: locobot/base_link
+      use_sim_time: True
+      robot_radius: 0.22
+      resolution: 0.05
+      track_unknown_space: true
       plugins: ["static_layer", "obstacle_layer", "inflation_layer"]
-
-      # List of mapped costmap filter names for parameter namespaces and names. Note: Costmap
-      # filters are also loadable plugins just as ordinary costmap layers. This separation is made
-      # to avoid plugin and filter interference and places these filters on top of the combined
-      # layered costmap. As with plugins, each costmap filter namespace defined in this list needs
-      # to have a plugin parameter defining the type of filter plugin to be loaded in the
-      # namespace.
-      # filters:
-
       obstacle_layer:
         plugin: "nav2_costmap_2d::ObstacleLayer"
-        # https://navigation.ros.org/configuration/packages/costmap-plugins/obstacle.html
-
-        # Whether the obstacle_layer plugin is enabled. (default: True)
         enabled: True
-
-        # Clear any occupied cells under robot footprint.
-        footprint_clearing_enabled: True
-
-        # Maximum height to add return to occupancy grid. (default: 2.0)
-        max_obstacle_height: 2.0
-
-        # Enum for method to add data to master costmap, default to maximum. (default: 1)
-        combination_method: 1
-
-        # namespace of sources of data.
         observation_sources: scan
-
         scan:
-          # Topic of data.
-          topic: /locobot/scan
-
-          # Frame of sensor, to use if not provided by message. If empty, uses message frame_id.
-          sensor_frame: ""
-
-          # How long to store messages in a buffer to add to costmap before removing them (s).
-          # (default: 0.0)
-          observation_persistence: 0.0
-
-          # Expected rate to get new data from sensor. (default: 0.0)
-          expected_update_rate: 0.0
-
-          # Data type of input, LaserScan or PointCloud2. (default: LaserScan)
-          data_type: "LaserScan"
-
-          # Minimum height to add return to occupancy grid. (default: 0.0)
-          min_obstacle_height: 0.0
-
-          # Maximum height to add return to occupancy grid. (default: 0.0)
+          topic: locobot/scan
           max_obstacle_height: 2.0
-
-          # Are infinite returns from laser scanners valid measurements to raycast. (default:
-          # False)
-          inf_is_valid: False
-
-          # Whether source should mark in costmap. (default: True)
-          marking: True
-
-          # Whether source should raytrace clear in costmap. (default: False)
           clearing: True
-
-          # Maximum range to mark obstacles in costmap. (default: 2.5)
-          obstacle_max_range: 2.5
-
-          # Minimum range to mark obstacles in costmap. (default: 0.0)
-          obstacle_min_range: 0.0
-
-          # Maximum range to raytrace clear obstacles from costmap. (default: 3.0)
+          marking: True
+          data_type: "LaserScan"
           raytrace_max_range: 3.0
-
-          # Minimum range to raytrace clear obstacles from costmap. (default: 0.0)
           raytrace_min_range: 0.0
-
+          obstacle_max_range: 2.5
+          obstacle_min_range: 0.0
       static_layer:
         plugin: "nav2_costmap_2d::StaticLayer"
-        # https://navigation.ros.org/configuration/packages/costmap-plugins/static.html
-
-        # Whether the static_layer plugin is enabled. (default: True)
-        enabled: True
-
-        # Subscribe to static map updates after receiving first. (default: False)
-        subscribe_to_updates: False
-
-        # QoS settings for map topic. (default: True)
         map_subscribe_transient_local: True
-
-        # TF tolerance. (default: 0.0)
-        transform_tolerance: 0.0
-
-        # Map topic to subscribe to. If left empty the map topic will default to the global
-        # map_topic parameter in costmap_2d_ros. (default: "")
-        map_topic: ""
-
       inflation_layer:
         plugin: "nav2_costmap_2d::InflationLayer"
-        # https://navigation.ros.org/configuration/packages/costmap-plugins/inflation.html
-
-        # Whether the inflation_layer plugin is enabled. (default: True)
-        enabled: True
-
-        # Radius to inflate costmap around lethal obstacles. (default: 0.55)
-        inflation_radius: 0.55
-
-        # Exponential decay factor across inflation radius. (default: 10.0)
         cost_scaling_factor: 3.0
-
-        # Whether to inflate unknown cells as if lethal. (default: False)
-        inflate_unknown: False
-
-        # Whether to inflate unknown cells. (default: False)
-        inflate_around_unknown: False
+        inflation_radius: 0.55
+      always_send_full_costmap: True
 
 # The Map Server implements the server for handling the map load requests for the stack and host a
 # map topic. It also implements a map saver server which will run in the background and save maps
@@ -767,22 +617,14 @@ map_saver:
 # the appropriate plugin to compute a path to the goal.
 planner_server:
   ros__parameters:
-    # Expected planner frequency. If the current frequency is less than the expected frequency,
-    # display the warning message.
     expected_planner_frequency: 20.0
+    use_sim_time: True
     planner_plugins: ["GridBased"]
     GridBased:
       plugin: "nav2_navfn_planner/NavfnPlanner"
-      # Tolerance in meters between requested goal pose and end of path. (default: 0.5)
       tolerance: 0.5
-      # Whether to use A*. If false, uses Dijkstra’s expansion. (default: false)
       use_astar: false
-      # Whether to allow planning in unknown space. (default: true)
       allow_unknown: true
-      # If true, the last pose of the path generated by the planner will have its orientation set
-      # to the approach orientation, i.e. the orientation of the vector connecting the last two
-      # points of the path. (default: false)
-      use_final_approach_orientation: false
 
 # TODO (lsinterbotix): Update to behavior_server on Humble
 # The Behavior Server implements the server for handling recovery behavior requests and hosting a

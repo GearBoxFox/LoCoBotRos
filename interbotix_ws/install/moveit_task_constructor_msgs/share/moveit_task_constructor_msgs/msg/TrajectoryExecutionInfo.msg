@@ -1,1 +1,2 @@
-/home/locobot/LoCoBotRos/interbotix_ws/src/moveit_task_constructor/msgs/msg/TrajectoryExecutionInfo.msg
+# List of controllers to use when executing the trajectory
+string[] controller_names

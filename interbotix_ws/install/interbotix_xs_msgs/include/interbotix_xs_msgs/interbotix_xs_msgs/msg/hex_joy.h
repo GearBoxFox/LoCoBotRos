@@ -1,1 +1,12 @@
-/home/locobot/LoCoBotRos/interbotix_ws/build/interbotix_xs_msgs/rosidl_generator_c/interbotix_xs_msgs/msg/hex_joy.h
+// generated from rosidl_generator_c/resource/idl.h.em
+// with input from interbotix_xs_msgs:msg/HexJoy.idl
+// generated code does not contain a copyright notice
+
+#ifndef INTERBOTIX_XS_MSGS__MSG__HEX_JOY_H_
+#define INTERBOTIX_XS_MSGS__MSG__HEX_JOY_H_
+
+#include "interbotix_xs_msgs/msg/detail/hex_joy__struct.h"
+#include "interbotix_xs_msgs/msg/detail/hex_joy__functions.h"
+#include "interbotix_xs_msgs/msg/detail/hex_joy__type_support.h"
+
+#endif  // INTERBOTIX_XS_MSGS__MSG__HEX_JOY_H_

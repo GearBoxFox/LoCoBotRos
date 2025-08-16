@@ -1,1 +1,1 @@
-/home/locobot/LoCoBotRos/interbotix_ws/build/kobuki_core/ament_cmake_environment_hooks/ament_prefix_path.dsv
+prepend-non-duplicate;AMENT_PREFIX_PATH;

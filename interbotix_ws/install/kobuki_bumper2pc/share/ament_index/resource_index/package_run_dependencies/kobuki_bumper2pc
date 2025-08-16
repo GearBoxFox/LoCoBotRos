@@ -1,1 +1,1 @@
-/home/locobot/LoCoBotRos/interbotix_ws/build/kobuki_bumper2pc/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/kobuki_bumper2pc
+rcl_interfaces;rclcpp;rclcpp_components;sensor_msgs;kobuki_ros_interfaces

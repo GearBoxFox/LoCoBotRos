@@ -1,1 +1,8 @@
-/home/locobot/LoCoBotRos/interbotix_ws/src/kobuki_ros_interfaces/action/AutoDocking.action
+#goal
+---
+#result
+string text
+---
+#feedback
+string state
+string text

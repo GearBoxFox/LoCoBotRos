@@ -1,1 +1,3 @@
-/home/locobot/LoCoBotRos/interbotix_ws/src/kobuki_ros/kobuki_safety_controller/config/safety_controller_params.yaml
+kobuki_safety_controller_node:
+  ros__parameters:
+    time_to_extend_bump_cliff_events: 0.0

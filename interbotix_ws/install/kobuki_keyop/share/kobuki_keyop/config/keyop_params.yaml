@@ -1,1 +1,6 @@
-/home/locobot/LoCoBotRos/interbotix_ws/src/kobuki_ros/kobuki_keyop/config/keyop_params.yaml
+kobuki_keyop_node:
+  ros__parameters:
+    linear_vel_step: 0.1
+    linear_vel_max: 3.4
+    angular_vel_step: 0.02
+    angular_vel_max: 1.2

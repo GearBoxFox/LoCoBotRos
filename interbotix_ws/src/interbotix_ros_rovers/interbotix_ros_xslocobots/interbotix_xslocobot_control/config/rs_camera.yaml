@@ -1,5 +1,5 @@
 $(var robot_name):
-  camera/camera:
+  camera:
     ros__parameters:
       align_depth:
         enable: $(var rs_camera_align_depth)
