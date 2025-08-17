@@ -1,2 +1,1 @@
-source;share/cmd_vel_mux/environment/ament_prefix_path.sh
-source;share/cmd_vel_mux/environment/path.sh
+/home/locobot/LoCoBotRos/interbotix_ws/build/cmd_vel_mux/ament_cmake_environment_hooks/local_setup.dsv

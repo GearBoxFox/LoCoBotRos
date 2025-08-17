@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'apriltag_pose_stamped = nav2_apriltag_point.apriltag_to_pose_stamped:main'
         ],
     },
 )

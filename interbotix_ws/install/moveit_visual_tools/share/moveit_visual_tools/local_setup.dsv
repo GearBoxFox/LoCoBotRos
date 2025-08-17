@@ -1,3 +1,1 @@
-source;share/moveit_visual_tools/environment/ament_prefix_path.sh
-source;share/moveit_visual_tools/environment/library_path.sh
-source;share/moveit_visual_tools/environment/path.sh
+/home/locobot/LoCoBotRos/interbotix_ws/build/moveit_visual_tools/ament_cmake_environment_hooks/local_setup.dsv

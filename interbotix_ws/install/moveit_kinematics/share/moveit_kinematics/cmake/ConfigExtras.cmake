@@ -1,3 +1,1 @@
-# Extras module needed for dependencies to find boost components
-
-find_package(Boost REQUIRED program_options system)
+/home/locobot/LoCoBotRos/interbotix_ws/src/moveit2/moveit_kinematics/ConfigExtras.cmake

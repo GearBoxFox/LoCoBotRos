@@ -1,10 +1,1 @@
-##############################################################################
-# Headers
-##############################################################################
-
-install(
-  DIRECTORY
-    ${PROJECT_NAME}
-  DESTINATION
-    include
-)
+/home/locobot/LoCoBotRos/interbotix_ws/src/kobuki_core/include/CMakeLists.txt

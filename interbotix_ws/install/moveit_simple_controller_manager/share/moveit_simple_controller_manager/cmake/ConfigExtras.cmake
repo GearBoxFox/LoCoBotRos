@@ -1,3 +1,1 @@
-# Extras module needed for dependencies to find boost components
-
-find_package(Boost REQUIRED thread)
+/home/locobot/LoCoBotRos/interbotix_ws/src/moveit2/moveit_plugins/moveit_simple_controller_manager/ConfigExtras.cmake

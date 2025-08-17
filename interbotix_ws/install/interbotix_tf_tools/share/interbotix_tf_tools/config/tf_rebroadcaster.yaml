@@ -1,17 +1,1 @@
-# The 'frames' node contains all frames to be rebroadcasted.
-# Each frame is formatted as so:
-# frames:
-#   PARENT_FRAME_ID:
-#     child_frame_id: CHILD_FRAME_ID
-#     prefix: PREFIX
-# This configuration would take the transform from frame 'PARENT_FRAME_ID' to
-#   frame 'CHILD_FRAME_ID', add the prefix 'PREFIX', and rebroadcast it to the
-#   specified topic.
-# If prefix is left as an empty string (''), no prefix will be added.
-frames:
-  odom:
-    child_frame_id: base_link
-    prefix: ''
-  odom:
-    child_frame_id: base_footprint
-    prefix: ''
+/home/locobot/LoCoBotRos/interbotix_ws/src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_tf_tools/config/tf_rebroadcaster.yaml
