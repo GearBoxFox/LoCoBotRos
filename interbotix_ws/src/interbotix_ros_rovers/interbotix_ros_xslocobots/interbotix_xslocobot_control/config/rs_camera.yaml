@@ -10,7 +10,7 @@ $(var robot_name):
       enable_depth: true
       enable_infra1: false
       enable_infra2: false
-      enable_sync: false
+      enable_sync: true
       hole_filling_filter:
         enable: false
       initial_reset: $(var rs_camera_initial_reset)
