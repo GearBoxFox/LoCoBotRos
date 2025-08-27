@@ -1,12 +1,1 @@
-// generated from rosidl_generator_cpp/resource/idl.hpp.em
-// generated code does not contain a copyright notice
-
-#ifndef KOBUKI_ROS_INTERFACES__MSG__LED_HPP_
-#define KOBUKI_ROS_INTERFACES__MSG__LED_HPP_
-
-#include "kobuki_ros_interfaces/msg/detail/led__struct.hpp"
-#include "kobuki_ros_interfaces/msg/detail/led__builder.hpp"
-#include "kobuki_ros_interfaces/msg/detail/led__traits.hpp"
-#include "kobuki_ros_interfaces/msg/detail/led__type_support.hpp"
-
-#endif  // KOBUKI_ROS_INTERFACES__MSG__LED_HPP_
+/home/locobot/LoCoBotRos/interbotix_ws/build/kobuki_ros_interfaces/rosidl_generator_cpp/kobuki_ros_interfaces/msg/led.hpp

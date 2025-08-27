@@ -1,1 +1,1 @@
-prepend-non-duplicate-if-exists;PATH;bin
+/home/locobot/LoCoBotRos/interbotix_ws/build/moveit_ros_planning_interface/ament_cmake_environment_hooks/path.dsv

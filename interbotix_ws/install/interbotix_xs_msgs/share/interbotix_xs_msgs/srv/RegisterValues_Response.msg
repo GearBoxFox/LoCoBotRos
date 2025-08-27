@@ -1,2 +1,1 @@
-
-int32[] values           # current register values (only filled if 'getting' a register)
+/home/locobot/LoCoBotRos/interbotix_ws/build/interbotix_xs_msgs/rosidl_cmake/srv/RegisterValues_Response.msg

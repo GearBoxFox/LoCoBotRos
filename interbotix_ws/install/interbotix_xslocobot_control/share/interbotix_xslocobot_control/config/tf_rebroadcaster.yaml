@@ -1,7 +1,1 @@
-frames:
-  odom:
-    child_frame_id: base_link
-    prefix: 'locobot/'
-  odom:
-    child_frame_id: base_footprint
-    prefix: 'locobot/'
+/home/locobot/LoCoBotRos/interbotix_ws/src/interbotix_ros_rovers/interbotix_ros_xslocobots/interbotix_xslocobot_control/config/tf_rebroadcaster.yaml

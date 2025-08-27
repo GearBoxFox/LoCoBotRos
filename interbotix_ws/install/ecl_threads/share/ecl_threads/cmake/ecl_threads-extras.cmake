@@ -1,9 +1,1 @@
-
-find_package(ecl_build REQUIRED)
-
-ecl_detect_threads()
-
-if(ECL_PLATFORM_HAS_POSIX_THREADS)
-  set(THREADS_PREFER_PTHREAD_FLAG ON)
-  find_package(Threads REQUIRED)
-endif()
+/home/locobot/LoCoBotRos/interbotix_ws/src/ecl_core/ecl_threads/ecl_threads-extras.cmake

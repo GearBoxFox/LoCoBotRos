@@ -1,3 +1,1 @@
-source;share/dynamixel_workbench_toolbox/environment/ament_prefix_path.sh
-source;share/dynamixel_workbench_toolbox/environment/library_path.sh
-source;share/dynamixel_workbench_toolbox/environment/path.sh
+/home/locobot/LoCoBotRos/interbotix_ws/build/dynamixel_workbench_toolbox/ament_cmake_environment_hooks/local_setup.dsv

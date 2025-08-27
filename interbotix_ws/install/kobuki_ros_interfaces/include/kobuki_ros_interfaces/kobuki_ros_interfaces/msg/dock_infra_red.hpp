@@ -1,12 +1,1 @@
-// generated from rosidl_generator_cpp/resource/idl.hpp.em
-// generated code does not contain a copyright notice
-
-#ifndef KOBUKI_ROS_INTERFACES__MSG__DOCK_INFRA_RED_HPP_
-#define KOBUKI_ROS_INTERFACES__MSG__DOCK_INFRA_RED_HPP_
-
-#include "kobuki_ros_interfaces/msg/detail/dock_infra_red__struct.hpp"
-#include "kobuki_ros_interfaces/msg/detail/dock_infra_red__builder.hpp"
-#include "kobuki_ros_interfaces/msg/detail/dock_infra_red__traits.hpp"
-#include "kobuki_ros_interfaces/msg/detail/dock_infra_red__type_support.hpp"
-
-#endif  // KOBUKI_ROS_INTERFACES__MSG__DOCK_INFRA_RED_HPP_
+/home/locobot/LoCoBotRos/interbotix_ws/build/kobuki_ros_interfaces/rosidl_generator_cpp/kobuki_ros_interfaces/msg/dock_infra_red.hpp
