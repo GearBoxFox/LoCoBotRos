@@ -1,7 +1,1 @@
-prefix=
-includedir=${prefix}/include/moveit/python
-
-Name: pybind11
-Description: Seamless operability between C++11 and Python
-Version: 2.13.0
-Cflags: -I${includedir}
+/home/locobot/LoCoBotRos/interbotix_ws/build/moveit_task_constructor_core/python/pybind11/pybind11.pc

@@ -1,1 +1,8 @@
-/home/locobot/LoCoBotRos/interbotix_ws/build/interbotix_xslocobot_ros_control/ament_cmake_environment_hooks/package.dsv
+source;share/interbotix_xslocobot_ros_control/hook/cmake_prefix_path.ps1
+source;share/interbotix_xslocobot_ros_control/hook/cmake_prefix_path.dsv
+source;share/interbotix_xslocobot_ros_control/hook/cmake_prefix_path.sh
+source;share/interbotix_xslocobot_ros_control/local_setup.bash
+source;share/interbotix_xslocobot_ros_control/local_setup.dsv
+source;share/interbotix_xslocobot_ros_control/local_setup.ps1
+source;share/interbotix_xslocobot_ros_control/local_setup.sh
+source;share/interbotix_xslocobot_ros_control/local_setup.zsh

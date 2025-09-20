@@ -1,2 +1,1 @@
-#include "detail/common.h"
-#warning "Including 'common.h' is deprecated. It will be removed in v3.0. Use 'pybind11.h'."
+/home/locobot/LoCoBotRos/interbotix_ws/src/moveit_task_constructor/core/python/pybind11/include/pybind11/common.h
