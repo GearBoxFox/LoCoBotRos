@@ -53,33 +53,36 @@ class KinematicsTest(Node):
         t.type = 4
 
         scale = Vector3()
-        scale.x = 1.0
-        scale.y = 1.0
-        scale.z = 1.0
+        scale.x = 0.1
+        scale.y = 0.1
+        scale.z = 0.1
         t.scale = scale
 
         t.ns = "kinematic"
         t.action = 0
 
         c = ColorRGBA()
-        c.r = 255.0
+        c.r = 1.0
         c.b = 0.0
         c.g = 0.0
+        c.a = 1.0
 
         t.color = c
 
         transforms = self.kinematics.forward_kinematics(msg.position[2:7])
+        prev_transform = np.array([[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]])
         
         for i in range(3):
+            prev_transform = prev_transform @ transforms[i]
             p = Point()
-            p.x = transforms[i][0,3] / 100
-            p.y = transforms[i][1,3] / 100
-            p.z = transforms[i][2,3] / 100
+            p.x = prev_transform[0,3] / 100
+            p.y = prev_transform[1,3] / 100
+            p.z = prev_transform[2,3] / 100
 
             t.points.append(p)
 
-        print(t)
-
+        print(t.points)
+        print("\n")
         self.tf_broadcaster.publish(t)
 
 def main():
