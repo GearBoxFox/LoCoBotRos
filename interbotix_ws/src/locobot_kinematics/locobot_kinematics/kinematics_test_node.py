@@ -4,8 +4,10 @@ import rclpy
 import numpy as np
 
 from rclpy.node import Node
+from std_msgs.msg import ColorRGBA
 from sensor_msgs.msg import JointState
-from geometry_msgs.msg import PoseStamped
+from geometry_msgs.msg import PoseStamped, Point, Vector3
+from visualization_msgs.msg import Marker
 
 from locobot_kinematics.kinematics import Kinematics
 
@@ -40,24 +42,43 @@ class KinematicsTest(Node):
         super().__init__('kinematics_test_node')
 
         self.subscriber = self.create_subscription(JointState, '/locobot/joint_states', self.subscriber_callback, 1)
-        self.tf_broadcaster = self.create_publisher(PoseStamped, '/locobot/kinematic_point', 10)
+        self.tf_broadcaster = self.create_publisher(Marker, '/locobot/kinematic_point', 10)
 
         self.kinematics = Kinematics()
 
     def subscriber_callback(self, msg: JointState):
-        t = PoseStamped()
+        t = Marker()
         t.header.stamp = self.get_clock().now().to_msg()
         t.header.frame_id = "locobot/arm_base_link"
+        t.type = 4
+
+        scale = Vector3()
+        scale.x = 1.0
+        scale.y = 1.0
+        scale.z = 1.0
+        t.scale = scale
+
+        t.ns = "kinematic"
+        t.action = 0
+
+        c = ColorRGBA()
+        c.r = 255.0
+        c.b = 0.0
+        c.g = 0.0
+
+        t.color = c
 
         transforms = self.kinematics.forward_kinematics(msg.position[2:7])
-        full_transform = transforms[0] @ transforms[1] @ transforms[2] #@ transforms[3]
-        print(f"{full_transform[0, 3]}, {full_transform[1, 3]}, {full_transform[2, 3]}")
-        #print(full_transform)
-        #print(msg.position[2:7])
+        
+        for i in range(3):
+            p = Point()
+            p.x = transforms[i][0,3] / 100
+            p.y = transforms[i][1,3] / 100
+            p.z = transforms[i][2,3] / 100
 
-        t.pose.position.x = full_transform[0, 3] / 100
-        t.pose.position.y = full_transform[1, 3] / 100
-        t.pose.position.z = full_transform[2, 3] / 100
+            t.points.append(p)
+
+        print(t)
 
         self.tf_broadcaster.publish(t)
 
