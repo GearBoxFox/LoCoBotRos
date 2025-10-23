@@ -1,6 +1,1 @@
-
-# message if the planning or execution was successful; this is displayed in the custom GUI.
-std_msgs/String msg
-
-# boolean to easily check if the planning or execution was successful.
-bool success
+/home/locobot/LoCoBotRos/interbotix_ws/build/interbotix_moveit_interface_msgs/rosidl_cmake/srv/MoveItPlan_Response.msg

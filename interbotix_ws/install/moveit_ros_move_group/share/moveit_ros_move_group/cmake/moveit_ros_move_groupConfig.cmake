@@ -1,0 +1,1 @@
+/home/locobot/LoCoBotRos/interbotix_ws/build/moveit_ros_move_group/ament_cmake_core/moveit_ros_move_groupConfig.cmake

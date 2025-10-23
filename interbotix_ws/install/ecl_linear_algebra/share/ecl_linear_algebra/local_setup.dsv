@@ -1,3 +1,1 @@
-source;share/ecl_linear_algebra/environment/ament_prefix_path.sh
-source;share/ecl_linear_algebra/environment/library_path.sh
-source;share/ecl_linear_algebra/environment/path.sh
+/home/locobot/LoCoBotRos/interbotix_ws/build/ecl_linear_algebra/ament_cmake_environment_hooks/local_setup.dsv

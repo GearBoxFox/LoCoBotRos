@@ -1,0 +1,1 @@
+/home/locobot/LoCoBotRos/interbotix_ws/src/moveit2/moveit_ros/planning/collision_plugin_loader/include/moveit/collision_plugin_loader/collision_plugin_loader.h

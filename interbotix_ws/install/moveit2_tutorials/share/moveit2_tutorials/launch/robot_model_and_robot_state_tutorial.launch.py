@@ -1,0 +1,1 @@
+/home/locobot/LoCoBotRos/interbotix_ws/src/moveit2_tutorials/doc/examples/robot_model_and_robot_state/launch/robot_model_and_robot_state_tutorial.launch.py

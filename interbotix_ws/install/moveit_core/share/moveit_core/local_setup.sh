@@ -1,0 +1,1 @@
+/home/locobot/LoCoBotRos/interbotix_ws/build/moveit_core/ament_cmake_environment_hooks/local_setup.sh

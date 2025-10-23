@@ -1,0 +1,1 @@
+/home/locobot/LoCoBotRos/interbotix_ws/src/moveit2/moveit_core/trajectory_processing/include/moveit/trajectory_processing/trajectory_tools.h

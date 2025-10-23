@@ -1,0 +1,1 @@
+/home/locobot/LoCoBotRos/interbotix_ws/src/moveit2/moveit_kinematics/srv_kinematics_plugin/include/moveit/srv_kinematics_plugin/srv_kinematics_plugin.h

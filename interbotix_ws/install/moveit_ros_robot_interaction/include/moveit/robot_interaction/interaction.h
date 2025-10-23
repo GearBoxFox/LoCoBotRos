@@ -1,0 +1,1 @@
+/home/locobot/LoCoBotRos/interbotix_ws/src/moveit2/moveit_ros/robot_interaction/include/moveit/robot_interaction/interaction.h

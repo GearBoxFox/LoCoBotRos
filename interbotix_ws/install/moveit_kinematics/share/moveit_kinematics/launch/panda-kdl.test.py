@@ -1,0 +1,1 @@
+/home/locobot/LoCoBotRos/interbotix_ws/src/moveit2/moveit_kinematics/test/launch/panda-kdl.test.py

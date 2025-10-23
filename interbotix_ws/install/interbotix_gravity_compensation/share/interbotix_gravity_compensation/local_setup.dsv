@@ -1,2 +1,1 @@
-source;share/interbotix_gravity_compensation/environment/ament_prefix_path.sh
-source;share/interbotix_gravity_compensation/environment/path.sh
+/home/locobot/LoCoBotRos/interbotix_ws/build/interbotix_gravity_compensation/ament_cmake_environment_hooks/local_setup.dsv

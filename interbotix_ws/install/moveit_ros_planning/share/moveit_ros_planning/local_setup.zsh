@@ -1,0 +1,1 @@
+/home/locobot/LoCoBotRos/interbotix_ws/build/moveit_ros_planning/ament_cmake_environment_hooks/local_setup.zsh

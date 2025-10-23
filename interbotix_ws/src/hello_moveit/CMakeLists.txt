@@ -9,6 +9,11 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(moveit_ros_planning_interface REQUIRED)
 find_package(rclcpp REQUIRED)
+find_package(moveit_visual_tools REQUIRED)
+find_package(yasmin REQUIRED)
+find_package(yasmin_ros REQUIRED)
+find_package(yasmin_viewer REQUIRED)
+find_package(interbotix_xs_msgs REQUIRED)
 
 add_executable(hello_moveit src/hello_moveit.cpp)
 target_include_directories(hello_moveit PUBLIC
@@ -18,11 +23,19 @@ target_compile_features(hello_moveit PUBLIC c_std_99 cxx_std_17)  # Require C99 
 ament_target_dependencies(
   hello_moveit
   "moveit_ros_planning_interface"
+  "moveit_visual_tools"
   "rclcpp"
+  "yasmin"
+  "yasmin_ros"
+  "yasmin_viewer"
+  "interbotix_xs_msgs"
 )
 
 install(TARGETS hello_moveit
   DESTINATION lib/${PROJECT_NAME})
+
+install(DIRECTORY launch config
+  DESTINATION share/${PROJECT_NAME})
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

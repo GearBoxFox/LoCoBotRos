@@ -1,3 +1,1 @@
-source;share/ecl_time_lite/environment/ament_prefix_path.sh
-source;share/ecl_time_lite/environment/library_path.sh
-source;share/ecl_time_lite/environment/path.sh
+/home/locobot/LoCoBotRos/interbotix_ws/build/ecl_time_lite/ament_cmake_environment_hooks/local_setup.dsv
